@@ -6,8 +6,8 @@
     {
       "section": "home",
       "file": "index.html",
-      "bytes": 229653,
-      "sha256": "bdca0d4b37f02ad7982137f94078fd5d03151f8a8272a310dcb6433f5a0fcfd9",
+      "bytes": 229752,
+      "sha256": "98dcd8bbada05998d0ea93ca6932895520a8dcde2d699359615d44f810f24c23",
       "tables": [
         "names"
       ],
@@ -22,16 +22,16 @@
     {
       "section": "character",
       "file": "character.html",
-      "bytes": 382448,
-      "sha256": "665ad5afc9f6741344454b69a56005809b0ac8850487b6dad60af824e4e1a335",
+      "bytes": 382547,
+      "sha256": "ad55925e97b369f6f6a6d45ac7442bbf4d3ae9e5b280ba39c70371790d13fcce",
       "tables": [],
       "dataFiles": []
     },
     {
       "section": "augmetics",
       "file": "augmetics.html",
-      "bytes": 251109,
-      "sha256": "e6f04dbaebe30129f7d6c6fa516b3f101fdc57461a85368e56d2f63934fbc18d",
+      "bytes": 251208,
+      "sha256": "fac8ee952d010861c11d4789a6a789f8668bde1cedff1a02c2b96b9ac4102927",
       "tables": [
         "augmetics"
       ],
@@ -46,8 +46,8 @@
     {
       "section": "combat",
       "file": "combat.html",
-      "bytes": 249335,
-      "sha256": "11d78294f6eb5b9674a17a0953aea21692a9884f25a047a7590b4ad4144da75d",
+      "bytes": 249434,
+      "sha256": "fda8ccb6463acba57218fb875ceac48fb4cbef561562760f9e75bd81a492b330",
       "tables": [
         "combatActions",
         "traits",
@@ -70,8 +70,8 @@
     {
       "section": "equipment",
       "file": "equipment.html",
-      "bytes": 316379,
-      "sha256": "45edecbc8edfba0227700b6ef786b1893919f8b15c68c1b9c96c6f26f52aedd8",
+      "bytes": 316478,
+      "sha256": "fd3ac80ce155fc9cdf690b549ce488ed90da43f0644c1ea45623b5ded5576108",
       "tables": [
         "clothingAndPersonalGear",
         "tools",
@@ -90,8 +90,8 @@
     {
       "section": "protection",
       "file": "protection.html",
-      "bytes": 240905,
-      "sha256": "01340eae9213b5df234529ef350eee5f82931850e747a6b8f9f4462ef931e939",
+      "bytes": 241004,
+      "sha256": "d2a41abb512a0a5a4151dca7bc3e123699157073af023a256392fc05733b81eb",
       "tables": [
         "armour",
         "forceFields",
@@ -110,8 +110,8 @@
     {
       "section": "psy",
       "file": "psy.html",
-      "bytes": 414248,
-      "sha256": "9daf48713b1ceac62f6c3f34c5c30e832829cfade025f22a5fee418ad69d0eec",
+      "bytes": 414347,
+      "sha256": "2de5660805268740c69bb6eab3c6641ee06efdffb74ec0c7bfac405f2fef3904",
       "tables": [
         "psyPowers",
         "psychicPhenomena",
@@ -130,8 +130,8 @@
     {
       "section": "services",
       "file": "services.html",
-      "bytes": 230458,
-      "sha256": "3caa2c3b8e60acd5f290859839b2c42dda1681def72cd7e12656bc4dc6a195fe",
+      "bytes": 230557,
+      "sha256": "b7bad3fe854b1626999c12197d7d1dee31e78d9937134a2f1d0ed16ee05cfa36",
       "tables": [
         "cityHiveTravel",
         "planetaryTravel",
@@ -158,8 +158,8 @@
     {
       "section": "weapons",
       "file": "weapons.html",
-      "bytes": 290315,
-      "sha256": "cf384c29dd723f7d1d9d57fbf89f430ef615b6695aa2c8dc75d8a8f9b4268af2",
+      "bytes": 290414,
+      "sha256": "ff192b60a4c241c4b81cc881e8d2890879366defac1d9ca7df4f6bda9b0d1033",
       "tables": [
         "rangedWeapons",
         "meleeWeapons",
@@ -182,8 +182,8 @@
     {
       "section": "criticalwounds",
       "file": "criticalwounds.html",
-      "bytes": 278851,
-      "sha256": "f85fde0b3252f38ff70d65a6137544a3b84e5c6acdd6902d483d2e395955bd06",
+      "bytes": 278950,
+      "sha256": "0a16e97a2a83b82dc6927fb6d6bfd6e84efe7beb0a94501d36da5bc481f789de",
       "tables": [
         "Head",
         "Arm",

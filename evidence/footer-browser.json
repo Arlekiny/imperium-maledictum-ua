@@ -5,70 +5,80 @@
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     },
     {
       "section": "character",
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     },
     {
       "section": "augmetics",
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     },
     {
       "section": "combat",
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     },
     {
       "section": "equipment",
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     },
     {
       "section": "protection",
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     },
     {
       "section": "psy",
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     },
     {
       "section": "services",
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     },
     {
       "section": "weapons",
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     },
     {
       "section": "criticalwounds",
       "desktop": true,
       "mobile": true,
       "lightTheme": true,
-      "keyboard": true
+      "keyboard": true,
+      "githubLink": true
     }
   ],
   "errors": []
