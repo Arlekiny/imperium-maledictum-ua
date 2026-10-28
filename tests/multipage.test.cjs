@@ -21,7 +21,10 @@ for(const section of CATALOG){
   });
   test(file+': self-contained CSS/scripts/data, syntax valid and no iframe',()=>{
     assert.ok(!/<(?:iframe|object|embed)\b/i.test(html));
-    assert.ok(!/<(?:script|img|link|audio|video)\b[^>]*\b(?:src|href)\s*=/i.test(html));
+    const icon=html.match(/<link rel="icon" type="image\/png" sizes="64x64" href="data:image\/png;base64,([A-Za-z0-9+/=]+)">/);
+    assert.ok(icon,'page has an embedded PNG favicon');
+    assert.deepEqual(Buffer.from(icon[1],'base64'),fs.readFileSync(path.join(root,'src/favicon.png')));
+    assert.ok(!/<(?:script|img|link|audio|video)\b[^>]*\b(?:src|href)\s*=/i.test(html.replace(icon[0],'')));
     assert.ok(!/\b(?:fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon)\s*\(/.test(html));
     assert.ok(!/<script[^>]+type=["']module|\bimport\s*\(|url\s*\(\s*["']?(?:https?:|\/\/)/i.test(html));
     assert.ok(html.includes("connect-src 'none'"));assert.ok(!/\{\{[A-Z]+\}\}/.test(html));

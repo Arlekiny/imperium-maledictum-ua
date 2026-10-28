@@ -18,6 +18,7 @@ if(hash(original)!=='61702b39f2342c7c164d299b447be535f1dfe4c13354e453f1ead428f54
 const nav=active=>CATALOG.map(s=>'<a href="'+N.FILES[s.id]+'" data-section="'+s.id+'"'+(s.id===active?' aria-current="page"':'')+'>'+esc(s.title)+'</a>').join('\n');
 const marker=(name,value)=>'<!-- classic-v2:'+name+':start -->'+value+'<!-- classic-v2:'+name+':end -->';
 const csp="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; frame-src 'none'; connect-src 'none'; font-src 'none'; base-uri 'none'; form-action 'none'";
+const favicon='<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,'+fs.readFileSync(path.join(__dirname,'src/favicon.png')).toString('base64')+'">';
 const manifest={version:2,date:new Date().toISOString().slice(0,10),sourceCommit:L.PIN,pages:[]};
 for(const section of CATALOG){
   let html,dataFiles=[];
@@ -48,6 +49,7 @@ for(const section of CATALOG){
     const values={FOOTER:read('src/footer.html'),TABLEHELP:section.id==='psy'?read('src/psy-note.html'):'',SECTION:section.id,TITLE:esc(section.title),DESCRIPTION:esc(section.description),VERSION:'Класична версія · '+esc(section.title),SUBTITLE:'Довідкові таблиці · Персонаж · Спорядження · Варп',NAVIGATION:nav(section.id),CSS:read('src/app.css')+'\n'+read('src/footer.css'),DATA:json(data),CATALOG:read('src/catalog.js'),NAVJS:read('src/navigation.js'),THEME:read('src/theme.js'),LOGIC:read('src/logic.js')+'\n'+read('src/render.js'),TRANSLATIONS:json(scopedTranslations(data)),TRAITNAMES:json(Object.fromEntries(Object.keys(raw.traits).map(id=>[id,JSON.parse(read('src/locale/glossary.json'))[id]]))),LOCALE:read('src/locale.js'),APP:read('src/app.js')};
     html=read('src/template.html').replace(/\{\{([A-Z]+)\}\}/g,(_,key)=>{if(!(key in values))throw Error('Unknown template key: '+key);return values[key];});
   }
+  html=html.replace('</head>',marker('favicon',favicon)+'</head>');
   if(/\{\{[A-Z]+\}\}/.test(html))throw Error('Unresolved template slot');
   fs.writeFileSync(path.join(__dirname,N.FILES[section.id]),html,'utf8');
   manifest.pages.push({section:section.id,file:N.FILES[section.id],bytes:Buffer.byteLength(html),sha256:hash(html),tables:section.tables.map(t=>t[0]),dataFiles});
