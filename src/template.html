@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="uk" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Автономний фанатський довідник Imperium Maledictum українською мовою.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; frame-src 'none'; connect-src 'none'; font-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="archive-section" content="{{SECTION}}">
+<title>Imperium Maledictum · {{VERSION}}</title>
+<style>{{CSS}}</style>
+</head>
+<body class="classic" data-page="{{SECTION}}">
+<a class="skip" href="#main">Перейти до довідника</a>
+<div class="wrap">
+  <header class="masthead">
+    <div class="eagle">A D E P T U S · A R C H I V U M</div>
+    <h1>Imperium Maledictum</h1>
+    <div class="subtitle">{{SUBTITLE}}</div>
+    <button id="theme" class="theme" aria-label="Увімкнути світлу тему" title="Змінити тему">◐</button>
+  </header>
+  <div class="workspace">
+    <aside class="archive-menu" aria-label="Навігація довідником">
+      <nav id="navigation" class="navigation" aria-label="Розділи">{{NAVIGATION}}</nav>
+    </aside>
+    <main id="main" tabindex="-1">
+      <div class="section-heading"><div><p class="eyebrow" id="folio">ДОВІДКОВИЙ АРХІВ</p><h2 id="sectionTitle">{{TITLE}}</h2><p id="description" class="description">{{DESCRIPTION}}</p></div></div>
+      <div id="referenceTools">
+        <div class="controls"><label class="search-box"><span class="sr">Пошук у цьому розділі</span><input id="search" type="search" placeholder="Пошук у цьому розділі…" autocomplete="off"></label><button id="reset" class="small">Очистити пошук</button><button id="glossary" class="small">Риси та стани</button><button id="profiles" class="small" hidden>Докладні профілі</button></div>
+        <nav id="tableTabs" class="table-tabs" aria-label="Довідкові таблиці"></nav>
+        <div class="table-heading"><h3 id="tableTitle"></h3><span id="rowCount" class="count" role="status"></span></div>
+        <div class="table-options"><span id="orderNote" class="note"></span><label id="sortLabel">Сортування <select id="sort" aria-label="Сортування таблиці"></select></label><button class="small" id="view" aria-pressed="false">Таблиця на мобільному</button></div>
+        {{TABLEHELP}}
+        <div id="tableWrap" class="table-scroll" role="region" aria-label="Довідкова таблиця" tabindex="0"><table id="dataTable" class="data-table"></table></div>
+        <div id="empty" class="empty" hidden><span class="ornament">✠</span><h3>В архіві нічого не знайдено.</h3><p>Змініть пошуковий запит або очистьте пошук.</p><button id="emptyReset">Очистити пошук</button></div>
+      </div>
+      <noscript><p>Для відображення вбудованих таблиць увімкніть JavaScript у браузері.</p></noscript>
+    </main>
+  </div>
+  <footer><span class="glyph">✠</span> Неофіційний фанатський довідник · Некомерційне використання <span class="glyph">✠</span><br><button id="about" class="text-button">Джерела, авторство й обмеження</button><span class="footer-version">{{VERSION}}</span></footer>
+</div>
+<dialog id="detail" aria-labelledby="detailTitle"><div class="dialog-head"><h2 id="detailTitle"></h2><button id="closeDetail" aria-label="Закрити подробиці">Закрити ×</button></div><div id="detailBody"></div></dialog>
+<script id="archive-data" type="application/json">{{DATA}}</script>
+<script>globalThis.ARCHIVE_TRANSLATIONS={{TRANSLATIONS}};globalThis.ARCHIVE_TRAIT_NAMES={{TRAITNAMES}};
+{{LOCALE}}
+{{CATALOG}}
+const PAGE_CATALOG=CATALOG.filter(section=>section.id==='{{SECTION}}');
+{{NAVJS}}
+{{THEME}}
+{{LOGIC}}
+{{APP}}</script>
+</body>
+</html>
+

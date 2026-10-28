@@ -1,0 +1,293 @@
+Bolt Pistol|Болт-пістолет
+Boltgun|Болтер
+Heavy Bolter|Важкий болтер
+Hand Flamer|Ручний вогнемет
+Flamer|Вогнемет
+Laspistol|Лазпістолет
+Lasgun|Лазган
+Las Carbine|Лазерний карабін
+Long Las|Довгоствольний лазган
+Hot-Shot Laspistol|Лазпістолет підвищеної потужності
+Hot-Shot Lasgun|Лазган підвищеної потужності
+Lascanon|Лазерна гармата
+Grenade Launcher|Гранатомет
+Portable Missile Launcher|Переносна ракетна установка
+Inferno Pistol|Пістолет «Інферно»
+Meltagun|Мельтаган
+Plasma Pistol|Плазмовий пістолет
+Plasma Gun|Плазмова рушниця
+Autopistol|Автопістолет
+Autogun|Автоматична гвинтівка
+Hand Cannon|Ручна гармата
+Heavy Stubber|Важкий стаббер
+Shotgun (Combat)|Бойовий дробовик
+Shotgun (Pump Action)|Помповий дробовик
+Sniper Rifle|Снайперська гвинтівка
+Stub Pistol|Стаб-пістолет
+Stub Revolver|Стаб-револьвер
+Needle Pistol|Голковий пістолет
+Needle Rifle|Голкова гвинтівка
+Web Pistol|Павутинний пістолет
+Webber|Павутиномет
+Psycannon|Псайгармата
+Condemnor Boltguns|Болтер «Кондемнор»
+Condemnor Boltguns (Stake)|Болтер «Кондемнор» (кіл)
+Handbow|Ручний арбалет
+Purgatus Crossbow|Арбалет «Пургатус»
+Stake Crossbow|Кілковий арбалет
+Incinerator|Спалювач
+Graviton Pistol|Гравітонний пістолет
+Graviton Gun|Гравітонна рушниця
+Kroot Gun|Крутська гармата
+Kroot Pistol|Крутський пістолет
+Kroot Rifle|Крутська гвинтівка
+Kroot Sniper Rifle|Крутська снайперська гвинтівка
+Hell Rifle|Пекельна гвинтівка
+Pulse Pistol|Імпульсний пістолет
+Pulse Carbine|Імпульсний карабін
+Pulse Rifle|Імпульсна гвинтівка
+Shuriken Pistol|Сюрикенний пістолет
+Shuriken Rifle|Сюрикенна гвинтівка
+Arbites Shotgun|Дробовик Арбітес
+Shotpistol|Дробовий пістолет
+Digital Weapons|Пальцева зброя
+Neuro Disruptor Pistol|Пістолет-нейродезінтегратор
+Splinter Pistol|Уламковий пістолет
+Splinter Rifle|Уламкова гвинтівка
+Ajax Pattern Boltgun|Болтер зразка «Аякс»
+Supremus Pattern Bolt Pistol|Болт-пістолет зразка «Супремус»
+Accatran Pattern 'Spearhead' Recon Lasgun|Розвідувальний лазган «Вістря» зразка «Аккатран»
+Eskuhtax Pattern Mark III 'Fury' Lasgun|Лазган «Лють» зразка «Ескутакс» Mark III
+Lucius Mk I Helbore Pattern Lasgun|Лазган «Гелбор» зразка «Люціус» Mk I
+Mining Laser|Гірничий лазер
+Multi-melta|Мультимельта
+Autocannon|Автогармата
+Charcaros Pattern Autogun|Автоматична гвинтівка зразка «Харкарос»
+Desperion Enforcer Shotgun|Дробовик правоохоронця «Десперіон»
+Kallastin Pattern 'Deadstop' Mk III Autogun|Автоматична гвинтівка «Мертва зупинка» зразка «Калластін» Mk III
+Macharian 'Shrinebreaker' Shrine Shotgun|Махарійський храмовий дробовик «Руйнівник святинь»
+Osmodia Pattern Sniper Rifle|Снайперська гвинтівка зразка «Осмодія»
+RX-9 Rivet Gun|Заклепувальна рушниця RX-9
+RX-9 'ForgeStamp' Pattern Rivet Gun|Заклепувальна рушниця RX-9 зразка «Печатка кузні»
+Skarthius Pattern 'Last Word' Shotgun|Дробовик «Останнє слово» зразка «Скартіус»
+Skarthius Pattern Mk IV Autogun|Автоматична гвинтівка зразка «Скартіус» Mk IV
+Deluge Fluid Cannon (High Pressure)|Рідинна гармата «Потоп» (високий тиск)
+Deluge Fluid Cannon (High Volume)|Рідинна гармата «Потоп» (великий об’єм)
+Seismic Cannon (Long Wave Pattern)|Сейсмічна гармата (довгохвильовий зразок)
+Seismic Cannon (Short Wave Pattern)|Сейсмічна гармата (короткохвильовий зразок)
+Storm Welder|Штормовий зварювач
+Arc Pistol|Дуговий пістолет
+Arc Rifle|Дугова гвинтівка
+Heavy Arc Rifle|Важка дугова гвинтівка
+Flechette Blaster|Флешетний бластер
+Flechette Carbine|Флешетний карабін
+Galvanic Carbine|Гальванічний карабін
+Galvanic Rifle|Гальванічна гвинтівка
+Phosphor Blast Carbine|Фосфорний вибуховий карабін
+Phosphor Pistol|Фосфорний пістолет
+Phosphor Serpenta|Фосфорна серпента
+Phosphor Torch|Фосфорний факел
+Radium Carbine|Радієвий карабін
+Radium Jezzail|Радієвий джезайл
+Radium Pistol|Радієвий пістолет
+Radium Serpenta|Радієва серпента
+Cognis Heavy Stubber|Важкий стаббер «Когніс»
+Macrostubber|Макростаббер
+Stubcarbine|Стаб-карабін
+Eradication Pistol|Пістолет винищення
+Eradication Ray|Промінь винищення
+Gamma Pistol|Гамма-пістолет
+Magnarail Lance|Магнарейковий спис
+Plasma Caliver|Плазмова каліверна рушниця
+Transonic Cannon|Трансзвукова гармата
+Transuranic Arquebus|Трансуранова аркебуза
+Volkite Blaster|Волкітний бластер
+Chainaxe|Ланцюгова сокира
+Chainsword|Ланцюговий меч
+Eviscerator|Евісцератор
+Force Staff|Псайкерський посох
+Force Sword|Псайкерський меч
+Axe|Сокира
+Brass Knuckles|Кастет
+Flail|Бойовий ціп
+Great Weapon|Велика зброя
+Hammer|Молот
+Improvised (One-handed)|Імпровізована зброя (одноручна)
+Improvised (Two-handed)|Імпровізована зброя (дворучна)
+Knife|Ніж
+Staff|Посох
+Sword|Меч
+Unarmed|Беззбройна атака
+Whip|Батіг
+Electro-Flail|Електроціп
+Shock Maul|Шокова булава
+Power Axe|Силова сокира
+Power Fist|Силовий кулак
+Power Knife|Силовий ніж
+Power Maul|Силова булава
+Power Sword|Силовий меч
+Blink-Blade|Мерехтливий клинок
+Scythian Venom Talon|Скіфійський отруйний кіготь
+Duelling Glaive|Дуельна глефа
+Daemonhammer|Демонобійний молот
+Nemesis Daemonhammer|Демонобійний молот «Немезис»
+Truename Staff|Посох істинного імені
+Null Rod|Нульовий жезл
+Aeldari Power Sword|Силовий меч аельдарі
+Executioner Greatblade|Великий клинок ката
+Power Stake|Силовий кіл
+Xenophase Blade|Ксенофазовий клинок
+Daemonblade|Демонічний клинок
+Tainted Blade|Осквернений клинок
+Tran’lo ‘Burnout’ Chainsword|Ланцюговий меч «Вигоряння» Тран’ло
+Viridan Mk II Chain Halberd|Ланцюгова алебарда «Вірідан» Mk II
+Death World Combat Blade|Бойовий клинок світу смерті
+Heavy Lascutter|Важкий лазерний різак
+Heavy Rock Cutter|Важкий каменеріз
+Heavy Rock Drill|Важкий гірничий бур
+Heavy Rock Saw|Важка гірнича пилка
+Servo Claw|Сервокіготь
+Staff of Office|Службовий посох
+Compliance Pattern Power Maul|Силова булава зразка «Покора»
+Macharian Regimental Power Sword|Махарійський полковий силовий меч
+Mortis Alpha Ceremonial Blade|Церемоніальний клинок «Мортіс Альфа»
+Shock Knuckles|Шоковий кастет
+Shock Staff|Шоковий посох
+Skitarii Cavalry Arc Maul|Кавалерійська дугова булава скітаріїв
+Skitarii Cavalry Sabre|Кавалерійська шабля скітаріїв
+Skitarii Taser Lance|Тазерний спис скітаріїв
+Electrostatic Gauntlets|Електростатичні рукавиці
+Electroleech Stave|Електропоглинальний посох
+Omnissian Axe (One-Handed)|Сокира Омніссії (одноручна)
+Omnissian Axe (Two-Handed)|Сокира Омніссії (дворучна)
+Omnissian Glaive|Глефа Омніссії
+Omnissian Rod|Жезл Омніссії
+Transonic Blade|Трансзвуковий клинок
+Transonic Chordclaw|Трансзвуковий хордовий кіготь
+Transonic Razor|Трансзвукова бритва
+Breacher|Проломник
+Control Stave|Посох керування
+Pteraxii Talons|Кігті птераксіїв
+Rod of Office|Службовий жезл
+Servo Arm|Серворука
+Taser Goad|Тазерний стрекало
+Vivisector|Вівісектор
+Blasting Charge|Підривний заряд
+Choke Grenade|Задушлива граната
+Demolition Charge|Руйнівний заряд
+Fire Bomb|Запалювальна бомба
+Frag Grenade|Осколкова граната
+Frag Missile|Осколкова ракета
+Krak Grenade|Крак-граната
+Krak Missile|Крак-ракета
+Melta Bomb|Мельта-бомба
+Photon Flash Grenade|Фотонна спалахова граната
+Smoke Grenade|Димова граната
+Web Grenade|Павутинна граната
+Empyrean Brain Mines|Емпірейські мозкові міни
+Hallucinogen Grenade|Галюциногенна граната
+Psychotroke Grenade|Психотрокова граната
+Psyk-out Grenade|Антипсайкерська граната
+Rad Grenade|Радіаційна граната
+Breaching Charge|Заряд для проломів
+Incendiary Charges|Запалювальні заряди
+Emergency Flare|Аварійна сигнальна ракета
+Mines|Міни
+Scare Gas Grenade|Граната зі страхотворним газом
+Arc Grenades|Дугові гранати
+Cant Grenades|Кант-гранати
+Haywire Grenades|Електромагнітні гранати
+Mindscrambler Grenades|Гранати пригнічення розуму
+Bleeder Rounds|Кровопускні набої
+Executioner Rounds|Набої «Кат»
+Hot-Shot Las Pack|Лазерний енергоблок підвищеної потужності
+Inferno Shells|Набої «Інферно»
+Man-Stopper Bullets|Кулі підвищеної зупиняльної дії
+Tox Rounds|Токсичні набої
+Blessed Rounds|Благословенні набої
+Poison Stake|Отруєний кіл
+Psybolt Rounds|Псайболтові набої
+Purgatus Stake|Кіл «Пургатус»
+Silver Stake|Срібний кіл
+Tainted Rounds|Осквернені набої
+Amputator Rounds|Набої «Ампутатор»
+CX-19 Web Agent|Павутинний реагент CX-19
+Promethium Rounds|Прометієві набої
+Electroplasmic Gel Canister|Балон електроплазмового гелю
+Enriched Rounds|Збагачені набої
+Haywire Rounds|Електромагнітні набої
+Exterminator Cartridge|Картридж «Екстермінатор»
+Melee Attachment|Рукопашне кріплення
+Mono-edge|Монолезо
+Photo Sight/Omnispex|Фотоприціл / омніспекс
+Laser Sight|Лазерний приціл
+Telescopic Sight/Omniscope|Телескопічний приціл / омніскоп
+Backpack Ammo Supply|Заплічна система подачі боєприпасів
+Bipod|Сошки
+Fire Selector|Перемикач боєприпасів
+Silencer|Глушник
+Black Market Focusing Crystal (Combat)|Контрабандний фокусувальний кристал (бойове кріплення)
+Collapsible Stock (Support)|Складаний приклад (допоміжне кріплення)
+Foregrip (Support)|Переднє руків’я (допоміжне кріплення)
+Infrascope (Sight)|Інфрачервоний приціл (прицільне кріплення)
+Strobing Phosphor-lumen (Combat)|Стробоскопічний фосфор-люмен (бойове кріплення)
+Suspensor (Support)|Суспензор (допоміжне кріплення)
+Phase Helix Rifling (Combat)|Фазово-спіральні нарізи (бойове кріплення)
+Rapid Tracking Optics (Sight)|Оптика швидкого супроводу (прицільне кріплення)
+Vent Shielding (Support)|Захист вентиляційних отворів (допоміжне кріплення)
+Robes/Light Leathers|Шати / легкий шкіряний одяг
+Heavy Leathers|Цупкий шкіряний одяг
+Armoured Bodyglove|Броньований обтислий костюм
+Armoured Greatcoat|Броньована шинель
+Scrap-plate|Броня з брухту
+Scrap-shield|Щит із брухту
+Combat Shield|Бойовий щит
+Boarding Shield|Абордажний щит
+Xenos Hide Vest|Жилет зі шкіри ксеноса
+Flak Boots|Протиосколкові чоботи
+Flak Helmet|Протиосколковий шолом
+Flak Gauntlets (Pair)|Протиосколкові рукавиці (пара)
+Flak Vest|Протиосколковий жилет
+Flak Jacket|Протиосколкова куртка
+Astra Militarum Flak Armour|Протиосколкова броня Астра Мілітарум
+Mesh Boots|Сітчасті чоботи
+Mesh Cowl|Сітчастий каптур
+Mesh Gauntlets|Сітчасті рукавиці
+Mesh Vest|Сітчастий жилет
+Xenos Mesh|Сітчаста броня ксеносів
+Carapace Helm|Панцирний шолом
+Carapace Gauntlets|Панцирні рукавиці
+Carapace Greaves|Панцирні поножі
+Enforcer Carapace|Панцирна броня правоохоронця
+Carapace Chestplate|Панцирний нагрудник
+Tempestus Carapace|Панцирна броня Темпестус
+Light Power Armour|Легка силова броня
+Power Armour|Силова броня
+Crusader Storm Shield|Штурмовий щит хрестоносця
+Praesidium Protectiva|Президіум Протектива
+Truesilver Weave|Плетиво істинного срібла
+Warded Armour|Броня з оберегами
+Darkshroud Flak Armour|Протиосколкова броня «Темний покров»
+Flak-weave Greatcoat|Шинель із протиосколковим плетивом
+Macharian Honour Guard Armour|Броня махарійської почесної варти
+Void Armour|Пустотна броня
+Light Protection Suit|Легкий захисний костюм
+Medium Protection Suit|Середній захисний костюм
+Heavy Protection Suit|Важкий захисний костюм
+Amulet of Warding|Захисний амулет
+Blessed Raiments|Благословенні шати
+Dragon Scale|Драконяча луска
+Mantle of the Gnosticar|Мантія Гностікара
+Mechanicus Robes|Шати Механікус
+Sicarian Battle Armour|Бойова броня сікаріїв
+Skitarii War Plate|Бойовий панцир скітаріїв
+Additional Armour Plating|Додаткові бронепластини
+Auspex Array Helmet|Шолом із комплексом ауспексів
+Ceramite Plating & Coating|Керамітові пластини й покриття
+Mounted Pict Recorder|Вмонтований пікт-рекордер
+Reinforced Mirror-visor|Посилене дзеркальне забрало
+Adamantine Plating|Адамантинові пластини
+Neurostatic Generator|Нейростатичний генератор
+Refractor Field|Рефракторне поле
+Conversion Field|Конверсійне поле
+Icon of the Just|Ікона Праведного

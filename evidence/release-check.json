@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-27T04:24:39.545Z",
+  "pages": 10,
+  "staticLocalLinks": 102,
+  "unitTests": 105,
+  "browserNavigation": 100,
+  "browserTables": 34,
+  "browserProfiles": 14,
+  "browserInteractions": 20,
+  "mobilePages": 10,
+  "consoleErrors": 0,
+  "originalDeliveryUnchanged": true,
+  "allEvidenceMatchesHtml": true
+}

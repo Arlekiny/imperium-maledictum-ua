@@ -1,0 +1,2 @@
+# Preserve exact bytes: source snapshots and generated pages have hash checks.
+* -text

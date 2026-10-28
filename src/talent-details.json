@@ -1,0 +1,2801 @@
+{
+  "version": 1,
+  "language": "en",
+  "origin": "User-supplied PDFs; line breaks and typographic spacing normalized.",
+  "talents": [
+    {
+      "index": 0,
+      "name": "Acute Sense",
+      "originalName": "Acute Sense",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 102,
+      "pdfPage": 102,
+      "endPage": 102,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "aCUTe SenSe",
+      "paragraphs": [
+        "One of your primary five senses is highly developed, allowing you to spot what others miss. You may make Perception Tests to detect normally imperceptible details with the associated sense, as dictated by the GM. This could include seeing a lone Servo-Skull at an incredible distance, detecting the presence of a near-odourless poison, hearing the breath of a motionless ganger hidden in the next room, reading printed text by touch, or knowing by taste alone that two ration packages come from different manufactorums."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 1,
+      "name": "Adrenaline Acceleration",
+      "originalName": "Adrenaline Acceleration",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 102,
+      "pdfPage": 102,
+      "endPage": 102,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "adRenaline aCCeleRaTiOn",
+      "paragraphs": [
+        "You are capable of impressive bursts of speed when your life is on the line. Your speed is Fast when Fleeing (page 208) or being Pursued (page 204)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 2,
+      "name": "Agile Attacks",
+      "originalName": "Agile Attacks",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 102,
+      "pdfPage": 102,
+      "endPage": 102,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "aGile aTTaCkS",
+      "paragraphs": [
+        "Requirements: Agility 45, 2 Advances in Melee",
+        "Speed and accuracy make your attacks more potent than powerful blows. You may use your Agility Bonus instead of your Strength Bonus when calculating damage for melee weapons with the Subtle Trait."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 3,
+      "name": "Air of Authority",
+      "originalName": "Air of Authority",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 102,
+      "pdfPage": 102,
+      "endPage": 102,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "aiR OF aUTHORiTY",
+      "paragraphs": [
+        "Requirement: 2 Advances in Presence",
+        "You exude confidence and command, your mere presence influential to many. The first time you meet a group, you can make a Challenging (+0) Rapport Test. On a success, you gain +1 Influence with that group until the end of the mission."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 4,
+      "name": "Amalanthian Apprentice",
+      "originalName": "Amalathian Apprentice",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 63,
+      "pdfPage": 63,
+      "endPage": 63,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "AmALAthiAn APPrentice",
+      "paragraphs": [
+        "Requirement: 2 Advances in Rapport.",
+        "Following the Amalathian philosophy of the Inquisition, you believe that the Imperium is strongest when all its elements work together. Rather than bully or use authority to force compliance, you are adept at coercing and manoeuvring the Imperium into cooperation. At the end of any positive interaction with the representative of another Imperial Faction, you can spend a Fate point to make a Rapport Test, the Difficulty determined by the GM. On a success, that representative becomes a Contact.",
+        "This Talent can be taken multiple times. Each time after the first, choose one of the following:",
+        "•  Coercive Favour: When you seek to use Inquisitorial Requisitions, you gain +1 SL on a Rapport Test made to find who can aid you in this manner, and you gain +1 SL on a Rapport Test when requisitioning the aid.",
+        "•  Cooperative Spirit: Once per mission, when you would lose Influence with a faithful Faction of the Imperium, you can attempt a Rapport Test to smooth over issues and prevent that loss. The GM determines how complicated the issue is and adjusts the Difficulty accordingly. On a success, the amount of Influence lost with the faithful Faction is reduced by 1, to a minimum loss of 1.",
+        "•  Suppression Orders: You gain +1 SL on any Tests made to enlist the aid of, or convince, local authorities to suppress information, block communications, and shut down any investigations that might implicate or reveal the identities of you and your fellow acolytes."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 5,
+      "name": "Ambidextrous",
+      "originalName": "Ambidextrous",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 102,
+      "pdfPage": 102,
+      "endPage": 102,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "aMBideXTROUS",
+      "paragraphs": [
+        "You can use both hands equally well, and suffer no penalty for doing something with your ‘off’ hand. As a result, you may weild a one-handed melee weapon and a pistol at the same time without penalty to attacks with either."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 6,
+      "name": "Apostle of the Lex",
+      "originalName": "Apostle of the Lex",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 63,
+      "pdfPage": 63,
+      "endPage": 63,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "APOstLe Of the LeX",
+      "paragraphs": [
+        "Through extensive study and memorisation, you know the Lex Imperialis, the labyrinthine codes of law upon which the Imperium runs. This Talent can be taken multiple times. Each time, choose one of the following:",
+        "•  Imperial Law: You have +2 SL on Lore Tests to recall law and law processes.",
+        "•  Judgement: You have +2 SL on Presence (Interrogation) or Presence (Intimidation) Tests to interrogate or intimidate an individual who might fear the consequences of Imperial Law.",
+        "•  Enforcer: You gain +2 SL on Rapport Tests to work with, or gain the help of, enforcers, Vigilites, or Adeptus Arbites."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 7,
+      "name": "Applied Anatomy",
+      "originalName": "Applied Anatomy",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 102,
+      "pdfPage": 102,
+      "endPage": 102,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "aPPlied anaTOMY",
+      "paragraphs": [
+        "Requirement: 2 Advances in Medicae",
+        "Your knowledge of physiology gives you a keen familiarity with injuries and how they are caused. Though that usually helps you treat them, it also aids your understanding of how to inflict them. When you inflict a Critical Hit or Critical Wound, you may increase its rolled severity by your Advances in the Medicae Skill."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 8,
+      "name": "Architectural Mind",
+      "originalName": "Architectural Mind",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 66,
+      "pdfPage": 66,
+      "endPage": 66,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "S TALENTS aRchitectuRaL mind",
+      "paragraphs": [
+        "Requirement: 2 Advances in Tech (Engineering)",
+        "You have spent much of your life poring over schematics for city-sized architecture and infrastructure, from genetorum grids down to clusters of waste utilities. Within machine-heavy environments, like hive cities, manufactorums, forge fanes, and voidships, you can use your Tech (Engineering) Skill instead of Navigation (Surface or Tracking). Additionally, when searching through architectural schematics or maps of these locations, you can use your Tech (Engineering) Skill instead of any Lore or Logic Test."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 9,
+      "name": "Artistic",
+      "originalName": "Artistic",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 103,
+      "pdfPage": 103,
+      "endPage": 103,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "aRTiSTiC",
+      "paragraphs": [
+        "You have a natural talent for the arts. This Talent can be taken multiple times, each time choose one of the following:",
+        "•  Literature: +2 SL to any Test related to reading or writing, such as cataloguing a comprehensive and persuasive evidential case or recognizing which Imperial sagas are being referenced in an ingeniously coded message.",
+        "•  Painting: +2 SL to any Test related to painting or drawing, such as creating a sketch of a person of interest or identifying the artist of an Imperial fresco and that it is a forgery.",
+        "•  Music: +2 to any Test related to singing or performing music, such as leading a religious chorus or surmising which planet in a particular sub-sector someone is from based on the tunes they hum.",
+        "•  Theatre: +2 SL to any Test related to acting or performing, such as dramatically depicting a character or identifying whether someone is wearing a uniform that was not made for them."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 10,
+      "name": "Attentive Assistant",
+      "originalName": "Attentive Assistant",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 103,
+      "pdfPage": 103,
+      "endPage": 103,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "aTTenTiVe aSSiSTanT",
+      "paragraphs": [
+        "You are a dutiful assistant, rendering aid with efficiency and aplomb even when the activity would normally be outside your skillset. You can use the Help Action (page 208) to assist someone even if you do not have Advances in the Skill being Tested. Additionally, if you do have an Advance, they gain +1 SL on the Test."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 11,
+      "name": "Ballistics Forensics",
+      "originalName": "Ballistic Forensics",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 63,
+      "pdfPage": 63,
+      "endPage": 63,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "BALListic fOrensics",
+      "paragraphs": [
+        "Requirement: 1 Advance in both Logic (Investigation) and Ranged.",
+        "Through experience and dedicated training, you can identify weapons used at a scene by the marks, bullet hole shape, casings, and shrapnel left behind. When you investigate a scene and use Logic (Investigation), in addition to whatever information you would normally glean, you may also learn details of the ranged weapons used in any confrontation and what manner of ammunition was expended at the scene. A result with particularly high SL may indicate how trained or proficient the marksmen at the scene were."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 12,
+      "name": "Battle Protocols",
+      "originalName": "Battle Protocols",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 67,
+      "pdfPage": 67,
+      "endPage": 67,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "BattLe pRotocoLs",
+      "paragraphs": [
+        "Requirement: 2 Advances in Tech (Automata)",
+        "Members of the Legio Cybernetica optimise the programming of their robotic charges, employing rituals and binharic hymns to bless the doctrina wafers through which they alter the robots’ protocols to better serve them in battle.",
+        "You can spend an action to alter a friendly Construct creature’s protocols. Choose a friendly Construct within immediate range and make a Challenging (+0) Tech (Automata) Test. If successful, choose one of the following protocols. That protocol remains active for a number of turns equal to SL (counting from the end of your current turn). Only one protocol can be active on a target at once and must wait until the completion of a protocol before another can be activated. If the target is a Familiar (page 112), you can also alter its Combat or Preservation Instincts.",
+        "•  Aegis Protocol: the creature gains Advantage on Tests related to taking the Defend or Overwatch action.",
+        "•  Conqueror Protocol: the creature gains Advantage on melee attacks.",
+        "•  Protector Protocol: the creature gains Advantage on ranged attacks."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 13,
+      "name": "Blank",
+      "originalName": "Blank",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 103,
+      "pdfPage": 103,
+      "endPage": 103,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "Blank",
+      "paragraphs": [
+        "Requirements: Can only be taken during Character Creation. You can never be a Psyker and a Blank.",
+        "You are a Psychic Blank, one of the extremely rare Soulless. Psychic nulls like you carry the Pariah Gene, which denies you a psychic connection to the warp. Without that link, you have no presence within the immaterium, rendering you anathema to nearby psykers and Daemons. You curtail access to the immaterium in your immediate area. Ordinary Humans find your presence disturbing, and may even suffer headaches or nausea from prolonged exposure to you.",
+        "This Talent includes the following effects:",
+        "•  You automatically win any Opposed Test to resist a Psychic Power. Your result is always a Success (+1 SL).",
+        "•  You cannot be detected through Psyniscience (page 93) alone.",
+        "•  You are immune to Daemonic Possession.",
+        "•  You make Fellowship Tests when interacting with any creature with a connection to the warp with Disadvantage (i.e. all non-Blank Humans).",
+        "•  Tests made to Manifest a psychic power that targets your Zone, an individual in your Zone, or made within Short Range of you suffer from Disadvantage.",
+        "•  Daemons treat the Zone you are in as a Minor Hazard (page 206).",
+        "•  Individuals connected to a psychic hive mind (such as Genestealer Cultists) that enter or start their turn in your Zone must make a Challenging (+0) Discipline (Composure) Test or be Stunned (page 358)."
+      ],
+      "sourceDiffersFromSummary": false,
+      "related": [
+        {
+          "title": "The Blank’s Burden",
+          "page": 103,
+          "paragraphs": [
+            "Being a Blank comes with powerful advantages, but it is also a terrible stigma. It should only be taken after careful consideration from both the player and the GM. If one or more PCs are a Psyker, the group should take the time to plan around this. While the pairing of a Psyker and a Blank can be a powerful bane to Daemons, Rogue Psykers, and other enemies of the Imperium, a Psyker who cannot access their abilities is often more of a liability than an asset."
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "Blunt Force Authority",
+      "originalName": "Blunt Force Authority",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 63,
+      "pdfPage": 63,
+      "endPage": 63,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "BLunt fOrce AuthOrity",
+      "paragraphs": [
+        "Requirement: 2 Advances in Presence (Intimidation).",
+        "Monodominant and Thorian Inquisitors often use their overbearing authority to force elements of the Imperium into aiding them. When leveraging your authority, you can choose to sacrifice Subtlety to gain Advantage on a Presence (Interrogation) or Presence (Intimidation) Test. You can also choose to decrease your Subtlety Rating by 1 to gain +3 SL on any Rapport Test that uses Influence."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 15,
+      "name": "Bone Breaker",
+      "originalName": "Bone Breaker",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 103,
+      "pdfPage": 103,
+      "endPage": 103,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "BOne BReakeR",
+      "paragraphs": [
+        "Requirement: 2 Advances in Medicae (Specialisation)",
+        "Your medical training allows you to find faults in anatomy and exploit them with ease. As an Action, you can break the bone of a Restrained target that you have the relevant Medicae Specialisation for. Select a Hit Location. That Hit Location now has a Broken Bone (Minor) (page 216). If the Hit Location already has a Broken Bone (Minor), it now has a Broken Bone (Major) (page 216).",
+        "Example: Klaudia has 2 Advances in Medicae (Aeldari) and is Grappling (page 208) an Aeldari Ranger (page 347). As an Action, she uses Bone Breaker on the Restrained Aeldari Ranger and targets their Arm. The Aeldari Ranger now has a Broken Bone (Minor) on that limb, inflicting Disadvantage on any actions that use it."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 16,
+      "name": "Briber",
+      "originalName": "Briber",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 104,
+      "pdfPage": 104,
+      "endPage": 104,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "BRiBeR",
+      "paragraphs": [
+        "Requirement: 2 Advances in Intuition (People)",
+        "You have a natural instinct for who can be paid off, and how to manipulate them with an appropriate ‘donation’ of Solars. You have Advantage on all Intuition (People) Tests to gauge whether someone would be amenable to a bribe. Additionally, you decrease the cost of any bribe by 10% for every Advance in Rapport (Haggle) you have."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 17,
+      "name": "Bulwark",
+      "originalName": "Bulwark",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 104,
+      "pdfPage": 104,
+      "endPage": 104,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "BUlWaRk",
+      "paragraphs": [
+        "Requirement: 3 Advances in Reflexes",
+        "You are proficient in using a shield to deflect danger from multiple sources. When using a shield and taking the Defend Action, you may choose to Defend an additionl ally that is within Immediate Range, or choose to Defend both an ally within Immediate Range and the Zone you currently occupy."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 18,
+      "name": "Burden of Knowledge",
+      "originalName": "Burden of Knowledge",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 67,
+      "pdfPage": 67,
+      "endPage": 67,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "BuRden oF knowLedge",
+      "paragraphs": [
+        "Requirement: 2 Advances in Tech (Forbidden)",
+        "Your knowledge of the forbidden has painfully broadened your understanding of technological possibility. It is a struggle to contain these notions. But you know that in crucial moments, applying these insights in reality may save your life and the lives of others. When you make any Tech Test, after you roll but before any results are described, you may gain 1 Corruption to add your advances in Tech (Forbidden) to the Skill you are rolling against, and you can do this multiple times in the same instance, for the same cost.",
+        "However, you should heed the need to clean up any evidence you leave behind. At the end of any mission, your Patron, or forces beyond them, may confront you directly about anything they find or are aware of, and you may face appropriate punishments for your actions against Adeptus Mechanicus doctrine."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 19,
+      "name": "Burglar",
+      "originalName": "Burglar",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 104,
+      "pdfPage": 104,
+      "endPage": 104,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "BURGlaR",
+      "paragraphs": [
+        "Requirements: 1 Advance in both Athletics and Stealth",
+        "Breaking and entering comes naturally to you. You have Advantage on Tests related to breaking and entering a location, such as climbing the exterior of a building, quietly breaking windows, or unlocking doors or lockboxes"
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 20,
+      "name": "Cartogrammetrist",
+      "originalName": "Cartogrammetrist",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 67,
+      "pdfPage": 67,
+      "endPage": 67,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "caRtogRammetRist",
+      "paragraphs": [
+        "Requirement: 2 Advances in Navigation (Surface)",
+        "Through augmetic databanks and rote memorisation, you have become an expert at collating and interpreting geophysical data. Rarely do you set foot on a planet without a detailed record that stretches from orbiting bodies and void stations to the depths of geological strata. As an Endeavour, you can inload the geophysical data for a single world. This data grants you Advantage on the following Tests:",
+        "•  Navigation Test regarding the world.",
+        "•  Lore Tests regarding the world’s physical features.",
+        "•  Piloting Tests when moving through the world’s atmosphere or across its surface.",
+        "You can only ever inload the data for a single planet; whenever you spend an Endeavour inloading data for a new planet, all previous planetary data is scrubbed to clear space for new records."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 21,
+      "name": "Chirurgeon",
+      "originalName": "Chirurgeon",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 104,
+      "pdfPage": 104,
+      "endPage": 104,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "CHiRURGeOn",
+      "paragraphs": [
+        "Requirement: 2 Advances in Medicae",
+        "You can use a Chirurgeon’s Kit (see page 145) to perform surgery. You can perform Amputations (see page 217) and treat Critical Wounds that are beyond the skills of others. Additionally you gain Advantage when treating Critical Wounds in combat."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 22,
+      "name": "Clandestine",
+      "originalName": "Clandestine",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 64,
+      "pdfPage": 64,
+      "endPage": 64,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "cLAndestine",
+      "paragraphs": [
+        "Requirement: 2 Advances in both Rapport and Presence.",
+        "The Inquisition uses a variety of methods in their pursuit of the foes of the Imperium. Though philosophical differences lead Inquisitors and acolytes along different paths, the paths of subtlety, deception, and infiltration often allow a team to expose corruption from within. While your party’s Subtlety is at Suspicious or Overt Level (7–2) or less, you can spend 1 Fate Point to count your Subtlety as Covert (10–8) for a day, solely as an individual. The GM applies positive and negative Covert Effects to you alone for the day. Note that any decreases in Subtlety you may cause are applied to the whole party’s Subtlety."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 23,
+      "name": "Close Quarters Discipline",
+      "originalName": "Close Quarters Discipline",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 104,
+      "pdfPage": 104,
+      "endPage": 104,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "ClOSe QUaRTeRS diSCiPline",
+      "paragraphs": [
+        "Requirements: 2 Advances in both Discipline and Ranged",
+        "Countless hours of practice, training, and drilling have taught you to focus on firing your weapon, even when you are mere inches from danger. An enemy within Immediate range of you does not impose Disadvantage on your Ranged Attacks."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 24,
+      "name": "Cognis Communion",
+      "originalName": "Cognis Communion",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 67,
+      "pdfPage": 67,
+      "endPage": 67,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "cognis communion",
+      "paragraphs": [
+        "Requirement: 2 Advances in Tech (Security)",
+        "Your capacity to bond with the machine spirits of the tools you use and weapons you wield does not go unrewarded. When forced into the forge of battle, those devices under your care will protect you in turn. You can use your Tech Skill instead of Weapon Skill if wielding a weapon with the Secrets of Mars Trait (page 72)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 25,
+      "name": "Combat Master",
+      "originalName": "Combat Master",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 104,
+      "pdfPage": 104,
+      "endPage": 104,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "COMBaT MaSTeR",
+      "paragraphs": [
+        "Requirement: 2 Advances in Melee",
+        "Your accumulated years of combat experience allow you to keep lesser fighters at bay. You can take this Talent multiple times. Each time you take this Talent, you count as one more person for the purposes of determining if one side outnumbers the other in combat."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 26,
+      "name": "Condemn the Witch",
+      "originalName": "Condemn the Witch",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 104,
+      "pdfPage": 104,
+      "endPage": 104,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "COndeMn THe WiTCH",
+      "paragraphs": [
+        "Requirements: Willpower 40, Psyker Talent",
+        "Simply denying a psyker access to the warp isn’t enough for you. You twist their power, redirecting it to sear their mind, punishing them for their sorcerous transgressions and unforgivable blasphemies.",
+        "When you successfully use Deny the Witch (page 163) to prevent a psyker from manifesting a psychic power, that psyker suffers Wounds equal to the Warp Rating of the power they attempted to manifest."
+      ],
+      "sourceDiffersFromSummary": false,
+      "related": [
+        {
+          "title": "Emperor’s Aegis",
+          "page": 104,
+          "paragraphs": [
+            "With the Gamemaster’s permission, you can take the Condemn the Witch Talent without requiring the Psyker Talent. Rather than reflecting any personal control over the energies of the warp, you instead enjoy some limited protection from psychic powers that even a psyker would struggle to explain. You may attribute this to unwavering faith, typically in the Emperor, or perhaps the protection of other, less beneficent entities. Whatever the result, you feel an instinctive abhorrence for Psychic Powers and may attempt to Deny the Witch using your Discipline (Psychic) Skill."
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "name": "Condemnor's Boon",
+      "originalName": "Condemnor's Boon",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 64,
+      "pdfPage": 64,
+      "endPage": 64,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "cOndemnOr’s BOOn",
+      "paragraphs": [
+        "Requirement: Willpower 40, the Psyker Talent (Imperium Maledictum, page 114) or Condemn the Witch Talent (Imperium Maledictum, page 104).",
+        "Under the tutelage of an Inquisition-approved psyker, administering you with an intense and dangerous training regimen, the range of your anti-psyker capabilities has been improved. You can now deny their manifestations with greater strength and from a greater range.",
+        "You have Advantage whenever you challenge psykers with Deny the Witch! (Imperium Maledictum, page 163). This Talent can be taken multiple times. The second time, the range of your Deny the Witch! Increases to Medium Range instead of Short Range. The third time, the range increases to Long Range."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 28,
+      "name": "Contortionist",
+      "originalName": "Contortionist",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 104,
+      "pdfPage": 104,
+      "endPage": 104,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "COnTORTiOniST",
+      "paragraphs": [
+        "You can bend and twist your body to escape restraints and squeeze into smaller places. You are capable of fitting into unusually small or cramped spaces, such as the narrow pipes of a manufactorum. Additionally you have Advantage on Tests to resist or end the Restrained Condition or a grapple (page 208)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 29,
+      "name": "Corpuscarii Benedictions",
+      "originalName": "Corpuscarii Benedictions",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 71,
+      "pdfPage": 71,
+      "endPage": 71,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "coRpuscaRii Benedictions",
+      "paragraphs": [
+        "Requirement: You have no ‘Fulgurite’ named Talents",
+        "Learned in the rites of the Corpuscarii, you can anoint a machine spirit with the Motive Force, energising it and the device it inhabits with a simple touch. You can touch an electronically powered device or machine as a free action, expending 1 Motive Force Charge. For the next round, creatures have Advantage on any Tech or Piloting Test attempted on or while using the device."
+      ],
+      "sourceDiffersFromSummary": false,
+      "relatedTables": [
+        {
+          "title": "Motive Force and Machines",
+          "page": 71,
+          "headers": [
+            "machine taRget size",
+            "test mod.",
+            "motive FoRce chaRges spent to activate (coRpuscaRii)",
+            "motive FoRce chaRges gained to deactivate (FuLguRite)"
+          ],
+          "rows": [
+            [
+              "Tiny",
+              "+40",
+              "−1",
+              "1"
+            ],
+            [
+              "Small",
+              "+20",
+              "−2",
+              "2"
+            ],
+            [
+              "Medium",
+              "+0",
+              "−3",
+              "3"
+            ],
+            [
+              "Large",
+              "−10",
+              "−4",
+              "4"
+            ],
+            [
+              "Enormous",
+              "−20",
+              "−5",
+              "5"
+            ],
+            [
+              "Monstrous",
+              "−30",
+              "−6",
+              "6"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "name": "Corpuscarii Mastery",
+      "originalName": "Corpuscarii Mastery",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 71,
+      "pdfPage": 71,
+      "endPage": 71,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "coRpuscaRii masteRy",
+      "paragraphs": [
+        "Requirement: You have no ‘Fulgurite’ named Talents",
+        "You can extend the Motive Force to empower electronically powered devices and vehicles you touch, instantly causing them to activate, bypassing startup sequences. To do so, make a Fortitude Test as an Action, the Difficulty of which is determined by the size of the Target (see the Motive Force and Machines Table). If successful, the machine activates, and you expend Motive Force Charges determined by the target’s size. You cannot use this Talent to activate a device that requires a higher number of Motive Force Charges than you currently have."
+      ],
+      "sourceDiffersFromSummary": false,
+      "relatedTables": [
+        {
+          "title": "Motive Force and Machines",
+          "page": 71,
+          "headers": [
+            "machine taRget size",
+            "test mod.",
+            "motive FoRce chaRges spent to activate (coRpuscaRii)",
+            "motive FoRce chaRges gained to deactivate (FuLguRite)"
+          ],
+          "rows": [
+            [
+              "Tiny",
+              "+40",
+              "−1",
+              "1"
+            ],
+            [
+              "Small",
+              "+20",
+              "−2",
+              "2"
+            ],
+            [
+              "Medium",
+              "+0",
+              "−3",
+              "3"
+            ],
+            [
+              "Large",
+              "−10",
+              "−4",
+              "4"
+            ],
+            [
+              "Enormous",
+              "−20",
+              "−5",
+              "5"
+            ],
+            [
+              "Monstrous",
+              "−30",
+              "−6",
+              "6"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "name": "Counter Attack",
+      "originalName": "Counter Attack",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 105,
+      "pdfPage": 105,
+      "endPage": 105,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "COUnTeR aTTaCk",
+      "paragraphs": [
+        "Requirement: 3 Advances in Melee",
+        "Conforming to the idiom that 'the best defence is offence', you respond to an incoming attack with a lightning-fast counterstrike of your own.",
+        "If you are the target of a melee attack and win the Opposed Melee Test (page 211), you can choose to deal Damage to your opponent as if you made the attack.",
+        "You may purchase this Talent multiple times. You may Counter Attack once per round for each time you have purchased this Talent."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 32,
+      "name": "Coup de Grâce",
+      "originalName": "Coup de Grâce",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 105,
+      "pdfPage": 105,
+      "endPage": 105,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "COUP de GRÂCe",
+      "paragraphs": [
+        "Requirement: 3 Advances in Reflexes",
+        "You know how to deliver a crushing final blow when you are dominating a situation. If you have 2 or more Superiority, you can take 2 turns in a row, sacrificing your turn next round."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 33,
+      "name": "Cult Infiltrator",
+      "originalName": "Cult Infiltrator",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 64,
+      "pdfPage": 64,
+      "endPage": 64,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "cuLt infiLtrAtOr",
+      "paragraphs": [
+        "Requirement: 2 Advances in both Discipline and Rapport.",
+        "Through a combination of hypno-indoctrination and specialised training, you are prepared to infiltrate various cults and organisations at the behest of the Inquisition. This Talent can be taken multiple times. Each time, choose one of the following disguises, but you also gain 2 Corruption Points.",
+        "•  Heretek: You have adopted a disguise including a prosthetic augmetic that passes as genuine only until inspected up close by a member of the Cult Mechanicus or someone equally knowledgeable. You have meme-coded technical secrets into your mind, granting you +2 SL on Tech Tests.",
+        "•  Aristocrat: Psycho-linguistic and memetic routines have trained you to recall names and interconnected details useful for interacting with nobility, powerful merchant guilds, and the upper echelons of various levels of Imperial society — and you can recall this information perfectly. You have +2 SL on Rapport Tests when Interacting with characters you are knowledgeable about.",
+        "•  Tolerant: Surgical alteration and biological conditioning have given you a surprising tolerance for various toxins and intoxicants, making you a viable candidate to infiltrate pleasure or pestilent cults. You have Advantage on Tests to resist intoxication, various drugs, poisons, and contact with filth or pestilence that conveys disease.",
+        "•  Tainted: Prosthetics and temporary surgery allow you to disguise yourself with the tainted marks of Chaos, adorning your body in the foul symbols of the great enemy or creating prosthetic mutations of a body wracked with the corrupting influence of Chaos. You can adopt a disguise appropriately marked by Chaos to infiltrate the ranks of a cult dedicated to the Ruinous Powers."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 34,
+      "name": "Cypherist",
+      "originalName": "Cypherist",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 64,
+      "pdfPage": 64,
+      "endPage": 64,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "cyPherist",
+      "paragraphs": [
+        "Requirement: 2 Advances in both Linguistics (Cypher) and Logic.",
+        "You have developed remarkable proficiency in identifying codes, cyphers, and other symbols laden with meaning through comprehensive study and thorough testing. Some cults use obscure symbols to denote their members, some might mark buildings and locations within a hive with hidden signs, and others disguise their communications using a secret code. You have Advantage on Tests to recognise or decipher symbols, marks, and secret codes."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 35,
+      "name": "Data Delver",
+      "originalName": "Data Delver",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 105,
+      "pdfPage": 105,
+      "endPage": 105,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "daTa delVeR",
+      "paragraphs": [
+        "Requirement: 2 Advances in Logic (Investigation)",
+        "You are naturally in tune with the flow of data and recorded information, effortlessly able to navigate the often byzantine records of the Imperium. You have Advantage on Tests made to find or retrieve information from a document or archive (whether analog or digital). Additionally, you read text in half the time it would normally take.",
+        "If you take this Talent again, you have Advantage on any Test made to determine where, when, how, or by whom a piece of information was created."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 36,
+      "name": "Deadeye",
+      "originalName": "Deadeye",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 105,
+      "pdfPage": 105,
+      "endPage": 105,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "deadeYe",
+      "paragraphs": [
+        "Requirement: 1 Advance in Ranged",
+        "When you take the time to line up a shot in a practised manner, the benefits of your training flourish.",
+        "When you Aim (page 207) and make a Ranged Attack you gain +1 SL. If you purchase this Talent again, when you Aim you have Advantage on Tests to Target a Location (page 210)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 37,
+      "name": "Dealmaker",
+      "originalName": "Dealmaker",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 105,
+      "pdfPage": 105,
+      "endPage": 105,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "dealMakeR",
+      "paragraphs": [
+        "Requirements: 1 Advance in both Intuition (People) and Rapport (Haggle)",
+        "You are skilled in trading and know how to close a deal. During a negotiation you can make an Intuition (People) Test. If you succeed you gain the benefit of one of the following effects:",
+        "•  You learn what the target would accept as a bribe, be it an object, specific information, or an amount of Solars. Not everyone can be bribed.",
+        "•  You decrease the cost of anything you buy from the target by 10%.",
+        "•  You increase the cost of anything you sell to the target by 10%"
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 38,
+      "name": "Demolition Specialist",
+      "originalName": "Demolition Specialist",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 105,
+      "pdfPage": 105,
+      "endPage": 105,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "deMOliTiOn SPeCialiST",
+      "paragraphs": [
+        "Requirements: 2 Advances in Ranged (Ordnance) or 2 Advances in Dexterity (Defuse)",
+        "Explosives are your area of expertise, and you’ve proved yourself able to use them successfully without blowing yourself up. Over the course of an hour, you can make a Challenging (+0) Tech (Engineering) Test to remove the Unstable Trait from an explosive. The GM determines the Difficulty. Additionally, when preparing delayed explosives (page 134) you may increase the Damage of those explosives by your Intelligence Bonus.",
+        "This Talent can be taken an additionl time, if you do, each time you make an attack with a weapon with the Blast Trait you can aim it in such a way that it ignores one character it would otherwise damage or effect."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 39,
+      "name": "Devoted Servant",
+      "originalName": "Devoted Servant",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 106,
+      "pdfPage": 106,
+      "endPage": 106,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "deVOTed SeRVanT",
+      "paragraphs": [
+        "You are particularly talented at a form of honest toil. Select one of the options from the Devoted Servant Table. You gain Advantage on Tests related to your area of expertise."
+      ],
+      "sourceDiffersFromSummary": false,
+      "relatedTables": [
+        {
+          "title": "Devoted Servant Table",
+          "page": 106,
+          "headers": [
+            "service",
+            "description",
+            "tests"
+          ],
+          "rows": [
+            [
+              "Agronomist",
+              "You are talented with farming, fishing, grox herding, or some other method of industrialised sustenance production.",
+              "Tests related to food production or the providence of food, such as identifying where the meat from a noble’s dinner was sourced."
+            ],
+            [
+              "Custodian",
+              "You are a talented cleaner, a master custodian and expert sanitiser.",
+              "Tests related to cleaning or janitorial work, such as understanding how a crime scene has been cleansed to remove evidence."
+            ],
+            [
+              "Entertainer",
+              "You are a talented performer, practised in an artform of your choice that is designed to keep your superiors and their guests happy.",
+              "Tests related to entertaining someone, or attempts to identify another performer’s skills and trainer."
+            ],
+            [
+              "Hunter",
+              "You are a talented hunter, showing proficiency in a self-sustaining lifestyle in uncivilised lands. Chose an enivornment you are experienced in, such as Forest, Wasteland, or Underhive.",
+              "Tests related to to setting traps, or identifying animals. You can provide food for a number of people equal to your Perception Bonus when in your chosen environment."
+            ],
+            [
+              "Modiste",
+              "You are a talented clothier, experienced and skilled in making the robes and uniforms that denote status within the Imperium.",
+              "Tests related to production of clothing, for example whether an officer’s uniform is tailored or a hand-me- down or the outfit."
+            ],
+            [
+              "Manufactorist",
+              "You are a talented manufactorum worker, experienced with production lines and industrial toil.",
+              "Tests related to the running of a manufactorum, worker shifts, records of outputs, or other relevant matters."
+            ],
+            [
+              "Mason",
+              "You are a talented architect or builder, an expert in orthodox and traditional Imperial construction.",
+              "Tests to ascertain the blueprint of a building, attempt to find secret rooms, or take stock of the stability of a construction."
+            ],
+            [
+              "Scullion",
+              "You are talented in preparing often unpalatable raw foodstuffs, making them both nutritious and enjoyable to consume.",
+              "Tests to to prepare food, such as cooking a meal for your group or attempting to taste food for poison."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "name": "Directed Strikes",
+      "originalName": "Directed Strikes",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 106,
+      "pdfPage": 106,
+      "endPage": 106,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "diReCTed STRikeS",
+      "paragraphs": [
+        "Requirement: 3 Advances in Melee",
+        "You aim your weapons carefully in close combat, directing strikes to land where they can do the most harm. You do not have Disadvantage when you take the Target Location Action with a melee weapon."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 41,
+      "name": "Dirty Fighting",
+      "originalName": "Dirty Fighting",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 106,
+      "pdfPage": 106,
+      "endPage": 106,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "diRTY FiGHTinG",
+      "paragraphs": [
+        "Requirement: 2 Advances in Melee (Brawling)",
+        "You are proficient in the art of foul play. When you deal damage with a melee attack, you can choose to inflict the Blinded or Deafened Condition. If you succeed by +3 SL or more, you can choose to inflict the Stunned Condition instead (see Conditions, page 357)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 42,
+      "name": "Disarm",
+      "originalName": "Disarm",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 106,
+      "pdfPage": 106,
+      "endPage": 106,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "diSaRM",
+      "paragraphs": [
+        "Requirement: 2 Advances in Melee",
+        "You are able to disarm an opponent with a careful flick of the wrist or a well-aimed blow to the hand. When you make a melee attack against an opponent who is the same size or smaller than you, instead of dealing damage you can choose to disarm them. If you succeed, your opponent drops a held object, which flies into a random adjacent Zone (with further effects as determined by the GM). If you win by +2 SL, you can determine which Zone the object lands in; if you win by +4 SL, you can take the object if you have a free hand, plucking it from the air with a flourish."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 43,
+      "name": "Distracting",
+      "originalName": "Distracting",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 107,
+      "pdfPage": 107,
+      "endPage": 107,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "diSTRaCTinG",
+      "paragraphs": [
+        "Regardless of your usual personality, you know how to be particularly vexing by interrupting people with disruptive, irritating, or offensive outbursts that are extremely effective distractions.",
+        "You can use this Talent once per encounter to interrupt another individual making a Test, imposing Disadvantage on their Test. In combat, this Talent is used as a Reaction (page 199).",
+        "If you purchase this Talent again, you can choose to gain one of the following:",
+        "•  Centre of Attention: When you are within Immediate range of an individual that isn’t your ally, you may choose to inflict Disadvantage on Tests that target makes which anyone other than you.",
+        "•  Stunning Interjection: Once per encounter when you use the Distraction Talent, your target is Stunned (Minor) until the end of their next Turn."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 44,
+      "name": "Disturbing Voice",
+      "originalName": "Disturbing Voice",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 106,
+      "pdfPage": 106,
+      "endPage": 106,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "diSTURBinG VOiCe",
+      "paragraphs": [
+        "The way you speak is unsettling, and to some, frightening. You gain +2 SL to Presence (Interrogation) and (Intimidation) Tests when using your voice. You suffer a −2 SL penalty to Fellowship Tests against someone that is disturbed by your voice, as determined by the GM."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 45,
+      "name": "Drilled",
+      "originalName": "Drilled",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 107,
+      "pdfPage": 107,
+      "endPage": 107,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "dRilled",
+      "paragraphs": [
+        "Requirement: 1 Advance in Discipline",
+        "You’ve been trained to face down the innumerable dangers of the universe, especially if you are backed up by other trained warriors. You have Advantage on Tests to resist the Frightened Condition, and you gain +1 SL to Discipline Tests for every ally with the Drilled Talent in the same Zone as you.",
+        "If another member of your group has the Drilled Talent, you can both choose to purchase the Drilled Talent again to gain the following:",
+        "•  Kill Team: When you are in the same Zone as another member of your party with the Drilled Talent, you can choose to act immediately after them in Initiative and gain +1 SL to all Tests."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 46,
+      "name": "Dual Wielder",
+      "originalName": "Dual Wielder",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 107,
+      "pdfPage": 107,
+      "endPage": 107,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "dUal WieldeR",
+      "paragraphs": [
+        "Requirements: Ambidexterous, 2 Advances in Melee (One-handed)",
+        "You have learned to wield two melee weapons at once. You do not suffer Disadvantage when attacking with two melee weapons at the same time. See Two-weapon Fighting on page 214 for more information."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 47,
+      "name": "Duellist",
+      "originalName": "Duellist",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 107,
+      "pdfPage": 107,
+      "endPage": 107,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "dUelliST",
+      "paragraphs": [
+        "Requirement: 2 Advances in Melee (One-handed)",
+        "You’re a fantastic fencer when engaging an opponent one-on-one in armed melee combat. You treat all One-handed melee weapons that do not have the Subtle Trait as having Defensive Trait.",
+        "This Talent can be taken multiple times, each time after the first, choose to gain one of the following:",
+        "•  Duellist Feint: When you successfully attack with a One-handed melee weapon, you can choose to deal no damage and instead impose Disadvantage on attacks the target makes against you until the end of your next Turn.",
+        "•  Duellist Guard: When you make an attack with a One-handed melee weapon, you can choose to make that attack with Disadvantage to simultaneously make the Dodge Action."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 48,
+      "name": "Eidetic Memory",
+      "originalName": "Eidetic Memory",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 107,
+      "pdfPage": 107,
+      "endPage": 107,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "eideTiC MeMORY",
+      "paragraphs": [
+        "You can recall things you’ve seen with incredible clarity and fidelity for much longer than most people. Once you see something, even briefly, you can recall an image of what you saw with virtually perfect accuracy. You do not need to make Tests to recall visual details about images you saw."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 49,
+      "name": "Electro-Priest Indoctrination",
+      "originalName": "Electro-Priest Indoctrination",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 71,
+      "pdfPage": 71,
+      "endPage": 71,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "eLectRo-pRiest indoctRination",
+      "paragraphs": [
+        "You are trained to capture, conserve and share the sacred Motive Force. Indoctrinated into the Electro-Priesthood, you have gained the following abilities:",
+        "•  When your Motive Force Charges are above half your Maximum Threshold, you have +1 Armour (All Locations).",
+        "•  You can increase your Motive Force Charges to your threshold by spending a minute connected to a power source, feeding from its stored energy. This action may potentially deactivate the machine (consult the Motive Force and Machines Table for reference).",
+        "•  You can reduce your Motive Force Charges to zero by spending a minute connected to a power source, feeding it your stored energy and potentially powering it (consult the Motive Force and Machines Table for reference)."
+      ],
+      "sourceDiffersFromSummary": false,
+      "relatedTables": [
+        {
+          "title": "Motive Force and Machines",
+          "page": 71,
+          "headers": [
+            "machine taRget size",
+            "test mod.",
+            "motive FoRce chaRges spent to activate (coRpuscaRii)",
+            "motive FoRce chaRges gained to deactivate (FuLguRite)"
+          ],
+          "rows": [
+            [
+              "Tiny",
+              "+40",
+              "−1",
+              "1"
+            ],
+            [
+              "Small",
+              "+20",
+              "−2",
+              "2"
+            ],
+            [
+              "Medium",
+              "+0",
+              "−3",
+              "3"
+            ],
+            [
+              "Large",
+              "−10",
+              "−4",
+              "4"
+            ],
+            [
+              "Enormous",
+              "−20",
+              "−5",
+              "5"
+            ],
+            [
+              "Monstrous",
+              "−30",
+              "−6",
+              "6"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "name": "Emotionless Clarity",
+      "originalName": "Emotionless Clarity",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 67,
+      "pdfPage": 67,
+      "endPage": 67,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "emotionLess cLaRity",
+      "paragraphs": [
+        "Requirement: Rite of Pure Thought Augmetic",
+        "Freed from the shackles of illogical emotion, you are rendered all but immune to manipulations that would garner sympathies from less-augmented beings. When seeking to learn something in conversation with another character, you can use your Logic Skill instead of Intuition or Rapport."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 51,
+      "name": "Ever Vigilant",
+      "originalName": "Ever Vigilant",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 107,
+      "pdfPage": 107,
+      "endPage": 107,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "eVeR ViGilanT",
+      "paragraphs": [
+        "Requirement: 2 Advances in Awareness",
+        "Your senses are permanently engaged in a hunt for the enemies of the Emperor, to the extent that you sleep with one eye open. You gain +1 SL to Tests to detect hidden enemies, and you suffer no penalties from the Unconsious or Blinded Conditions while sleeping.",
+        "Additionally, whenever you leave a location that has an object of interest or clue that the group did not find or closely examine, the GM may make a secret Awareness Test on your behalf with a Difficulty they determine. If the Test is successful, the GM may reveal this clue to you."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 52,
+      "name": "Exploit Vulnerability",
+      "originalName": "Exploit Vulnerability",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 108,
+      "pdfPage": 108,
+      "endPage": 108,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "eXPlOiT VUlneRaBiliTY",
+      "paragraphs": [
+        "Requirement: 2 Advances in Intuition (People)",
+        "You are ruthless in your use of information on your opponents. If you spend time to Know Thy Foe (page 196) before combat, you may choose the Hit Location of your first successful attack."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 53,
+      "name": "Extended Proprioception",
+      "originalName": "Extended Proprioception",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 108,
+      "pdfPage": 108,
+      "endPage": 108,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "eXTended PROPRiOCePTiOn",
+      "paragraphs": [
+        "Requirement: 3 Advances in Pilot (Specialisation)",
+        "Your sense of your body’s spatial movement and location extends to encompass the entirety of a vessel when you are piloting it. For vessels of your chosen Specialisation you always know their size and position in relation to their surroundings, meaning you will always know if the vessel will be able to fit through a gap, or feel if anything is off with the ship, such as a malfunctioning auspex or sabotaged void shield generator. Additionally, you do not suffer Disadvantage from being Blinded when you make a Pilot Test with your chosen Specialisation, and count as two people for the purposes of piloting a vessel that requires multiple crew to operate."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 54,
+      "name": "Faithful — Cult of Mars",
+      "originalName": "Faithful — Cult of Mars",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 68,
+      "pdfPage": 68,
+      "endPage": 68,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "FaithFuL (cuLt oF maRs)",
+      "paragraphs": [
+        "Requirement: You must be a member of the Adeptus Mechanicus. If not, you must have +2 Adeptus Mechanicus Influence or 2 Advances in Lore (Theology — Cult Mechanicus).",
+        "You are a true believer of the Cult of Mars, unwavering in your faith in the sacred trinity of Machine God, Omnissiah, and Motive Force. You are capable of manifesting your faith to your aid, deeply ingrained lines of faithfully memorised code ever ready to stir your mind and soul against the enemies of the Cult Mechanicus. Know that the Omnissiah watches, aiding those who hold faith in the Machine God, and smiting those who do not.",
+        "Once per session, you may add your Willpower Bonus as SL when you are making a Test related to your faith. For example:",
+        "•  When activating a device of particularly sacred significance, such as the cogitators of a forge fane, invoke the Omnissiah’s Will to gain SL equal to your Willpower Bonus on a Tech Test.",
+        "•  If you are righteously striking down a heretek or Abominable Intelligence, you can unleash a binharic screech invoking the Motive Force to gain SL equal to your Willpower Bonus on your next attack.",
+        "•  If you are attempting to recall information or access a particular reliquary-datavault, you can make a prayer to the Omnissiah for guidance to gain SL equal to your Willpower Bonus on your Lore (Theology – Cult Mechanicus) Test."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 55,
+      "name": "Faithful — Imperial Cult",
+      "originalName": "Faithful — Imperial Cult",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 108,
+      "pdfPage": 108,
+      "endPage": 108,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FaiTHFUl (iMPeRial CUlT)",
+      "paragraphs": [
+        "Prerequisites: You must be a member of the Adeptus Ministorum Faction, or have +2 Influence with the Adeptus Ministorum, and 2 Advances in Lore (Theology).",
+        "You are a true believer of the Imperial Cult, a pious and devout member of the state religion of the Imperium and worshipper of the God-Emperor. You are capable of manifesting your faith as a light in the darkness of the 41st Millennium. This power can be used to further His divine will, but if it is misused, the Emperor is sure to punish such treachery. Once per session you may add your Willpower Bonus in SL when you are making a Test related to your faith. For example:",
+        "•  If you are interrogating a suspected heretic, you can invoke the burning judgement of the God-Emperor’s gaze to gain SL equal to your Willpower Bonus on your Presence (Intimidation) Test.",
+        "•  If you are righteously striking down a foul xenos creature or a heretic, you can scream a benediction of the Emperor’s fury to gain SL equal to your Willpower Bonus on your next attack.",
+        "•  If you are attempting to recall information or locate a particular sacred text, you can make a prayer to the Emperor for guidance to gain SL equal to your Willpower Bonus on your Lore (Theology) Test."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 56,
+      "name": "False Retreat",
+      "originalName": "False Retreat",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 108,
+      "pdfPage": 108,
+      "endPage": 108,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FalSe ReTReaT",
+      "paragraphs": [
+        "Requirement: 3 Advances in Rapport (Deception)",
+        "You know how to use the confusion of battle to reposition yourself by feigning cowardice. As an Action, you can pretend to Flee (page 208). Reduce Superiority by 1 and remove yourself from the encounter. At the start of your next turn, you can choose any location within Long Range of your previous location. You are now in that location and hidden from your enemies. When — or indeed, if — you return to the Encounter, Superiority increases by 1."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 57,
+      "name": "Familiar Bonded",
+      "originalName": "Familiar Bonded",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 65,
+      "pdfPage": 65,
+      "endPage": 65,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "fAmiLiAr BOnded",
+      "paragraphs": [
+        "You have the knowledge and training to acquire a Familiar (see Chapter VI: Familiars, page 100). The first time you purchase this Talent, you can bond with a Regular Familiar, though they still need to be found and purchased. This Talent can be taken more than once. The second time you take this Talent, you can choose to become trained in Cyber- or Psyber-Familiars, and the third time you take this Talent, you become trained in bonding with the remaining type of Familiar. You can acquire any Familiar with which you are trained via this Talent and any Familiar that might be a combination, so long as you have all of the prerequisites of that combination."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 58,
+      "name": "Familiar Terrain",
+      "originalName": "Familiar Terrain",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 108,
+      "pdfPage": 108,
+      "endPage": 108,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FaMiliaR TeRRain",
+      "paragraphs": [
+        "You are so familiar with the particular environs of your upbringing that you can better find cover to protect yourself or disappear entirely. Choose an environment from the following list. Within that environment you have Advantage on Stealth Tests and gain +1 Armour from Cover (page 204) in addition to what that cover typically grants. You may take this Talent multiple times, choosing another type of terrain each time.",
+        "•  Agri: Farmed fields, slaughterhouses, and other locations dedicated to food or water production.",
+        "•  Feudal: Any Human civilisation that is not a hive city, on a Forge world, or on a Shrine World.",
+        "•  Forge: Manufactorums, Omnissian forge-shrines, and the streets of Forge Worlds.",
+        "•  Hive: Anywhere in a hive city, including the toxic sumps that often lie beneath.",
+        "•  Natural: Forests, mountains, grasslands, plains, and other natural biomes untouched by civilisation.",
+        "•  Shrine: Churches, cathedrals, tombs, and the streets of Shrine Worlds.",
+        "•  Warzone: Any location that is or was recently an active warzone, as well as military buildings and active encampments.",
+        "•  Wasteland: The irradiated wastelands beyond hive cities, tundras, deserts.",
+        "•  Voidship: Any void-faring vessel of Imperial design."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 59,
+      "name": "Fated",
+      "originalName": "Fated",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 108,
+      "pdfPage": 108,
+      "endPage": 108,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FaTed",
+      "paragraphs": [
+        "Requirement: Character creation only",
+        "You are innately lucky, enjoy the Emperor’s grace, or perhaps have been chosen by the ruinous powers themselves for some great and terrible purpose. Regardless of the reason, you gain 1 point of Fate. You can only take this Talent once."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 60,
+      "name": "Field Biologis",
+      "originalName": "Field Biologis",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 68,
+      "pdfPage": 68,
+      "endPage": 68,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "FieLd BioLogis",
+      "paragraphs": [
+        "Requirement: 2 Advances in Tech (Biologis)",
+        "You have a deep understanding of the inner biological workings of constructs. You can use your Tech (Biologis) Skill to heal Construct creatures with biological components, as described in Healing Wounds (Imperium Maledictum, page 219). Additionally, the Difficulty of these Tests can not be harder than Challenging (+0). If you Crit on this Test, you find a way to improve the construct’s function and efficiency immediately, and it gains Advantage on any Tests it makes until the end of the scene."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 61,
+      "name": "Field Medicae",
+      "originalName": "Field Medicae",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 109,
+      "pdfPage": 109,
+      "endPage": 109,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "Field MediCae",
+      "paragraphs": [
+        "Requirement: 2 Advances in Medicae",
+        "There typically isn’t time to properly treat wounds during a crisis, but a savvy healer like yourself knows how to patch up wounds and render immediate first aid to save lives under pressure. When you make a Medicae Test to heal a character (page 219), the Difficulty can not be harder than Challenging (+0)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 62,
+      "name": "Flagellant",
+      "originalName": "Flagellant",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 109,
+      "pdfPage": 109,
+      "endPage": 109,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FlaGellanT",
+      "paragraphs": [
+        "Your dedication to your faith is such that you have shed many of the concerns of your flesh. You are happy to endure as much pain as required in service to the Emperor, and may even come to see that suffering as a form of worship far more holy than even the most sweetly sung hymn or devout prayer.",
+        "You gain Advantage on any Test to resist the effects of pain or interrogation. Additionally, any time you suffer a Critical Wound you may make a Challenging (+0) Lore (Theology) Test. If you succeed, you may ignore the effects of that Critical Wound for a number of rounds equal to your Willpower Bonus. During this time your faith sustains your mortified flesh, allowing you to fight on where most others would have fallen. Once the duration of this effect is over, you suffer the full effects of the Critical Wound as normal."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 63,
+      "name": "Flanking Fire",
+      "originalName": "Flanking Fire",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 109,
+      "pdfPage": 109,
+      "endPage": 109,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FlankinG FiRe",
+      "paragraphs": [
+        "Requirement: 2 Advances in Ranged",
+        "Your ally's attacks can open up your enemy's defences, allowing you to better place your shots. When you make a ranged attack targetting an enemy target in the same Zone as one of your revealed allies, your attack can bypass some of their cover. If your target is in Cover they reduce the Armour benefit that Cover grants by 2."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 64,
+      "name": "Flesh is Weak",
+      "originalName": "Flesh is Weak",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 110,
+      "pdfPage": 110,
+      "endPage": 110,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FleSH iS Weak",
+      "paragraphs": [
+        "Requirement: 2 Advances in Tech (Augmetics)",
+        "The Cult of the Omnissiah preaches that the flesh is inferior to the perfection of the machine, and you have fully internalised that teaching. The number of Augmetics (page 152) you can take is equal to double your Toughness Bonus."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 65,
+      "name": "Forbidden Knowledge",
+      "originalName": "Forbidden Knowledge",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 110,
+      "pdfPage": 110,
+      "endPage": 110,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FORBidden knOWledGe",
+      "paragraphs": [
+        "Requirement: Character creation, or with GM permission (see Forbidden Lore)",
+        "Through accident, proscribed research, or by order of your Patron, you have gained access to unsanctioned information. Each time you take this Talent, you gain access to one of the following Specialisations:",
+        "•  Linguistics (Forbidden)",
+        "•  Lore (Forbidden)",
+        "•  Medicae (Forbidden)"
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 66,
+      "name": "Forger",
+      "originalName": "Forger",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 110,
+      "pdfPage": 110,
+      "endPage": 110,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FORGeR",
+      "paragraphs": [
+        "Requirements: 2 Advances in both Linguistics and Lore",
+        "You are capable of forging documentation that allows you to wield Influence over a specific Faction. The Faction you are trying to gain Influence over determines the type of Test you must make when attempting to create the forgery, which takes a full day. Some example factions are listed below, though the GM may allow other options.",
+        "•  Adeptus Administratum: Lore (Imperium)",
+        "•  Adeptus Ministorum: Lore (Theology)",
+        "•  The Inquisition: Lore (Cypher)",
+        "•  Rogue Trader Dynasty: Linguistics (High Gothic)",
+        "The difficulty of the Test determines how much Influence the forgery will give you:",
+        "•  Difficult (−10): +1 Influence",
+        "•  Hard (−20): +2 Influence",
+        "•  Very Hard (−30): +3 Influence",
+        "When you make the Test to forge the document, keep track of your SL. Anyone who attempts to inspect the document to discern its veracity makes an Opposed Test of their Logic (Evaluation) against the SL of your original Test."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 67,
+      "name": "Frenzy",
+      "originalName": "Frenzy",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 111,
+      "pdfPage": 111,
+      "endPage": 111,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FRenZY",
+      "paragraphs": [
+        "You can work yourself into a frothing battle rage. As a Free Action you can make a Challenging (+0) Willpower Test to enter a frenzied state. While frenzied your Strength Bonus increases by +1, you are immune to the Frightened Condition. On your turn, you must attempt to engage the nearest enemy in melee combat. You remain in this state until all enemies you can currently see have been defeated, or until you are affected by the Stunned or Unconscious Condition.",
+        "This Talent can be taken multiple times, each time choose one of the following:",
+        "•  Frenzied Control: You can make a Difficult (−10) Discipline (Composure) Test as an Action, to halt your Frenzied state.",
+        "•  Frenzied Fearlessness: Whenever you would become Frightened, you may immediately become Frenzied instead.",
+        "•  Frenzied Momentum: One per Turn, when you kill an enemy whilst Frenzied, you may immediately Move or take another Action."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 68,
+      "name": "Fulgurite Hex",
+      "originalName": "Fulgurite Hex",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 71,
+      "pdfPage": 71,
+      "endPage": 71,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "FuLguRite hex",
+      "paragraphs": [
+        "Requirement: You have no ‘Corpuscarii’ named Talents",
+        "Learned in the rites of the Fulgurite, you can reap the Motive Force to usher a machine spirit and the device it inhabits into a sluggish near-slumber, enervating it with a simple touch. You can touch an electronically powered device as a free action, gaining 1 Motive Force Charge. For the next round, creatures have Disadvantage on any Tech or Piloting Test attempted using the device."
+      ],
+      "sourceDiffersFromSummary": false,
+      "relatedTables": [
+        {
+          "title": "Motive Force and Machines",
+          "page": 71,
+          "headers": [
+            "machine taRget size",
+            "test mod.",
+            "motive FoRce chaRges spent to activate (coRpuscaRii)",
+            "motive FoRce chaRges gained to deactivate (FuLguRite)"
+          ],
+          "rows": [
+            [
+              "Tiny",
+              "+40",
+              "−1",
+              "1"
+            ],
+            [
+              "Small",
+              "+20",
+              "−2",
+              "2"
+            ],
+            [
+              "Medium",
+              "+0",
+              "−3",
+              "3"
+            ],
+            [
+              "Large",
+              "−10",
+              "−4",
+              "4"
+            ],
+            [
+              "Enormous",
+              "−20",
+              "−5",
+              "5"
+            ],
+            [
+              "Monstrous",
+              "−30",
+              "−6",
+              "6"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "name": "Fulgurite Mastery",
+      "originalName": "Fulgurite Mastery",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 71,
+      "pdfPage": 71,
+      "endPage": 71,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "FuLguRite masteRy",
+      "paragraphs": [
+        "Requirement: You have no ‘Corpuscarii’ named Talents",
+        "You can drain the Motive Force from electronically powered devices and vehicles you touch, instantly shutting them down. To do so, make a Fortitude (Endurance) Test as an Action, the Difficulty of which is determined by the target’s size (see the Motive Force and Machines Table). If successful, the machine shuts down, and you gain Motive Force Charges determined by the size of the target. You cannot use this Talent to drain Motive Force charges from a device if doing so would take you past your maximum threshold."
+      ],
+      "sourceDiffersFromSummary": false,
+      "relatedTables": [
+        {
+          "title": "Motive Force and Machines",
+          "page": 71,
+          "headers": [
+            "machine taRget size",
+            "test mod.",
+            "motive FoRce chaRges spent to activate (coRpuscaRii)",
+            "motive FoRce chaRges gained to deactivate (FuLguRite)"
+          ],
+          "rows": [
+            [
+              "Tiny",
+              "+40",
+              "−1",
+              "1"
+            ],
+            [
+              "Small",
+              "+20",
+              "−2",
+              "2"
+            ],
+            [
+              "Medium",
+              "+0",
+              "−3",
+              "3"
+            ],
+            [
+              "Large",
+              "−10",
+              "−4",
+              "4"
+            ],
+            [
+              "Enormous",
+              "−20",
+              "−5",
+              "5"
+            ],
+            [
+              "Monstrous",
+              "−30",
+              "−6",
+              "6"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "name": "Full-Auto Fanatic",
+      "originalName": "Full-Auto Fanatic",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 110,
+      "pdfPage": 110,
+      "endPage": 110,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "FUll-aUTO FanaTiC",
+      "paragraphs": [
+        "Requirement: 3 Advances in Ranged",
+        "You are a fearsome foe when you wield a weapon with a high rate of fire. If your weapon has the Rapid Fire Trait (page 125), you can choose to spend double the number of bullets required for its Rapid Fire Rating to target all individuals in the Zone with a single attack."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 71,
+      "name": "Gallows Humour",
+      "originalName": "Gallows Humour",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 111,
+      "pdfPage": 111,
+      "endPage": 111,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "GallOWS HUMOUR",
+      "paragraphs": [
+        "Requirement: 2 Advances in Rapport (Charm)",
+        "You find humour in the darkest of places, and can use it to bolster the morale of your allies, keeping them alive in the direst of times. As an Action, you can use Charm (Rapport) to make a joke that can stabilise someone in a dire situation.",
+        "•  If your target is Fatigued or Frightened, you can make a Challenging (+0) Rapport (Charm) Test as an Action to remove the Condition.",
+        "•  If your target is Stunned, you can make a Challenging (+0) Rapport (Charm) Test as an Action to remove the Condition.",
+        "•  If your target is Dying, you can make a Challenging (+0) Rapport (Charm) Test. If you succeed, your target does not die at the end of the round, and instead can survive for another 1 + SL rounds."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 72,
+      "name": "Gothic Gibberish",
+      "originalName": "Gothic Gibberish",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 111,
+      "pdfPage": 111,
+      "endPage": 111,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "GOTHiC GiBBeRiSH",
+      "paragraphs": [
+        "Requirement: 1 Advance in Linguistics",
+        "Gothic Gibberish is the appropriately verbose name given to the practice of talking rapidly and incessantly to confound a target by burying them beneath a deluge of obscure information. You can use Gothic Gibberish by making a Rapport (Charm) Test opposed by the target’s Discipline (Composure). Your target must share at least one language with you, and neither of you can be in combat. If you win the Opposed Test, your target is Stunned for as long as you continue to spout nonsense. Creatures Stunned by your Gothic Gibberish may do nothing other than stare at you dumbfounded as they try to catch up with or understand what you are saying. They may attempt another Discipline (Composure) Test opposed by your Rapport (Charm) at the end of each of their Turns, or whenever the GM deems it fitting — even Gothic Gibberish can’t hold someone’s attention if a firefight breaks out nearby!"
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 73,
+      "name": "Guardian",
+      "originalName": "Guardian",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 111,
+      "pdfPage": 111,
+      "endPage": 111,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "GUaRdian",
+      "paragraphs": [
+        "Requirement: 3 Advances in Reflexes",
+        "You are quick enough to interpose yourself between your allies and harm. As a Free Action at the start of combat, choose one allied character within Medium Range. You are their guardian and are considered to be defending them (Defend, page 207). If the target is attacked and you are within Medium Range, you can immediately move to Defend them. If doing so causes you to break Engagement (page 212), your opponents have Disadvantage on their melee attack."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 74,
+      "name": "Gunslinger",
+      "originalName": "Gunslinger",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 111,
+      "pdfPage": 111,
+      "endPage": 111,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "GUnSlinGeR",
+      "paragraphs": [
+        "Requirements: Ambidexterous, 2 Advances in Ranged (Pistols)",
+        "You have learned to wield two ranged weapons at once. You do not suffer Disadvantage when attacking with two ranged weapons at the same time. See Two-weapon Fighting on page 214 for more information."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 75,
+      "name": "Gut Instinct",
+      "originalName": "Gut Instinct",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 65,
+      "pdfPage": 65,
+      "endPage": 65,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "gut instinct",
+      "paragraphs": [
+        "Requirement: 2 Advances in Logic (Investigation).",
+        "You know or may have been mentored, that following your instincts can often lead to clues or connections that might otherwise go overlooked. When conducting an investigation or research, you can spend 1 Fate Point to gain a personal hint from the GM about where to go next, what to do, how clues might be connected, or who to talk to. This takes the form of a hunch and guides you toward new information at the GM’s discretion."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 76,
+      "name": "Hardened Suspicion",
+      "originalName": "Hardened Suspicion",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 65,
+      "pdfPage": 65,
+      "endPage": 65,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "hArdened susPiciOn",
+      "paragraphs": [
+        "Requirement: 2 Advances in both Awareness and Intuition.",
+        "A combination of mental conditioning, undying loyalty to the God-Emperor, and hard-won experience has left you suspicious and hardened against the threats of xenos and Chaos. Duplicity and corruption are second nature to such forces, and you are honed to expect and watch for such betrayal. You have +1 SL on Awareness and Intuition Tests against xenos and Chaos-aligned creatures, such as cultists, mutants, and daemons."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 77,
+      "name": "Hatred",
+      "originalName": "Hatred",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 112,
+      "pdfPage": 112,
+      "endPage": 112,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "HaTRed",
+      "paragraphs": [
+        "‘Hate! Hate! Hate! An emotion as pure as it is deep! Hate! Hate! Hate! Let it flow, let it run free!’ — Imperial Hymnal Vol. IV",
+        "You wield your fury as a weapon. Choose the object of your hatred — for example, xenos, heretics, or gangers. Whenever you come into contact with the the subject of your hatred, you must make a Difficult (−10) Discipline (Composure) Test. If you fail the Test, you have Advantage on any Discipline (Fear) Tests and +1 SL to any attack Tests you make. Whilst overcome by this hate, you must immediately attempt to destroy the hated group by the fastest and most deadly means possible. You may attempt another Difficult (−10) Discipline (Composure) Test at the end of each of your turns to end this effect. Otherwise, the effect ends when you fall unconscious or all visible subjects of your hatred are dead."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 78,
+      "name": "Hit and Run",
+      "originalName": "Hit and Run",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 112,
+      "pdfPage": 112,
+      "endPage": 112,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "HiT and RUn",
+      "paragraphs": [
+        "Requirement: 3 Advances in Reflexes (Acrobatics)",
+        "When you strike an enemy, you can take advantage of their pain to acrobatically reposition yourself. As a Free Action, when you deal one or more Wounds you can make a Reflexes (Acrobatics) Test to Disengage and move to an adjacent Zone."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 79,
+      "name": "Holdout Expert",
+      "originalName": "Holdout Expert",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 112,
+      "pdfPage": 112,
+      "endPage": 112,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "HOldOUT eXPeRT",
+      "paragraphs": [
+        "You are an expert at hiding small objects about your person — perhaps in a small compartment hidden in your clothing, or even in a hollow chamber inside an agumetic limb.",
+        "You can conceal one small item, no bigger than the palm of your hand. Anyone searching you must make a Hard (−20) Awareness (Touch), Dexterity (Pickpocket) or Logic (Investigation) Test to discover the hidden object. If the individual searching you employs any technology, such as an Auspex or a Cyber-hound, this difficulty is reduced to Challenging (+0)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 80,
+      "name": "Hypno-Indoctrination",
+      "originalName": "Hypno-Indoctrination",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 112,
+      "pdfPage": 112,
+      "endPage": 112,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "HYPnO-indOCTRinaTiOn",
+      "paragraphs": [
+        "Someone spent a great deal of time and effort hypnotically imparting you with specific training you could not consciously recall as it dwelt in your subconscious. Now it has revealed itself to you. Roll twice on the Random Talents Table (page 74). You now have those Talents. Hypno-Indoctrination can only be taken once."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 81,
+      "name": "Icon Bearer",
+      "originalName": "Icon Bearer",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 112,
+      "pdfPage": 112,
+      "endPage": 112,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "iCOn BeaReR",
+      "paragraphs": [
+        "Requirements: 1 Advance in Lore (Theology) and 1 Advance in Presence",
+        "When you lift a holy icon aloft it sends your companions’ hearts soaring. When you are holding a Holy Icon (page 148) any ally within Medium Range that can see you gains the icon's benefit."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 82,
+      "name": "Ignorance is my Shield",
+      "originalName": "Ignorance is my Shield",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 112,
+      "pdfPage": 112,
+      "endPage": 112,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "iGnORanCe iS MY SHield",
+      "paragraphs": [
+        "Requirements: Less than 30 Intelligence, cannot have Advances in any (Forbidden) Specialisation",
+        "The Imperial Cult preaches that ignorance is the best defence against the horrors of heretical thought. You are particularly ignorant, warding you from the predations of the Daemons of the warp. You gain +4 SL on all Tests made to resist Corruption (page 220), psychic powers, and the influence of daemonic forces. However, you also suffer a penalty of −4 SL on all Tests related to researching, tracking, or recalling information about Daemons, psykers, and xenos."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 83,
+      "name": "Inheritor",
+      "originalName": "Inheritor",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 113,
+      "pdfPage": 113,
+      "endPage": 113,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "inHeRiTOR",
+      "paragraphs": [
+        "Requirement: Must be taken at character creation",
+        "You are the heir to a lineage of some significance, be that the descendant of a Planetary Governor, the scion of a Rogue Trader Dynasty, the offspring of an influential Gang Leader, or something else entirely (see below). You gain +1 Influence with an appropriate Faction, provided you continue to live up to the legacy of your forebears. If the GM deems it appropriate to your circumstances, you may also be the beneficiary of Inheritance.",
+        "Also at the GM’s discretion, this Talent may be taken to reflect more narratively impactful lineages, for your benefit or hinderance. For example, you may be a descendant of one of the vaunted Navis Nobilite, and therefore be able to access the Navigation (Warp) Specialisation (page 97). You may even be a member of one of the xenos-tainted bloodlines of the Genestealer Cults rumoured by some to exist in the sector."
+      ],
+      "sourceDiffersFromSummary": false,
+      "related": [
+        {
+          "title": "Inheritance",
+          "page": 113,
+          "paragraphs": [
+            "The circumstances of your birth have placed certain burdens on you — an unwelcome duty, perhaps, or familial enemies you have never even met — but it also confers certain benefits. At the GM’s discretion, you may claim an additional 5,000 solars of equipment, holdings, or investments (see page 231) when you take this Talent."
+          ]
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "name": "Inspired Defiance",
+      "originalName": "Inspired Defiance",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 65,
+      "pdfPage": 65,
+      "endPage": 65,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "insPired defiAnce",
+      "paragraphs": [
+        "Requirement: 3 Advances in Discipline.",
+        "You have hardened your mind and soul against corruptive influences through psycho-conditioning and ritualistic meme-coding of liturgies and faithful hymns. Your mind and body are tempered by faith, such that encounters with malign influences only serve to inspire you to fight harder. You have Advantage on Fortitude and Discipline Tests you make to resist Corruption."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 85,
+      "name": "Inspiring Presence",
+      "originalName": "Inspiring Presence",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 112,
+      "pdfPage": 112,
+      "endPage": 112,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "inSPiRinG PReSenCe",
+      "paragraphs": [
+        "Requirement: 2 Advances in Presence (Leadership)",
+        "Your presence fills your allies with zeal. Allies in your Zone that can see you gain Advantage on Discipline Tests."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 86,
+      "name": "Lawbringer",
+      "originalName": "Lawbringer",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 113,
+      "pdfPage": 113,
+      "endPage": 113,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "laWBRinGeR",
+      "paragraphs": [
+        "Requirement: 2 Advances in Lore (Imperium)",
+        "The Lex Imperialis is composed of myriad inscrutable laws that keep the Imperium aloft, and you know how to wield them like a weapon — or at least have the confidence to threaten others with their execution. When you make a Rapport or Presence Test and know the target of your Test has broken some kind of law, you can reference that law to gain +SL to the Test equal to your Advances in Lore (Imperium)."
+      ],
+      "sourceDiffersFromSummary": true
+    },
+    {
+      "index": 87,
+      "name": "Lickspittle",
+      "originalName": "Lickspittle",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 113,
+      "pdfPage": 113,
+      "endPage": 113,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "liCkSPiTTle",
+      "paragraphs": [
+        "You are a bootlicker, a brown-nose, a grovelling lackey and a sycophantic toady — but that almost always gets you what you want. You gain Advantage on any Test made to suck up to a superior."
+      ],
+      "sourceDiffersFromSummary": true
+    },
+    {
+      "index": 88,
+      "name": "Logical Liar",
+      "originalName": "Logical Liar",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 65,
+      "pdfPage": 65,
+      "endPage": 65,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "LOgicAL LiAr",
+      "paragraphs": [
+        "Requirement: 2 Advances in Logic.",
+        "In preparation for missions, during downtime, and even during brief periods of quiet, you have trained your mind to create elaborate patterns of deception. You can create flowcharts of cover stories and articulated, modular lies to function with those cover stories based on preprogrammed scenarios and situations. When you make a Deception Test, you can spend 1 Fate Point to use Intelligence as the characteristic, instead of Rapport."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 89,
+      "name": "Many Masks",
+      "originalName": "Many Masks",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 65,
+      "pdfPage": 65,
+      "endPage": 65,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "mAny mAsks",
+      "paragraphs": [
+        "Requirement: 2 Advances in Stealth, at least one of them in Stealth (Disguise)",
+        "You are trained in adopting disguises and creating personas. You have Advantage on any Test to apply a Disguise Kit and adopt a new identity or persona.",
+        "This Talent can be taken multiple times. Each time after the first, choose one of the following:",
+        "•  Fall Guy: You can choose to ‘burn’ a disguise or identity, sacrificing their persona by implicating them to reduce the loss of Subtlety by 1 Rating. This does not immediately end suspicion, as the former identity is implicated, and enemies and targets may still be alerted.",
+        "•  Unmasked: As a Reaction before combat begins, you can dramatically unmask or reveal yourself, using pure surprise or revealing yourself as an agent of the Inquisition, to gain Surprise (Imperium Maledictum, page 199)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 90,
+      "name": "Martian Pistoleer",
+      "originalName": "Martian Pistoleer",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 68,
+      "pdfPage": 68,
+      "endPage": 68,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "maRtian pistoLeeR",
+      "paragraphs": [
+        "Requirement: 2 Advances in Ranged (Pistol)",
+        "You are a honed specialist at wielding pistols, able to wield them deftly at both close quarters and beyond their expected operational range. You gain the following benefits:",
+        "•  You do not suffer Disadvantage for attacking with a Pistol at Immediate Range.",
+        "•  You increase the range of Pistols you wield by one step."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 91,
+      "name": "Martyrdom",
+      "originalName": "Martyrdom",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 113,
+      "pdfPage": 113,
+      "endPage": 113,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "MaRTYRdOM",
+      "paragraphs": [
+        "Requirement: 2 Advances in Fortitude",
+        "You are unafraid to die in the God-Emperor’s name. When you have one or more Critical Wounds, you gain +SL to all Tests you make equal to your Willpower Bonus."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 92,
+      "name": "Medicae Maverick",
+      "originalName": "Medicae Maverick",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 113,
+      "pdfPage": 113,
+      "endPage": 113,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "MediCae MaVeRiCk",
+      "paragraphs": [
+        "Requirements: 1 Advance in any Medicae (Forbidden) Specialisation",
+        "You have found forbidden ways of preserving the life and limbs of patients you treat, though your radical techniques are far from comfortable. As an Action, you may perform a quick procedure on an ally within Immediate Range. This operation can either turn a Major Break into a Minor Break, or fix a Minor Break instantly. This operation does not remove any Critical Wounds, and actually increases the target’s Critical Wounds by +1, but they no longer suffer the negative effects of the Major or Minor Break."
+      ],
+      "sourceDiffersFromSummary": true
+    },
+    {
+      "index": 93,
+      "name": "Mental Fortress",
+      "originalName": "Mental Fortress",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 114,
+      "pdfPage": 114,
+      "endPage": 114,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "MenTal FORTReSS",
+      "paragraphs": [
+        "Requirement: 2 Advances in Discipline (Psychic)",
+        "An open mind is like a fortress with its gates unbarred and unguarded, but the gates of your mind are sealed shut. Your mind cannot be read by any psychic power, and you gain Armour equal to your Willpower Bonus when targeted by psychic powers."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 94,
+      "name": "Mimic",
+      "originalName": "Mimic",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 114,
+      "pdfPage": 114,
+      "endPage": 114,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "MiMiC",
+      "paragraphs": [
+        "Requirements: 2 Advances in both Awareness (Sound) and Rapport (Deception)",
+        "Due to physiology-altering surgeries, inborn talent, or vocal training, you have the remarkable ability to mimic another person’s speech patterns and voice. You can mimic a person’s voice after you listen to them speak for at least one hour. This Talent does not allow you to speak a language you don’t know."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 95,
+      "name": "Necromechanic",
+      "originalName": "Necromechanic",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 68,
+      "pdfPage": 68,
+      "endPage": 68,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "necRomechanic",
+      "paragraphs": [
+        "Requirement: 2 Advances in Tech (Augmetics)",
+        "Your capabilities with the maintenance and repair of augmetics go beyond simply elevating the living, for you know that there are oft secrets to uncover in the augmetics of the dead. Provided that cranial augmetics remain intact, their inbuilt databanks can be known to long outlast the flesh decaying around them, maintaining readings, or even pict-recordings of the bearer’s final moments.",
+        "You can perform a necromechanical autopsy on the augmetics of the deceased, or on a destroyed machine. Make a Challenging (+0) Tech (Augmetics) Test. Succeeding, you learn one piece of information about the subject’s demise. With 3 SL or more, you are able to access an audio, sensory, or visual recording of the subject’s demise."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 96,
+      "name": "Opus Machina",
+      "originalName": "Opus Machina",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 68,
+      "pdfPage": 68,
+      "endPage": 68,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "opus machina",
+      "paragraphs": [
+        "Requirement: 2 Advances in Lore (Cult Mechanicus)",
+        "You practice prayers of the Cult of Mars each dawn (or at the beginning of your shift), enacting ancient rites of bionic reboot, self-purification through purgation of corrupted data, and supplication of the machine spirits that inhabit each piece of your equipment.",
+        "At the start of each in-game day, roll d100 and record the result. You can use this result to replace the result of any d100 Tech Test during that day. Either a Tech Test you are making, or of a creature within medium range (allied or enemy). You can decide to replace the rolled value after the initial roll is made, but before any results are described (Advantage and Disadvantage is still applied to the replaced value)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 97,
+      "name": "Overseer",
+      "originalName": "Overseer",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 114,
+      "pdfPage": 114,
+      "endPage": 114,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "OVeRSeeR",
+      "paragraphs": [
+        "Requirement: 2 Advances in Presence (Leadership)",
+        "You’re practiced in inststructing others to work just as well as yourself. As an Action, you may make a Challenging (+0) (Leadership) Test to aid an ally or subordinate. If you succeed, your target may use your Skill instead of their own for the next Test they make."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 98,
+      "name": "Pathologist",
+      "originalName": "Pathologist",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 114,
+      "pdfPage": 114,
+      "endPage": 114,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "PaTHOlOGiST",
+      "paragraphs": [
+        "Requirement: 2 Advances in Medicae (Human)",
+        "You have Advantage when performing autopsies to determine the cause and nature of someone’s death, and analyse any medical imbalances in their system."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 99,
+      "name": "Phlebotomist",
+      "originalName": "Phlebotomist",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 114,
+      "pdfPage": 114,
+      "endPage": 114,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "PHleBOTOMiST",
+      "paragraphs": [
+        "Requirement: 3 Advances in Medicae",
+        "You can perform phlebotomies and bloodletting, and are capable of examining an individual’s blood to learn about their health. When you make a successful melee attack you can choose to inflict the Bleeding Condition instead of dealing Damage."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 100,
+      "name": "Porter",
+      "originalName": "Porter",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 114,
+      "pdfPage": 114,
+      "endPage": 114,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "PORTeR",
+      "paragraphs": [
+        "Requirement: 2 Advances in Fortitude (Endurace)",
+        "You’re strong as a grox, capable of carrying far more crucial gear than even those of similar strength. Your Maximum Encumbrance is equal to double your Strength Bonus, plus your Toughness Bonus."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 101,
+      "name": "Psychic Castigation",
+      "originalName": "Psychic Castigation",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 114,
+      "pdfPage": 114,
+      "endPage": 114,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "PSYCHiC CaSTiGaTiOn",
+      "paragraphs": [
+        "Requirement: The Psyker Talent",
+        "Those who dare intrude upon your mind find only the punishing lash of your psychic power when you repel their devious attacks. When you win an Opposed Willpower Test to resist a Psychic Power, the psyker manifesting the power suffers Wounds equal to the difference in SL you achieved on the Oppossed Test."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 102,
+      "name": "Psychic Flood",
+      "originalName": "Psychic Flood",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 114,
+      "pdfPage": 114,
+      "endPage": 114,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "PSYCHiC FlOOd",
+      "paragraphs": [
+        "Requirement: The Psyker Talent",
+        "When you open yourself fully to the empyrean, you can channel a flood of its roaring power to amplify your gifts, though such power comes at great risk. When you manifest a psychic power, you can choose to gain a number of Warp Charge equal to your Willpower Bonus. If you successfully manifecst the power, add +1 SL to the result for each Warp Charge you gained using this Talent."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 103,
+      "name": "Psyker",
+      "originalName": "Psyker",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 114,
+      "pdfPage": 114,
+      "endPage": 114,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "PSYkeR",
+      "paragraphs": [
+        "Requirement: Cannot have the Blank Talent. This applies even during Character Creation",
+        "The immaterium lies just behind reality, outside the perception of most creatures in the galaxy, but you are not most creatures. As a psyker, you are aware of the warp, though you may not understand it. You can access and unleash its tumultuous power into realspace.",
+        "Channelling such power is fraught with perils, however, and death is far from the most frightening possibility one might face. When you acquire this Talent, you gain the ability to manifest Psychic Powers (page 158). You can also purchase Advances in the Psychic Mastery Skill (page 98) and the Awareness (Psyniscience) Specialisation (page 93).",
+        "When you gain this Talent, you learn one Minor Psychic Power (page 114). Additionally, select a Psychic Discipline (page 160) and immediately gain one power of your choice from that discipline. You can spend 60 XP to purchase additional Minor Psychic Powers or 100 XP to purchse Psychic Powers from your chosen Discipline.",
+        "You can purchase this Talent a number of times up to your Willpower Bonus. Each additional time you purchase this Talent, you access a new Psychic Discipline and one power of that Discipline."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 104,
+      "name": "Quickdraw",
+      "originalName": "Quickdraw",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 115,
+      "pdfPage": 115,
+      "endPage": 115,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "QUiCkdRaW",
+      "paragraphs": [
+        "Requirements: 2 Advances in both Ranged (Pistols) and Reflexes",
+        "You’ve trained yourself to ensure you always shoot first. When combat begins, you can draw and fire a Pistol before anyone else, regardless of Initiative order. If you are Surprised, you must make a Hard (−20) Reflexes Test to use this effect."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 105,
+      "name": "Rapid Reload",
+      "originalName": "Rapid Reload",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 115,
+      "pdfPage": 115,
+      "endPage": 115,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "RaPid RelOad",
+      "paragraphs": [
+        "Requirements: 2 Advances in both Dexterity and Ranged",
+        "You can reload some weapons faster than most. This Talent can be taken multiple times. Each time choose a ranged Specialisation. You can reload weapons relating to those Specialisations as a Free Action."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 106,
+      "name": "Read Lips",
+      "originalName": "Read Lips",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 115,
+      "pdfPage": 115,
+      "endPage": 115,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "Read liPS",
+      "paragraphs": [
+        "Requirements: 1 Advance in both Awareness (Sight) and Linguistics",
+        "You’ve practised analysing the physicality of speech, recognizing the sounds people make by visual observation alone. Even if you can’t hear someone talk, you can understand what they're saying by reading their lips."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 107,
+      "name": "Registered Trader",
+      "originalName": "Registered Trader",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 115,
+      "pdfPage": 115,
+      "endPage": 115,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "ReGiSTeRed TRadeR",
+      "paragraphs": [
+        "Requirements: 2 Advances in Logic (Evaluation) and 2 Advances in Rapport (Haggle)",
+        "You are either a licensed member of a chartist captain’s crew within the Merchant Fleet, a black market trader operating outside it, or are simply confident enough to pass yourself off as one of these. The base cost when you sell an item (page 120) is increased from 50% (rounded up) to 100%. Representatives of the Administratum or local infractionists may visit you Between Missions (page 228) to request a tithe to allow you to trade in such a way."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 108,
+      "name": "Sanctioned Psyker",
+      "originalName": "Sanctioned Psyker",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 115,
+      "pdfPage": 115,
+      "endPage": 115,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "SanCTiOned PSYkeR",
+      "paragraphs": [
+        "Requirements: The Psyker Talent. Can only be taken during character creation.",
+        "From the multitude of Psykers identified within the Imperium each day, you were marked as having the potential to be more than a sacrifice to fuel the Golden Throne. You have been tested, tormented, and subjected to rites and rituals that you shudder to recall — The experience was mentally and physically scarring, but it left you more resistant to the dangers of the warp and in control of your power.",
+        "Your Warp Threshold is equal to double your Willpower Bonus. You also have a symbol to prove your sanctioned status."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 109,
+      "name": "Secret Identity",
+      "originalName": "Secret Identity",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 115,
+      "pdfPage": 115,
+      "endPage": 115,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "SeCReT idenTiTY",
+      "paragraphs": [
+        "You maintain a secret identity that allows you to appear to be a member of another Faction. With your GM’s permission, choose a Faction and a matching Duty in Chapter 3, or another reasonable duty in the Imperium. As long as you are dressed and behaving appropriately, you have +1 Influence with that Faction. Maintaining this masquerade requires Rapport (Deception) Tests when interacting with certain members of that faction."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 110,
+      "name": "Security Augur",
+      "originalName": "Security Augur",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 66,
+      "pdfPage": 66,
+      "endPage": 66,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "security Augur",
+      "paragraphs": [
+        "Requirement: 3 Advances in Security (Tech).",
+        "You have an approved, or self-taught, swathe of technical skills related to security systems and their associated machine spirits. You have Advantage on all Tests to identify security systems, such as what they are and what they are capable of, as well as any Tests made to interact with those systems, to sabotage them, bypass them, or access them to learn more information.",
+        "This Talent can be taken multiple times. The second time you gain the following: When leaving any security system or control system you accessed, you can attempt to make a Tech (Security) Test to erase evidence of your actions, such as clearing access logs and clearance codes. The GM will determine how difficult the Test is, and a success could make it difficult to notice the system was breached, as well as minimise any evidence left behind for the purposes of affecting Subtlety."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 111,
+      "name": "Shadow Operative",
+      "originalName": "Shadow Operative",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 66,
+      "pdfPage": 66,
+      "endPage": 66,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "shAdOw OPerAtive",
+      "paragraphs": [
+        "Requirement: 3 Advances in Stealth.",
+        "Stealth and deception have become second nature to you through rigorous training and the dangers of past experiences. You ignore the Disadvantage penalty to Stealth Tests due to your current Subtlety."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 112,
+      "name": "Shock Assault",
+      "originalName": "Shock Assault",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "SHOCk aSSaUlT",
+      "paragraphs": [
+        "Requirements: Agility 45, 3 Advances in Stealth",
+        "Those who strike first strike hardest. You may take 2 Actions on your turn during a Surprise Round."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 113,
+      "name": "Skit-Code Discipline",
+      "originalName": "Skit-Code Discipline",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 69,
+      "pdfPage": 69,
+      "endPage": 69,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "skit-code discipLine",
+      "paragraphs": [
+        "Requirement: Transhuman Ideal Talent, 1 Advance in Discipline",
+        "You have been trained, or more likely installed, with the capacity to use skit-code, a tactical dialect of Binharic Cant (page 25). Bereft of means to express anything save the immediate needs of the present engagement, skit-code reduces Binharic transmissions to a staccato of clicks and buzzes only comprehensible to Skitarii and the Tech-Priests who oversee them. You have Advantage on Tests to resist the Frightened Condition, and you gain +1 SL to Discipline Tests for every ally with the Skit-Code Discipline Talent in the same Zone as you. In addition, your combat communications cannot be understood by those outside the Adeptus Mechanicus.",
+        "If another member of your group has the Skit-Code Discipline Talent, you can both choose to purchase the Skit-Code Discipline Talent again to gain the following:",
+        "•  Hunter Clade: When you are in the same Zone as another member of your party with the Skit-Code Discipline Talent, you can choose to act immediately after them in Initiative and gain +1 SL to all Tests."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 114,
+      "name": "Skitarii Compliance Protocols",
+      "originalName": "Skitarii Compliance Protocols",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 69,
+      "pdfPage": 69,
+      "endPage": 69,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "skitaRii compLiance pRotocoLs",
+      "paragraphs": [
+        "Requirement: Transhuman Ideal Talent",
+        "You have sworn an oath in High Gothic and binharic to your Legion’s Maniple, and accepted their holy command protocols as your own. You have Advantage on all Discipline and Fortitude Tests. However, your conditioning causes you to have Disadvantage on any Test that would resist the orders of a superior Skitarii, Tech-Priest or your Patron."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 115,
+      "name": "Skulker",
+      "originalName": "Skulker",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "SkUlkeR",
+      "paragraphs": [
+        "Requirements: 1 Advance in Navigation and Stealth",
+        "You have a talent for tailing people without being noticed. When you are attempting to follow someone using Navigation (Tracking), you do not need to make Stealth Tests to remain undetected by that individual. This loses effect if attention is drawn to you in some very obvious, or very foolish, way."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 116,
+      "name": "Slippery",
+      "originalName": "Slippery",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "SliPPeRY",
+      "paragraphs": [
+        "Requirement: 2 Advances in Reflexes",
+        "You’re hard to pin down, and move in fluid ways to escape harm. When you move out of Engagement (page 212) and an opponent makes an immediate attack against you, they have Disadvantage on that attack Test. You can take this Talent an additional time, if you do, you can Disengage as a Free Action."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 117,
+      "name": "Subtle Influencer",
+      "originalName": "Subtle Influencer",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 66,
+      "pdfPage": 66,
+      "endPage": 66,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "suBtLe infLuencer",
+      "paragraphs": [
+        "You know how to arrange secret meetings or convey requests in coded messages and passphrases. Taking this careful approach, you can requisition aid and interact with various Factions secretly and without drawing attention. The first time you would contribute to the loss of Subtlety Rating in a mission, this loss does not occur."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 118,
+      "name": "Subtle Mutation",
+      "originalName": "Subtle Mutation",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 66,
+      "pdfPage": 66,
+      "endPage": 66,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "suBtLe mutAtiOn",
+      "paragraphs": [
+        "Something lies in your genetics that isn’t quite Human, twisting you physically or mentally farther away from the average Imperial citizen. Your Patron may know about your mutation, letting it slide, or be oblivious to it. On face value, you can pass unremarked. But if anyone knew the truth, they’d likely treat you as another abomination.",
+        "When you gain this Talent, roll for a Positive Mutation and a Negative Mutation on the Subtle Mutations Table, and consult the entries on the Mutations and Malignancies Tables (Imperium Maledictum, pages 222–223) to see their effects. Additionally, whenever you gain a Mutation or Malignancy in the future due to Corruption, you may choose to roll on the Subtle Mutations Table instead, but you must roll for both a Positive and Negative Mutation (roll again if you would gain a duplicate)."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 119,
+      "name": "Subtle Psyker",
+      "originalName": "Subtle Psyker",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 67,
+      "pdfPage": 67,
+      "endPage": 67,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "suBtLe Psyker",
+      "paragraphs": [
+        "Requirement: Willpower 40, the Psyker Talent, and 3 Advances in Psychic Powers.",
+        "Rigorous training has taught you to minimise the collateral effects of manifesting psychic powers. Your psychic powers are less noticeable to bystanders or witnesses, especially those that do not understand how psychic powers work or know to attribute esoteric effects to you as a psyker. When you roll for Psychic Phenomena, roll with a −10. Additionally, when manifesting psychic powers in a way that would decrease Subtlety, make a Challenging (+0) Stealth Test, succeeding means you prevent any loss of Subtlety Rating from your actions."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 120,
+      "name": "Superior Commander",
+      "originalName": "Superior Commander",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "SUPeRiOR COMMandeR",
+      "paragraphs": [
+        "Requirement: 4 Advances in Presence (Leadership)",
+        "You know how to take advantage of a dominant situation with precise commands. You can use your Action to give orders to your allies. Choose a number of allies equal to your current Superiority. Each ally can immediately Move or take an Action, other than use the Superior Commander Talent."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 121,
+      "name": "Suppressing Fire",
+      "originalName": "Suppressing Fire",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "SUPPReSSinG FiRe",
+      "paragraphs": [
+        "Requirement: 2 Advances in Ranged",
+        "You’ve learned how to unleash a hail of fire to pin down your enemies. When you Rapid Fire (page 125) you can choose to deal no damage and attempt to suppress them instead. Your targets must make a Discipline (Composure) Test opposed by your Ranged Test. If you win, you inflict the Restrained Condition on your targets until the start of your next turn."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 122,
+      "name": "Sure-Footed",
+      "originalName": "Sure-Footed",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "SURe-FOOTed",
+      "paragraphs": [
+        "Requirements: 1 Advance in each of Athletics, Fortitude, and Reflexes You’re confident and steady on your feet. If you have at least one point of Superiority you become Fast. Additionally, you have Advantage on Tests to resist or end the Prone Condition, you can stand up from Prone as a Free Action once per Turn if you are not Restrained, and you have Advantage on Tests to resist being moved from your position against your will."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 123,
+      "name": "Tactical Movement",
+      "originalName": "Tactical Movement",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "TaCTiCal MOVeMenT",
+      "paragraphs": [
+        "Requirements: 1 Advance in both Athletics and Discipline",
+        "You move in a calculated manner ensuring you can get into a safe position quickly. You can Take Cover (page 210) as a Free Action."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 124,
+      "name": "Tainted Vessel",
+      "originalName": "Tainted Vessel",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 67,
+      "pdfPage": 67,
+      "endPage": 67,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "tAinted vesseL",
+      "paragraphs": [
+        "You have been the vessel for a daemon, willingly or otherwise, and have survived a harrowing exorcism. The experience has left you mentally scarred, plagued with nightmares, and your hollowed soul numbs you to the world around you. Someone within the Inquisition has deemed you of use, but you will never again be the same, and any who discover you once served as a vessel for such an entity will attempt to kill you on the spot.",
+        "•  You have −1 SL on all Fellowship Tests; the hollowing of your soul from the absence of the daemon leaves you detached.",
+        "•  You are immune to the mutating effects of Corruption.",
+        "•  You have +1 SL on any Awareness Test to detect the presence of daemonic entities or any phenomena associated with daemons.",
+        "•  You are immune to being possessed again by the same specific daemonic entity."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 125,
+      "name": "Techsorcist",
+      "originalName": "Techsorcist",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 69,
+      "pdfPage": 69,
+      "endPage": 69,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "techsoRcist",
+      "paragraphs": [
+        "Requirement: 1 Influence or more with the Inquisition",
+        "Your relationship with the Inquisition has burdened you with unwholesome knowledge of the terrors that lie beyond the veil, seeking to bleed into reality through the corruption of technology. Yet this knowledge has also steeled your mind against the fell influence of tech-heresy and provided you with means to protect yourself and the faithful. Should the evils of machine spirit corruption and abominable intelligences turn their gazes toward the Adeptus Mechanicus, then, with warded augmetics and Omnissian benediction, you shall stand in their way.",
+        "You gain access to the Tech (Forbidden) Skill Specialisation, and can ward augmetics and machines against the influence of the Warp by creating Hexagrammic wards. The parchments, blessed alloys and sacred unguents required to create such a ward typically cost 1000 solars per ward, and installing a hexagrammic ward requires an hour of engraving, prayer, and unguent-fumigation.",
+        "While worn or affixed to an object, the first time a creature attempts to manifest a Psychic Power targeting whatever bears the Hexagrammic ward, they have Disadvantage on their Test. The Hexagrammic Ward then briefly burns out and can be restored by a character with this Talent spending an hour in binharic prayer.",
+        "In addition, your own augmetics are thoroughly warded against the influence of the Warp. You do not risk Corruption if using mechadendrites to handle a minor source of corruption."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 126,
+      "name": "Tenacious",
+      "originalName": "Tenacious",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "TenaCiOUS",
+      "paragraphs": [
+        "It's tough to keep you down. Whenever you suffer the Stunned Condition, you may immediately make a Challenging (+0) Fortitude (Endurance) Test to recover from the Condition."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 127,
+      "name": "The Strength and Certainty of Steel",
+      "originalName": "The Strength and Certainty of Steel",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 69,
+      "pdfPage": 69,
+      "endPage": 69,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "the stRength and ceRtainty oF steeL",
+      "paragraphs": [
+        "Requirement: Have at least 6 Augments installed.",
+        "You are disgusted by the weakness of your flesh and have aspired to the purity of the Blessed Machine, yet Humanity stands divided before you. You have Disadvantage on Intuition (People), Presence and Rapport Tests against non-Adeptus Mechanicus characters. But the extent of your Augmentations inspires your fellow Tech-Adepts and garners respect from your superiors. You have Advantage on Group (Adeptus Mechanicus), Intuition (People), Presence and Rapport Tests against Adeptus Mechanicus characters, or similarly technologically imbued characters."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 128,
+      "name": "Transhuman Ideal",
+      "originalName": "Transhuman Ideal",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 69,
+      "pdfPage": 69,
+      "endPage": 69,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "tRanshuman ideaL",
+      "paragraphs": [
+        "Requirement: Flesh is Weak Talent or Pick at Character Creation.",
+        "You seek to transcend your weak flesh as far as possible in your pursuit to become a true scion of the Omnissiah. The number of augmetics (page 94) you can take is equal to Triple your Toughness Bonus."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 129,
+      "name": "Transhuman Rapport",
+      "originalName": "Transhuman Rapport",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 70,
+      "pdfPage": 70,
+      "endPage": 70,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "tRanshuman RappoRt",
+      "paragraphs": [
+        "Requirement: Intelligence 45, 2 Advances in Logic.",
+        "Few among the Adeptus Mechanicus care for the subtleties of social interaction, etiquette, or social graces. The inhuman appearance of many of their augmetics, such as the multi-lens eyes or vox-integrated rebreathers, is a testament to their transhuman priorities. Despite this, the adepts and Tech-Priests of the Adeptus Mechanicus make persuasive arguments and political manoeuvres, couched instead in the veil of logic. When you would make a roll using Rapport against another member of the Adeptus Mechanicus, you can instead use your Logic Skill or appropriate Specialisation instead."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 130,
+      "name": "Two-Handed Cleave",
+      "originalName": "Two-Handed Cleave",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "TWO-Handed CleaVe",
+      "paragraphs": [
+        "Requirement: 2 Advances in Melee (Two-handed)",
+        "You’ve practised wide swings with formidably large weapons, intent on clearing entire swathes of enemies with each broad stroke. When you wield a weapon with the Two-handed Trait, it also gains the Spread Trait (page 125).",
+        "This Talent can be taken multiple times. On the second and third time, choose one of the following:",
+        "•  Two-handed Brutalist: When you wield a weapon with the Two-handed Trait, it also gains the Rend (+1) Trait (page 125).",
+        "•  Two-handed Sweep: When you wield a weapon with the Two-handed Trait and hit a target in the leg you can choose to half the Damage dealt to force the target to make a Hard (−20) Reflexes (Balance) Test or fall Prone."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 131,
+      "name": "Unflinching Presence",
+      "originalName": "Unflinching Presence",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 116,
+      "pdfPage": 116,
+      "endPage": 116,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "UnFlinCHinG PReSenCe",
+      "paragraphs": [
+        "Requirement: 3 Advances in Presence (Leadership)",
+        "Your stoic presence fills the hearts of those around you with bravery even in the face of disadvantage and imminent defeat. Whenever you would lose Superiority, make a Hard (−20) Presence (Leadership) Test. If you succeed, you do not lose Superiority."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 132,
+      "name": "Unremarkable",
+      "originalName": "Unremarkable",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 117,
+      "pdfPage": 117,
+      "endPage": 117,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "UnReMaRkaBle",
+      "paragraphs": [
+        "Requirements: No Advances in Presence or any Presence Specialisation, unless acquired through the Random Talents Table (page 74).",
+        "Few pay attention to your existence — you appear without status, beneath notice, another face in the endless crowds of the Imperium.",
+        "When you are attired correctly, you can blend into an Imperial environment without making a Test, for example merging with a bustling throng, polishing a statue in a cathedral, or waiting on nobility at an event. Influential people will generally ignore you altogether unless attention is drawn to you. Though this Talent allows you to remain hidden and listen in on conversations it also imposes a Disadvantage on Presence and Rapport Tests targeting such high-status individuals. Additionally, the group does not lose Superiority when you suffer a Critical Wound or die."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 133,
+      "name": "Unwavering Will",
+      "originalName": "Unwavering Will",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 67,
+      "pdfPage": 67,
+      "endPage": 67,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "unwAvering wiLL",
+      "paragraphs": [
+        "Requirement: Willpower 40 and 2 Advances in Discipline.",
+        "You have developed an implacable, unwavering will in the face of adversity. Whether derived from a zealous attribution of faith, battle-worn experiences, or a product of surviving the dismal conditions of the lower hives, you know how to draw on and focus that willpower. As a Free Action, you can spend 1 Fate Point to enter a focused state of unwavering Willpower. For the rest of the encounter, your Willpower Bonus is doubled."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 134,
+      "name": "Void Legs",
+      "originalName": "Void Legs",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 117,
+      "pdfPage": 117,
+      "endPage": 117,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "VOid leGS",
+      "paragraphs": [
+        "You are an experienced Void Traveller and are all but immune to any void-sickness due to the shifting of a vessel. You do not suffer Disadvantage due to environmental effects specific to the void, such as a ship rocking or zero gravity.",
+        "You can take this Talent multiple times. Each time after the first choose one:",
+        "•  Attitude Control: You have mastered movement in the void, capable of quickly pushing yourself from surface to surface. You are Fast when moving in zero-gravity environments.",
+        "•  Void Brawler: You have experience fighting in the void. You have Advantage when making Melee Attacks in zero-gravity environments against characters who do not have the Voidsman Talent"
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 135,
+      "name": "Wasteland Stalker",
+      "originalName": "Wasteland Stalker",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 70,
+      "pdfPage": 70,
+      "endPage": 70,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "wasteLand staLkeR",
+      "paragraphs": [
+        "Requirement: 1 Advance in Stealth",
+        "Your stealth capabilities were honed among twisting labyrinths of forge-fanes and manufactorums. With the clang of augmetic limbs against metal gantryways robbing you of silence, you instead mastered visual obscuration. You gain +2 Armour whilst benefiting from Cover."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 136,
+      "name": "Well-Prepared",
+      "originalName": "Well-Prepared",
+      "book": "Core Rulebook",
+      "bookId": "core",
+      "page": 117,
+      "pdfPage": 117,
+      "endPage": 117,
+      "sourceFile": "imperium maledictum core rulebook.pdf",
+      "sourceHeading": "Well-PRePaRed",
+      "paragraphs": [
+        "You are used to anticipating material needs to complete a mission. Once per mission you can find a piece of equipment you need in your backpack, pockets, or slings. The piece of equipment must be Encumbrance 0 and could feasibly have been acquired recently. This could be anything from a set of Photo-visors you need to explore the crypts beneath a shrine, or a Combi-tool to restore a broken cogitator containing crucial clues. When you use this Talent, you must deduct the cost of the ‘prepared’ equipment from your Solars, representing you spending it earlier."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 137,
+      "name": "Xenotechnician's Benevolence",
+      "originalName": "Xenotechnician's Benevolence",
+      "book": "Adeptus Mechanicus Player’s Guide",
+      "bookId": "mechanicus",
+      "page": 70,
+      "pdfPage": 70,
+      "endPage": 70,
+      "sourceFile": "imperium-maledictum-adeptus-mechanicus-player-guide.pdf",
+      "sourceHeading": "xenotechnician’s BenevoLence",
+      "paragraphs": [
+        "Requirement: 2 Advances in Tech (Xenos)",
+        "Xenotechnicians know the dangers of interacting wth non-Imperial technology, and the heights of corruption it can lead to. As an Endeavour, you can spend time researching the technology of a particular xenos species. Your Patron may be able to aid you with access to archivium and data vault access, as well as any pertinent Contacts you can use to gather this information.",
+        "Choose a xenos species. During the preceding mission, any Corruption you receive from interacting with that kind of xenos technology is halved (rounded down). Furthermore, if you believe you know the true function of a Xenos machine (the GM will verify if your claims are true), you can spend an action and a Fate Point to activate, disrupt, or shut down that machine without a Test."
+      ],
+      "sourceDiffersFromSummary": false
+    },
+    {
+      "index": 138,
+      "name": "You Didn't See Anything",
+      "originalName": "You Didn't See Anything",
+      "book": "Inquisition Player’s Guide",
+      "bookId": "inquisition",
+      "page": 67,
+      "pdfPage": 67,
+      "endPage": 67,
+      "sourceFile": "imperium maledictum inqusition player guide.pdf",
+      "sourceHeading": "yOu didn’t see Anything",
+      "paragraphs": [
+        "Requirement: 2 Advances across any of the following — Logic (Investigation), Stealth, or Tech (Security).",
+        "You have training in covering your tracks, minimising the evidence of your passage through violent and non-violent encounters. When you leave an encounter, you can negate the loss of any Subtlety you might have contributed to. The Test required depends on the situation, and the GM may ask for any of the following:",
+        "•  Logic (Investigation) to remove physical evidence of your passage or to disguise a violent encounter as something less suspicious, such as simple ganger violence.",
+        "•  Stealth to move in and out of the scene without attracting attention from bystanders or casual observers, making it less likely, or simply slower, for rumours to spread.",
+        "•  Tech (Security) to sabotage or wipe devices such as pict-recorders, making it harder to identify you, but not entirely erasing suspicion.",
+        "Any Logic or Tech Test would take at least 10 minutes to complete."
+      ],
+      "sourceDiffersFromSummary": false
+    }
+  ]
+}

@@ -1,45 +1,40 @@
-name: Deploy static content to Pages
+name: Validate Ukrainian reference
 
 on:
   push:
-    branches: ["main"]
+    branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Node
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: "npm"
-      - name: Install dependencies
-        run: npm ci
-      - name: Build
-        run: npm run build || true # Force le build même en cas de warnings
-      - name: Debug build output
-        run: ls -la ./dist # Vérifie le contenu du dossier dist
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+          node-version: 22
+      - name: Build standalone pages
+        run: node build.cjs
+      - name: Audit source data
+        run: node audit.cjs
+      - name: Test
+        run: node --test tests/*.test.cjs
+      - name: Check committed pages match the sources
+        run: git diff --exit-code -- '*.html' src/locale/uk.json
+      - name: Package nginx files
+        run: |
+          mkdir -p site
+          cp index.html character.html augmetics.html combat.html equipment.html protection.html psy.html services.html weapons.html criticalwounds.html README.md NOTICE.md LICENSE site/
+          cp -r licenses site/
+      - name: Save static site artifact
+        uses: actions/upload-artifact@v4
         with:
-          path: "./dist"
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          name: imperium-maledictum-ua-static
+          path: site/
+          if-no-files-found: error

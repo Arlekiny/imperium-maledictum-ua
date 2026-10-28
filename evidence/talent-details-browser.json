@@ -1,0 +1,18 @@
+{
+  "talentsOpened": 139,
+  "languages": [
+    "uk",
+    "en"
+  ],
+  "defaultUkrainian": true,
+  "exactParagraphsAndSupplements": true,
+  "persistedLanguage": true,
+  "invalidPreferenceFallback": true,
+  "unavailableStorage": true,
+  "descriptionColumnButtons": 139,
+  "focusReturn": true,
+  "sortAndSearch": true,
+  "keyboard": true,
+  "mobile": true,
+  "errors": []
+}

@@ -1,57 +1,65 @@
-# Imperium Maledictum Quick Reference
+# Imperium Maledictum — український довідник
 
-## https://ppiques.github.io/imperium-maledictum-quickref
+Українська адаптація [ppiques/imperium-maledictum-quickref](https://github.com/ppiques/imperium-maledictum-quickref). Репозиторій: [Arlekiny/imperium-maledictum-ua](https://github.com/Arlekiny/imperium-maledictum-ua). Авторство, ліцензія й походження книжних текстів наведені в [NOTICE.md](NOTICE.md); вихідну ліцензію збережено в [LICENSE](LICENSE).
 
-A lightweight **React + TypeScript + Vite** application that provides easy access to the data tables used
-in the *Imperium Maledictum* role‑playing game.  The site serves as a searchable reference for talents, skills,
-weapons, armour, psychic powers, and other game elements.
+Відкрийте `index.html` у браузері. Усі десять HTML-файлів мають лежати поруч, щоб працювала навігація. Кожна сторінка містить власні стилі, код, дані та український словник: сервер, інтернет і встановлення залежностей для користування не потрібні.
 
-Data is stored as JSON under `src/data` and rendered with reusable components such as `Table` and `SearchBar`.
-The project is intended for quick deployment as a static site.
+## Розділи
 
-I hope it can be of help during your adventures in the grim darkness of the 41st Millenium.
+| Файл | Вміст |
+| --- | --- |
+| `index.html` | Головна, таблиця імен |
+| `character.html` | 139 талантів, 20 навичок, калькулятор покращень характеристик |
+| `augmetics.html` | Аугметичні імпланти |
+| `combat.html` | Бойові дії, риси, стани, середовище, влучання, невдалі дії |
+| `equipment.html` | Одяг, інструменти, медичне спорядження |
+| `protection.html` | Броня, силові поля, модифікації |
+| `psy.html` | Псайкерські сили, феномени та небезпеки Варпу |
+| `services.html` | Подорожі, проживання, харчування, медицина |
+| `weapons.html` | Зброя, боєприпаси, модифікації |
+| `criticalwounds.html` | Критичні рани й травми |
 
-## ⚠️ Disclaimer
+Довідкова частина містить 34 таблиці, 766 записів і 14 додаткових профілів. Українські назви супроводжуються англійськими для звірення з книжками. Пошук працює обома мовами. Назви видань збережені мовою оригіналу.
 
-*Imperium Maledictum* is not my proprietary work. This project is a fan-made reference tool and can be removed at any time upon request from the rights holder.
+Вкладка «Усі» показує таблиці розділу одну під одною. Вона відкривається за замовчуванням у розділах із кількома таблицями, зокрема на сторінці персонажа. На Головній та в Аугметиці вкладок таблиць немає. Фільтри за книгами прибрано; усі джерела завжди доступні. Підкреслені риси, стани й профілі відкривають подробиці. На сторінці персонажа кожен із 139 талантів має кнопку «Докладніше»: вона показує повний український переклад і дає перемкнутися на англійський оригінал із наданої PDF-редакції. Назву книги та сторінку збережено, вибір мови запам’ятовується. Обидві мовні версії вбудовано в `character.html`, тому PDF-файли для хостингу не потрібні. Escape закриває вікно. На малих екранах доступні картки та горизонтально прокручувані таблиці.
 
-Imperium Maledictum is © Cubicle 7 Entertainment Ltd and
-Games Workshop Ltd.
+## Редагування
 
-This is an unofficial fan-made reference and is not affiliated
-with or endorsed by Cubicle 7 or Games Workshop.
+- `src/talent-details.json`, `src/talent-details-uk.json`, `src/character-details.js` — оригінальні цитати талантів, повний український переклад і вікна подробиць із перемикачем мов.
+- `src/character.html` — редагована сторінка персонажа; `original/index.html` — незмінена резервна копія.
+- `src/template.html`, `src/app.css`, `src/app.js` — інтерфейс довідника.
+- `src/catalog.js`, `src/navigation.js` — розділи та маршрути.
+- `src/logic.js`, `src/render.js`, `src/locale.js` — логіка, безпечне відображення, локалізація.
+- `src/data/` — 36 незмінених англійських JSON-файлів вихідного знімка.
+- `src/locale/glossary.json`, `overrides.json`, `review-*.json` — відредаговані переклади. Ключ — точний англійський текст; значення — український відповідник.
+- `src/locale/uk.json` — зведений словник, який автоматично оновлює збірка.
 
----
+Порядок накладання словників: glossary → overrides → review-файли в алфавітному порядку. Риса Flamer має окрему контекстну назву «Вогнеметна», тоді як зброя — «Вогнемет». Ключі JSON, ідентифікатори таблиць і профілів залишаються англійськими: на них спираються посилання, сортування та перевірки.
 
-## 📁 Project structure
+Для супроводу потрібен Node.js, без пакетних залежностей:
 
-- `src/pages/` – individual page components (Home, Talents, Weapons, etc.)
-- `src/components/` – reusable UI pieces (`Table.tsx`, `SearchBar.tsx`, etc.)
-- `src/data/` – JSON datasets driving the tables
-- `src/styles/` – per-page and component CSS
-- `public/` – static assets and fallback HTML
+```text
+node build.cjs
+node audit.cjs
+node --test tests/*.test.cjs
+```
 
-## ✅ Features
+Прямі зміни згенерованих HTML буде перезаписано наступною збіркою. Для змін, які мають зберігатися, редагуйте `src/`. Моделі й бібліотеки в `.local-tools/` були тимчасовими засобами підготовки чернетки; вони не потрібні для збірки чи користування сайтом. Кінцевий словник складається з відредагованих відповідників.
 
-- Live search across talents, skills, and more
-- Sortable tables with custom logic (e.g. requirements, availability, difficulty)
-- Hover tooltips for trait descriptions
-- Responsive layout with simple navigation
+## Перевірка та походження
 
-## 🙌 Contributions
+Див. `LOCALIZATION.md`, `evidence/uk-browser-checks.json` та тести. Історичний звіт до локалізації збережено у `VERIFICATION.md`. Аудит даних порівнює англійські джерела з зафіксованим фанатським знімком, а не засвідчує правильність правил за книжками.
 
-Feel free to adjust data files, add new pages, or improve sorting/search behavior.
+Проєкт неофіційний і некомерційний. Перед поширенням прочитайте `NOTICE.md`; зберігайте авторство та `licenses/`. Налаштування зовнішнього хостингу виконується окремо.
 
-This repo is a personal quick‑reference project, so pull requests are welcome but not required.
+## Розміщення на nginx
 
-Furthermore, if you spot any mistakes in the data, feel free to open an issue about it.
+Скопіюйте десять готових HTML-файлів із кореня репозиторію в каталог сайту, наприклад `/var/www/talents`, разом із `README.md`, `NOTICE.md`, `LICENSE` і папкою `licenses/`. Посилання між сторінками відносні й працюють у підкаталозі. PDF-файли, `src/`, `scripts/`, `tests/`, `evidence/`, `original/`, тимчасові моделі й локальні архіви для роботи сайту не потрібні. Після заміни статичних файлів перезапуск nginx не потрібен.
 
-## 📜 License
+GitHub Actions збирає сторінки, перевіряє дані й тести та формує артефакт `imperium-maledictum-ua-static` із файлами для nginx. Автоматичне розгортання на GitHub Pages у цьому workflow не налаштовано. Оригінальний React/Vite-інтерфейс доступний в історії Git; поточна версія використовує `node build.cjs` і не потребує `npm install`.
 
-This work is licensed under the Creative Commons
-Attribution-NonCommercial 4.0 International License.
+## Додаткові браузерні перевірки
 
-You may obtain a copy of the License at:
-https://creativecommons.org/licenses/by-nc/4.0/
+Потрібні окремо встановлений Playwright і його Chromium. Після встановлення виконайте `node scripts/check-uk-browser.cjs` та `node scripts/check-talent-details.cjs`. За потреби `IM_PLAYWRIGHT_MODULE` задає шлях до модуля Playwright, а `IM_BROWSER_EXECUTABLE` — шлях до наявного браузера Chromium або Edge. Це необов’язкові перевірки для супроводу, а не залежності сайту.
 
-[![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/appletheapple)
+Повторне витягування цитат потребує Python, pdfplumber і власних локальних PDF: `python scripts/extract-talent-blocks.py --pdf-dir <каталог>` та `python scripts/compile-talent-details.py --pdf-dir <каталог>`. Звичайна збірка використовує вже підготовлені JSON-файли й не потребує книг. Після повторного витягування звірте цитати з перекладом і запустіть тести.

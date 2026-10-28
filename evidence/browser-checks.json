@@ -1,0 +1,1357 @@
+{
+  "navigation": [
+    {
+      "from": "home",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "home",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "home",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "home",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "home",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "home",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "home",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "home",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "home",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "home",
+      "to": "criticalwounds",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "character",
+      "to": "criticalwounds",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "augmetics",
+      "to": "criticalwounds",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "combat",
+      "to": "criticalwounds",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "equipment",
+      "to": "criticalwounds",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "protection",
+      "to": "criticalwounds",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "psy",
+      "to": "criticalwounds",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "services",
+      "to": "criticalwounds",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "weapons",
+      "to": "criticalwounds",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "home",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "character",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "augmetics",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "combat",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "equipment",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "protection",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "psy",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "services",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "weapons",
+      "pass": true
+    },
+    {
+      "from": "criticalwounds",
+      "to": "criticalwounds",
+      "pass": true
+    }
+  ],
+  "tables": [
+    {
+      "section": "home",
+      "count": "25 / 25 entries",
+      "order": "Original table order.",
+      "rows": 25,
+      "sort": "[\"1d100\",\"asc\"]",
+      "title": "Name Table",
+      "pass": true
+    },
+    {
+      "section": "augmetics",
+      "count": "29 / 29 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 29,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Strength in Steel",
+      "pass": true
+    },
+    {
+      "section": "combat",
+      "count": "22 / 22 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 22,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Combat Actions",
+      "pass": true
+    },
+    {
+      "section": "combat",
+      "count": "27 / 27 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 27,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Traits",
+      "pass": true
+    },
+    {
+      "section": "combat",
+      "count": "13 / 13 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 13,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Conditions",
+      "pass": true
+    },
+    {
+      "section": "combat",
+      "count": "9 / 9 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 9,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Environmental Traits",
+      "pass": true
+    },
+    {
+      "section": "combat",
+      "count": "6 / 6 entries",
+      "order": "Original table order.",
+      "rows": 6,
+      "sort": "[\"Units Result\",\"asc\"]",
+      "title": "Hit Locations",
+      "pass": true
+    },
+    {
+      "section": "combat",
+      "count": "10 / 10 entries",
+      "order": "Original table order.",
+      "rows": 10,
+      "sort": "[\"Roll\",\"asc\"]",
+      "title": "Fumbles",
+      "pass": true
+    },
+    {
+      "section": "equipment",
+      "count": "31 / 31 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 31,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Clothing and Personal Gear",
+      "pass": true
+    },
+    {
+      "section": "equipment",
+      "count": "66 / 66 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 66,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Tools",
+      "pass": true
+    },
+    {
+      "section": "equipment",
+      "count": "13 / 13 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 13,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Medicae Equipment",
+      "pass": true
+    },
+    {
+      "section": "protection",
+      "count": "46 / 46 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 46,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Armour",
+      "pass": true
+    },
+    {
+      "section": "protection",
+      "count": "3 / 3 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 3,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Force Fields",
+      "pass": true
+    },
+    {
+      "section": "protection",
+      "count": "7 / 7 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 7,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Armour Modifications",
+      "pass": true
+    },
+    {
+      "section": "psy",
+      "count": "91 / 91 entries",
+      "order": "Ordered by Discipline.",
+      "rows": 91,
+      "sort": "[\"Discipline\",\"asc\"]",
+      "title": "Psychic Powers",
+      "pass": true
+    },
+    {
+      "section": "psy",
+      "count": "15 / 15 entries",
+      "order": "Original table order.",
+      "rows": 15,
+      "sort": "[\"1d100\",\"asc\"]",
+      "title": "Psychic Phenomena",
+      "pass": true
+    },
+    {
+      "section": "psy",
+      "count": "19 / 19 entries",
+      "order": "Original table order.",
+      "rows": 19,
+      "sort": "[\"1d100\",\"asc\"]",
+      "title": "Perils of the Warp",
+      "pass": true
+    },
+    {
+      "section": "services",
+      "count": "4 / 4 entries",
+      "order": "Original table order.",
+      "rows": 4,
+      "sort": "[\"Quality\",\"asc\"]",
+      "title": "City / Hive Travel",
+      "pass": true
+    },
+    {
+      "section": "services",
+      "count": "4 / 4 entries",
+      "order": "Original table order.",
+      "rows": 4,
+      "sort": "[\"Quality\",\"asc\"]",
+      "title": "Planetary Travel",
+      "pass": true
+    },
+    {
+      "section": "services",
+      "count": "4 / 4 entries",
+      "order": "Original table order.",
+      "rows": 4,
+      "sort": "[\"Quality\",\"asc\"]",
+      "title": "System Travel",
+      "pass": true
+    },
+    {
+      "section": "services",
+      "count": "4 / 4 entries",
+      "order": "Original table order.",
+      "rows": 4,
+      "sort": "[\"Quality\",\"asc\"]",
+      "title": "Interstellar Travel",
+      "pass": true
+    },
+    {
+      "section": "services",
+      "count": "4 / 4 entries",
+      "order": "Original table order.",
+      "rows": 4,
+      "sort": "[\"Quality\",\"asc\"]",
+      "title": "Accommodations and Lodgings",
+      "pass": true
+    },
+    {
+      "section": "services",
+      "count": "4 / 4 entries",
+      "order": "Original table order.",
+      "rows": 4,
+      "sort": "[\"Quality\",\"asc\"]",
+      "title": "Provisions and Meals",
+      "pass": true
+    },
+    {
+      "section": "services",
+      "count": "4 / 4 entries",
+      "order": "Original table order.",
+      "rows": 4,
+      "sort": "[\"Quality\",\"asc\"]",
+      "title": "Medical Care",
+      "pass": true
+    },
+    {
+      "section": "weapons",
+      "count": "104 / 104 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 104,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Ranged Weapons",
+      "pass": true
+    },
+    {
+      "section": "weapons",
+      "count": "73 / 73 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 73,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Melee Weapons",
+      "pass": true
+    },
+    {
+      "section": "weapons",
+      "count": "26 / 26 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 26,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Grenades and Explosives",
+      "pass": true
+    },
+    {
+      "section": "weapons",
+      "count": "18 / 18 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 18,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Custom Ammunition",
+      "pass": true
+    },
+    {
+      "section": "weapons",
+      "count": "19 / 19 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 19,
+      "sort": "[\"Name\",\"asc\"]",
+      "title": "Weapon Modifications",
+      "pass": true
+    },
+    {
+      "section": "criticalwounds",
+      "count": "15 / 15 entries",
+      "order": "Original table order.",
+      "rows": 15,
+      "sort": "[\"Roll\",\"asc\"]",
+      "title": "Head Wounds",
+      "pass": true
+    },
+    {
+      "section": "criticalwounds",
+      "count": "15 / 15 entries",
+      "order": "Original table order.",
+      "rows": 15,
+      "sort": "[\"Roll\",\"asc\"]",
+      "title": "Arm Wounds",
+      "pass": true
+    },
+    {
+      "section": "criticalwounds",
+      "count": "15 / 15 entries",
+      "order": "Original table order.",
+      "rows": 15,
+      "sort": "[\"Roll\",\"asc\"]",
+      "title": "Body Wounds",
+      "pass": true
+    },
+    {
+      "section": "criticalwounds",
+      "count": "15 / 15 entries",
+      "order": "Original table order.",
+      "rows": 15,
+      "sort": "[\"Roll\",\"asc\"]",
+      "title": "Leg Wounds",
+      "pass": true
+    },
+    {
+      "section": "criticalwounds",
+      "count": "6 / 6 entries",
+      "order": "Select an underlined term to view its details.",
+      "rows": 6,
+      "sort": "[\"Location\",\"asc\"]",
+      "title": "Injuries",
+      "pass": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "Character 40→50",
+      "actual": "700",
+      "pass": true
+    },
+    {
+      "name": "Skill 0→4",
+      "actual": "500",
+      "pass": true
+    },
+    {
+      "name": "Three talents",
+      "actual": "300",
+      "pass": true
+    },
+    {
+      "name": "Blank XP input",
+      "actual": "Введіть кількість талантів.",
+      "pass": true
+    },
+    {
+      "name": "Core filter carried through Character into Weapons",
+      "actual": {
+        "charBooks": "http://127.0.0.1:8766/character.html#/character?books=core",
+        "retained": {
+          "books": [
+            "core"
+          ],
+          "count": "31 / 104 entries",
+          "hash": "#/weapons/rangedWeapons?books=core"
+        }
+      },
+      "pass": true
+    },
+    {
+      "name": "Zero selected books",
+      "actual": "0 / 104 entries",
+      "pass": true
+    },
+    {
+      "name": "Services with Core source hidden when no books selected",
+      "actual": "0 / 4 entries",
+      "pass": true
+    },
+    {
+      "name": "Special-character search survives reload",
+      "actual": {
+        "empty": true,
+        "hash": "#/weapons/rangedWeapons?q=a%26b+%2F%3F%2B%23+%D0%A2%D0%B5%D1%81%D1%82&sort=Name",
+        "value": "a&b /?+# Тест"
+      },
+      "pass": true
+    },
+    {
+      "name": "Weapon cost ascending numeric order",
+      "pass": true,
+      "rows": 104
+    },
+    {
+      "name": "Source-less Names remain with no books selected",
+      "actual": "25 / 25 entries",
+      "pass": true
+    },
+    {
+      "name": "Native Back and Forward across HTML pages",
+      "pass": true
+    },
+    {
+      "name": "Glossary keyboard disclosure and Escape focus return",
+      "actual": {
+        "open": true,
+        "text": "Prone · ConditionA Prone creature can only move by crawling (see page 202), unless they use their Move to stand up.\nYou have Disadvantage on Melee Tests.\nCreatures attacking you from within Immediate Range have Advantage on their attack Test.\nCreatures attacking you from outside Immediate Range have Disadvantage on their attack Test."
+      },
+      "pass": true
+    },
+    {
+      "name": "Mobile table/card toggle",
+      "pass": true
+    },
+    {
+      "name": "Character mobile select updates aria-sort",
+      "actual": {
+        "sort": [
+          {
+            "sort": "descending",
+            "text": "Назва ▼"
+          },
+          {
+            "sort": "none",
+            "text": "Вимога "
+          },
+          {
+            "sort": "none",
+            "text": "Опис "
+          },
+          {
+            "sort": "none",
+            "text": "Джерело "
+          },
+          {
+            "sort": "none",
+            "text": "Навичка "
+          },
+          {
+            "sort": "none",
+            "text": "Характеристика "
+          },
+          {
+            "sort": "none",
+            "text": "Спеціалізації "
+          }
+        ],
+        "value": "<redacted>"
+      },
+      "pass": true
+    },
+    {
+      "name": "Character keyboard-select sort updates aria-sort",
+      "pass": true,
+      "actual": {
+        "aria": "ascending",
+        "selectedIndex": 1,
+        "selectedLabel": "Назва ▲"
+      }
+    },
+    {
+      "name": "Original Character search",
+      "pass": true
+    },
+    {
+      "name": "Light theme across pages on preview origin",
+      "pass": true
+    },
+    {
+      "name": "Inquisitor aliases filter in Augmetics",
+      "actual": "5 / 29 entries",
+      "pass": true
+    },
+    {
+      "name": "Inline condition tap/click and focus return",
+      "pass": true
+    },
+    {
+      "name": "Inline condition reopened with keyboard",
+      "pass": true
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Mono-Blade Scalpel Profile",
+      "rows": 1,
+      "text": 92,
+      "title": "Mono-Blade Scalpel Profile",
+      "pass": true
+    },
+    {
+      "name": "Silent Needle Profile",
+      "rows": 1,
+      "text": 177,
+      "title": "Silent Needle Profile",
+      "pass": true
+    },
+    {
+      "name": "Soulsight Table",
+      "rows": 4,
+      "text": 274,
+      "title": "Soulsight Table",
+      "pass": true
+    },
+    {
+      "name": "Shape Flesh Table",
+      "rows": 3,
+      "text": 428,
+      "title": "Shape Flesh Table",
+      "pass": true
+    },
+    {
+      "name": "Psychometry Table",
+      "rows": 6,
+      "text": 600,
+      "title": "Psychometry Table",
+      "pass": true
+    },
+    {
+      "name": "Watchward Table",
+      "rows": 6,
+      "text": 405,
+      "title": "Watchward Table",
+      "pass": true
+    },
+    {
+      "name": "Plasma Torch Profile",
+      "rows": 1,
+      "text": 103,
+      "title": "Plasma Torch Profile",
+      "pass": true
+    },
+    {
+      "name": "Breach Table",
+      "rows": 6,
+      "text": 471,
+      "title": "Breach Table",
+      "pass": true
+    },
+    {
+      "name": "Objuration Mechanicum Table",
+      "rows": 5,
+      "text": 523,
+      "title": "Objuration Mechanicum Table",
+      "pass": true
+    },
+    {
+      "name": "Mental Interrogation Table",
+      "rows": 6,
+      "text": 810,
+      "title": "Mental Interrogation Table",
+      "pass": true
+    },
+    {
+      "name": "Discern Falsehoods Table",
+      "rows": 3,
+      "text": 291,
+      "title": "Discern Falsehoods Table",
+      "pass": true
+    },
+    {
+      "name": "Exploding Object",
+      "rows": 1,
+      "text": 66,
+      "title": "Exploding Object",
+      "pass": true
+    },
+    {
+      "name": "Erupting Object",
+      "rows": 1,
+      "text": 72,
+      "title": "Erupting Object",
+      "pass": true
+    },
+    {
+      "name": "Psychic Blade Profile",
+      "rows": 1,
+      "text": 97,
+      "title": "Psychic Blade Profile",
+      "pass": true
+    }
+  ],
+  "mobile": [
+    {
+      "section": "home",
+      "page": "home",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "section": "character",
+      "page": "character",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "section": "augmetics",
+      "page": "augmetics",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "section": "combat",
+      "page": "combat",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "section": "equipment",
+      "page": "equipment",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "section": "protection",
+      "page": "protection",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "section": "psy",
+      "page": "psy",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "section": "services",
+      "page": "services",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "section": "weapons",
+      "page": "weapons",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "section": "criticalwounds",
+      "page": "criticalwounds",
+      "scrollWidth": 375,
+      "width": 390,
+      "pass": true
+    }
+  ],
+  "originalVisualReview": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "preserved": "Dark brown background, gold masthead and rules, cream serif text, Ukrainian Character content; new relative section navigation is additive."
+  },
+  "console": [],
+  "completedAt": "2026-10-27T04:21:29.786Z",
+  "browser": "ChatGPT in-app browser; temporary loopback HTTP preview of generated files",
+  "actualFileProtocolRun": false,
+  "fileProtocolLimitation": "file:// navigation was denied by browser URL policy in the prior task; not retried or bypassed. Static dependency and file URL resolution tests are separate.",
+  "previewNotes": [
+    "Test-driver locators were scoped after ambiguous matches; a hidden single-table tab was inspected without clicking.",
+    "A draft services assertion incorrectly assumed absent Source; the pinned rows explicitly have Core Rulebook and correctly disappear with no selected books. Untagged Names retain all 25 rows.",
+    "Native select keyboard changes were verified after Enter commits the selection."
+  ],
+  "build": {
+    "version": 2,
+    "date": "2026-10-27",
+    "sourceCommit": "3eb35603a7e7372c83ea3d366f233d763c4ab52c",
+    "pages": [
+      {
+        "section": "home",
+        "file": "index.html",
+        "bytes": 72214,
+        "sha256": "0008e343e48ca2a99777aca69f4f1c921bf9375d763cf8d467d3a524b94ff416",
+        "tables": [
+          "names"
+        ],
+        "dataFiles": [
+          "traits.json",
+          "conditions.json",
+          "psyDetailProfiles.json",
+          "toolDetailProfiles.json",
+          "names.json"
+        ]
+      },
+      {
+        "section": "character",
+        "file": "character.html",
+        "bytes": 97064,
+        "sha256": "4063cd63326c68c285a43f2dadc257df58ed55bc18ddbde9b22bc1784ade5ac3",
+        "tables": [],
+        "dataFiles": []
+      },
+      {
+        "section": "augmetics",
+        "file": "augmetics.html",
+        "bytes": 78130,
+        "sha256": "b55e8d3244843b4bb78b02d3bd81ab4b908b277820c872db6fd58b30855e0bbe",
+        "tables": [
+          "augmetics"
+        ],
+        "dataFiles": [
+          "traits.json",
+          "conditions.json",
+          "psyDetailProfiles.json",
+          "toolDetailProfiles.json",
+          "augmetics.json"
+        ]
+      },
+      {
+        "section": "combat",
+        "file": "combat.html",
+        "bytes": 76682,
+        "sha256": "3a516d186e0321bd0e73612f861256fa299b3cfe76fb034e2bff5a783d7891a7",
+        "tables": [
+          "combatActions",
+          "traits",
+          "conditions",
+          "environmentalTraits",
+          "hitLocations",
+          "fumbles"
+        ],
+        "dataFiles": [
+          "traits.json",
+          "conditions.json",
+          "psyDetailProfiles.json",
+          "toolDetailProfiles.json",
+          "combatActions.json",
+          "environmentalTraits.json",
+          "hitLocations.json",
+          "fumbles.json"
+        ]
+      },
+      {
+        "section": "equipment",
+        "file": "equipment.html",
+        "bytes": 103415,
+        "sha256": "3e24d54e9d0ffa131525e8a397bc4b95fd39e6e4dedcb2e1bdcf338e2ebece28",
+        "tables": [
+          "clothingAndPersonalGear",
+          "tools",
+          "medicaeEquipement"
+        ],
+        "dataFiles": [
+          "traits.json",
+          "conditions.json",
+          "psyDetailProfiles.json",
+          "toolDetailProfiles.json",
+          "clothingAndPersonalGear.json",
+          "tools.json",
+          "medicaeEquipement.json"
+        ]
+      },
+      {
+        "section": "protection",
+        "file": "protection.html",
+        "bytes": 79961,
+        "sha256": "30c0d51daeaf915e91b583b52b243333285975aa7f924e5a5efdde9205400d43",
+        "tables": [
+          "armour",
+          "forceFields",
+          "armourModifications"
+        ],
+        "dataFiles": [
+          "traits.json",
+          "conditions.json",
+          "psyDetailProfiles.json",
+          "toolDetailProfiles.json",
+          "armour.json",
+          "forceFields.json",
+          "armourModifications.json"
+        ]
+      },
+      {
+        "section": "psy",
+        "file": "psy.html",
+        "bytes": 136071,
+        "sha256": "49865c04404cb9eabe209f0f61bfa7549090f46a53dbb946e930c635fd5c66b7",
+        "tables": [
+          "psyPowers",
+          "psychicPhenomena",
+          "perilsOfTheWarp"
+        ],
+        "dataFiles": [
+          "traits.json",
+          "conditions.json",
+          "psyDetailProfiles.json",
+          "toolDetailProfiles.json",
+          "psyPowers.json",
+          "psychicPhenomena.json",
+          "perilsOfTheWarp.json"
+        ]
+      },
+      {
+        "section": "services",
+        "file": "services.html",
+        "bytes": 73020,
+        "sha256": "1cd04c0b4e8fa5d9b8428d2cd00e601f9a0aa21371a50c33bfb1374ce737b263",
+        "tables": [
+          "cityHiveTravel",
+          "planetaryTravel",
+          "systemTravel",
+          "interstellarTravel",
+          "accomodationsServices",
+          "provisionsServices",
+          "medicalServices"
+        ],
+        "dataFiles": [
+          "traits.json",
+          "conditions.json",
+          "psyDetailProfiles.json",
+          "toolDetailProfiles.json",
+          "cityHiveTravel.json",
+          "planetaryTravel.json",
+          "systemTravel.json",
+          "interstellarTravel.json",
+          "accomodationsServices.json",
+          "provisionsServices.json",
+          "medicalServices.json"
+        ]
+      },
+      {
+        "section": "weapons",
+        "file": "weapons.html",
+        "bytes": 126891,
+        "sha256": "5fb041e9538b2d4312828c975b97f4bcd993178b9b583efb9f20ecfa5f1bb9e7",
+        "tables": [
+          "rangedWeapons",
+          "meleeWeapons",
+          "explosiveWeapons",
+          "customAmmunitions",
+          "weaponModifications"
+        ],
+        "dataFiles": [
+          "traits.json",
+          "conditions.json",
+          "psyDetailProfiles.json",
+          "toolDetailProfiles.json",
+          "rangedWeapons.json",
+          "meleeWeapons.json",
+          "explosiveWeapons.json",
+          "customAmmunitions.json",
+          "weaponModifications.json"
+        ]
+      },
+      {
+        "section": "criticalwounds",
+        "file": "criticalwounds.html",
+        "bytes": 90004,
+        "sha256": "b424aa1772d9438d2de42410cd429b2f2c66b8e7b608639b5f6704ac3f660eaf",
+        "tables": [
+          "Head",
+          "Arm",
+          "Body",
+          "Leg",
+          "injuries"
+        ],
+        "dataFiles": [
+          "traits.json",
+          "conditions.json",
+          "psyDetailProfiles.json",
+          "toolDetailProfiles.json",
+          "criticalWounds.json",
+          "injuries.json"
+        ]
+      }
+    ]
+  }
+}

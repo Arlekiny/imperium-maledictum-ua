@@ -1,0 +1,952 @@
+{
+  "pin": "3eb35603a7e7372c83ea3d366f233d763c4ab52c",
+  "errors": [],
+  "warnings": [],
+  "sourceAliasesApplied": [
+    {
+      "table": "augmetics",
+      "row": 17,
+      "name": "Combat Gland",
+      "source": "Inquisitor's Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "augmetics",
+      "row": 18,
+      "name": "Engram Implantation",
+      "source": "Inquisitor's Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "augmetics",
+      "row": 19,
+      "name": "Hexagrammic Wards",
+      "source": "Inquisitor's Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "augmetics",
+      "row": 20,
+      "name": "Implanted Digital Weapons",
+      "source": "Inquisitor's Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "augmetics",
+      "row": 21,
+      "name": "Memory Partition Cogitator",
+      "source": "Inquisitor's Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "customAmmunitions",
+      "row": 6,
+      "name": "Blessed Rounds",
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "customAmmunitions",
+      "row": 7,
+      "name": "Poison Stake",
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "customAmmunitions",
+      "row": 8,
+      "name": "Psybolt Rounds",
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "customAmmunitions",
+      "row": 9,
+      "name": "Purgatus Stake",
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "customAmmunitions",
+      "row": 10,
+      "name": "Silver Stake",
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "customAmmunitions",
+      "row": 11,
+      "name": "Tainted Rounds",
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    }
+  ],
+  "tableCount": 34,
+  "rowCount": 766,
+  "profileCount": 14,
+  "profileReferences": {
+    "Soulsight Table": [
+      {
+        "file": "psyPowers.json",
+        "row": 38,
+        "name": "Soulsight"
+      }
+    ],
+    "Shape Flesh Table": [
+      {
+        "file": "psyPowers.json",
+        "row": 8,
+        "name": "Shape Flesh*"
+      }
+    ],
+    "Psychometry Table": [
+      {
+        "file": "psyPowers.json",
+        "row": 15,
+        "name": "Psychometry*"
+      }
+    ],
+    "Watchward Table": [
+      {
+        "file": "psyPowers.json",
+        "row": 19,
+        "name": "Watchward"
+      }
+    ],
+    "Plasma Torch Profile": [
+      {
+        "file": "psyPowers.json",
+        "row": 65,
+        "name": "Plasma Torch*"
+      }
+    ],
+    "Breach Table": [
+      {
+        "file": "psyPowers.json",
+        "row": 41,
+        "name": "Breach"
+      }
+    ],
+    "Objuration Mechanicum Table": [
+      {
+        "file": "psyPowers.json",
+        "row": 47,
+        "name": "Abjuration Mechanicum"
+      }
+    ],
+    "Mental Interrogation Table": [
+      {
+        "file": "psyPowers.json",
+        "row": 55,
+        "name": "Mental Interrogation"
+      }
+    ],
+    "Discern Falsehoods Table": [
+      {
+        "file": "psyPowers.json",
+        "row": 79,
+        "name": "Discern Falsehoods*"
+      }
+    ],
+    "Exploding Object": [
+      {
+        "file": "psyPowers.json",
+        "row": 82,
+        "name": "Impart Flame*"
+      }
+    ],
+    "Erupting Object": [
+      {
+        "file": "psyPowers.json",
+        "row": 82,
+        "name": "Impart Flame*"
+      }
+    ],
+    "Psychic Blade Profile": [
+      {
+        "file": "psyPowers.json",
+        "row": 86,
+        "name": "Psychic Blade*"
+      }
+    ],
+    "Mono-Blade Scalpel Profile": [
+      {
+        "file": "tools.json",
+        "row": 61,
+        "name": "Guardian Skull"
+      }
+    ],
+    "Silent Needle Profile": [
+      {
+        "file": "tools.json",
+        "row": 61,
+        "name": "Guardian Skull"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "id": "names",
+      "title": "Таблиця імен",
+      "file": "names.json",
+      "pointer": "/names/data",
+      "headers": [
+        "1d100",
+        "Low Gothic",
+        "High Gothic",
+        "Archaic",
+        "Informal",
+        "Esoteric"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 25
+    },
+    {
+      "id": "augmetics",
+      "title": "Сила у сталі",
+      "file": "augmetics.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Cost",
+        "Availability",
+        "Effect",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 29
+    },
+    {
+      "id": "combatActions",
+      "title": "Бойові дії",
+      "file": "combatActions.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Description"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 22
+    },
+    {
+      "id": "traits",
+      "title": "Риси",
+      "file": "traits.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Description"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 27
+    },
+    {
+      "id": "conditions",
+      "title": "Стани",
+      "file": "conditions.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Description"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 13
+    },
+    {
+      "id": "environmentalTraits",
+      "title": "Властивості середовища",
+      "file": "environmentalTraits.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Description"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 9
+    },
+    {
+      "id": "hitLocations",
+      "title": "Ділянки влучання",
+      "file": "hitLocations.json",
+      "pointer": "/",
+      "headers": [
+        "Units Result",
+        "Location"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 6
+    },
+    {
+      "id": "fumbles",
+      "title": "Невдалі дії",
+      "file": "fumbles.json",
+      "pointer": "/",
+      "headers": [
+        "Roll",
+        "Result"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 10
+    },
+    {
+      "id": "clothingAndPersonalGear",
+      "title": "Одяг та особисте спорядження",
+      "file": "clothingAndPersonalGear.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Cost",
+        "Availability",
+        "Encumbrance",
+        "Effect",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 31
+    },
+    {
+      "id": "tools",
+      "title": "Інструменти",
+      "file": "tools.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Cost",
+        "Availability",
+        "Encumbrance",
+        "Effect",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 66
+    },
+    {
+      "id": "medicaeEquipement",
+      "title": "Медичне обладнання",
+      "file": "medicaeEquipement.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Cost",
+        "Availability",
+        "Encumbrance",
+        "Effect",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 13
+    },
+    {
+      "id": "armour",
+      "title": "Броня",
+      "file": "armour.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Locations",
+        "Armour",
+        "Encumbrance",
+        "Cost",
+        "Availability",
+        "Traits",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 46
+    },
+    {
+      "id": "forceFields",
+      "title": "Силові поля",
+      "file": "forceFields.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Protection",
+        "Overload",
+        "Encumbrance",
+        "Cost",
+        "Availability",
+        "Effect",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 3
+    },
+    {
+      "id": "armourModifications",
+      "title": "Модифікації броні",
+      "file": "armourModifications.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Cost",
+        "Availability",
+        "Effect",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 7
+    },
+    {
+      "id": "psyPowers",
+      "title": "Псайкерські сили",
+      "file": "psyPowers.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Warp Rating",
+        "Difficulty",
+        "Range",
+        "Target",
+        "Duration",
+        "Effect",
+        "Discipline",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Discipline",
+      "rows": 91
+    },
+    {
+      "id": "psychicPhenomena",
+      "title": "Псайкерські феномени",
+      "file": "psychicPhenomena.json",
+      "pointer": "/",
+      "headers": [
+        "1d100",
+        "Phenomenon",
+        "Lingering"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 15
+    },
+    {
+      "id": "perilsOfTheWarp",
+      "title": "Небезпеки Варпу",
+      "file": "perilsOfTheWarp.json",
+      "pointer": "/",
+      "headers": [
+        "1d100",
+        "Corruption",
+        "Peril"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 19
+    },
+    {
+      "id": "cityHiveTravel",
+      "title": "Подорожі містом і вуликом",
+      "file": "cityHiveTravel.json",
+      "pointer": "/",
+      "headers": [
+        "Quality",
+        "Cost",
+        "Examples",
+        "Source"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 4
+    },
+    {
+      "id": "planetaryTravel",
+      "title": "Планетарні подорожі",
+      "file": "planetaryTravel.json",
+      "pointer": "/",
+      "headers": [
+        "Quality",
+        "Cost",
+        "Examples",
+        "Source"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 4
+    },
+    {
+      "id": "systemTravel",
+      "title": "Подорожі системою",
+      "file": "systemTravel.json",
+      "pointer": "/",
+      "headers": [
+        "Quality",
+        "Cost",
+        "Examples",
+        "Source"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 4
+    },
+    {
+      "id": "interstellarTravel",
+      "title": "Міжзоряні подорожі",
+      "file": "interstellarTravel.json",
+      "pointer": "/",
+      "headers": [
+        "Quality",
+        "Cost",
+        "Examples",
+        "Source"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 4
+    },
+    {
+      "id": "accomodationsServices",
+      "title": "Проживання й помешкання",
+      "file": "accomodationsServices.json",
+      "pointer": "/",
+      "headers": [
+        "Quality",
+        "Cost",
+        "Examples",
+        "Source"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 4
+    },
+    {
+      "id": "provisionsServices",
+      "title": "Провізія та харчування",
+      "file": "provisionsServices.json",
+      "pointer": "/",
+      "headers": [
+        "Quality",
+        "Cost",
+        "Examples",
+        "Source"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 4
+    },
+    {
+      "id": "medicalServices",
+      "title": "Медична допомога",
+      "file": "medicalServices.json",
+      "pointer": "/",
+      "headers": [
+        "Quality",
+        "Cost",
+        "Medicae",
+        "Additional Resources",
+        "Examples",
+        "Source"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 4
+    },
+    {
+      "id": "rangedWeapons",
+      "title": "Стрілецька зброя",
+      "file": "rangedWeapons.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Specialisation",
+        "Damage",
+        "Range",
+        "Magazine",
+        "Encumbrance",
+        "Cost (Mag)",
+        "Availability",
+        "Traits",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 104
+    },
+    {
+      "id": "meleeWeapons",
+      "title": "Рукопашна зброя",
+      "file": "meleeWeapons.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Specialisation",
+        "Damage",
+        "Encumbrance",
+        "Cost",
+        "Availability",
+        "Traits",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 73
+    },
+    {
+      "id": "explosiveWeapons",
+      "title": "Гранати й вибухівка",
+      "file": "explosiveWeapons.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Specialisation",
+        "Damage",
+        "Encumbrance",
+        "Cost",
+        "Availability",
+        "Traits",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 26
+    },
+    {
+      "id": "customAmmunitions",
+      "title": "Спеціальні боєприпаси",
+      "file": "customAmmunitions.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Damage",
+        "Cost",
+        "Availability",
+        "Used With",
+        "Traits",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 18
+    },
+    {
+      "id": "weaponModifications",
+      "title": "Модифікації зброї",
+      "file": "weaponModifications.json",
+      "pointer": "/",
+      "headers": [
+        "Name",
+        "Cost",
+        "Availability",
+        "Type",
+        "Used With",
+        "Effects",
+        "Source"
+      ],
+      "ordered": false,
+      "defaultSort": "Name",
+      "rows": 19
+    },
+    {
+      "id": "Head",
+      "title": "Рани голови",
+      "file": "criticalWounds.json",
+      "pointer": "/CriticalWounds/Head",
+      "headers": [
+        "Roll",
+        "Description",
+        "Effect",
+        "Treatment"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 15
+    },
+    {
+      "id": "Arm",
+      "title": "Рани рук",
+      "file": "criticalWounds.json",
+      "pointer": "/CriticalWounds/Arm",
+      "headers": [
+        "Roll",
+        "Description",
+        "Effect",
+        "Treatment"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 15
+    },
+    {
+      "id": "Body",
+      "title": "Рани тулуба",
+      "file": "criticalWounds.json",
+      "pointer": "/CriticalWounds/Body",
+      "headers": [
+        "Roll",
+        "Description",
+        "Effect",
+        "Treatment"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 15
+    },
+    {
+      "id": "Leg",
+      "title": "Рани ніг",
+      "file": "criticalWounds.json",
+      "pointer": "/CriticalWounds/Leg",
+      "headers": [
+        "Roll",
+        "Description",
+        "Effect",
+        "Treatment"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 15
+    },
+    {
+      "id": "injuries",
+      "title": "Травми",
+      "file": "injuries.json",
+      "pointer": "/",
+      "headers": [
+        "Location",
+        "Minor",
+        "Major"
+      ],
+      "ordered": false,
+      "defaultSort": "Location",
+      "rows": 6
+    }
+  ],
+  "sourceHashes": [
+    {
+      "file": "accomodationsServices.json",
+      "bytes": 599,
+      "sha256": "c0380d7b62ef192b4772375d92cda25bfd21c3bfa0f6770a5928cda5651484d2",
+      "match": true
+    },
+    {
+      "file": "armour.json",
+      "bytes": 10591,
+      "sha256": "9b45df69436e26a1fef9aaf2d017eeeea37711920a2fd32b357a6da312b9286e",
+      "match": true
+    },
+    {
+      "file": "armourModifications.json",
+      "bytes": 2152,
+      "sha256": "ca81c861e5fab954bfa6eee71f313d71e7a8c2d4e1d2258acc0c425510905e45",
+      "match": true
+    },
+    {
+      "file": "augmetics.json",
+      "bytes": 10100,
+      "sha256": "80e8ca9b11f60b099b30872e3d4949607c522e219dfa4a2ef2df5e1f9615ed27",
+      "match": true
+    },
+    {
+      "file": "cityHiveTravel.json",
+      "bytes": 703,
+      "sha256": "b83f018762ff72b6a7434dc9bf729c04d800057fa26d749b9194eda8210abfa2",
+      "match": true
+    },
+    {
+      "file": "clothingAndPersonalGear.json",
+      "bytes": 10301,
+      "sha256": "bd82a5cdac4e7b37878c34f1140f89bd2e4db9b704457c114dcafabe777c8d78",
+      "match": true
+    },
+    {
+      "file": "combatActions.json",
+      "bytes": 4022,
+      "sha256": "d990cba5695980c312f249b25e9f914a74e58055eea1ae7818c6d685c7231427",
+      "match": true
+    },
+    {
+      "file": "conditions.json",
+      "bytes": 4166,
+      "sha256": "980bf92ca9b15985cbee74fb425ce5259f6f576e16efad083ab5a14d889b6037",
+      "match": true
+    },
+    {
+      "file": "criticalWounds.json",
+      "bytes": 21897,
+      "sha256": "61ee9d41e40e511100b2da18832bc2e8fb3cd4bb51ab4aa49652eaa368049e0b",
+      "match": true
+    },
+    {
+      "file": "customAmmunitions.json",
+      "bytes": 4542,
+      "sha256": "b17acc454822a4dd20ec9e339d896170d62feb683c7facb20024c1c1ace075e9",
+      "match": true
+    },
+    {
+      "file": "environmentalTraits.json",
+      "bytes": 1736,
+      "sha256": "1460b61111256c12cefae0aa0922adbe3ad7d83db02f3457f49bb9d578f8e122",
+      "match": true
+    },
+    {
+      "file": "explosiveWeapons.json",
+      "bytes": 6938,
+      "sha256": "6717ac3b5a11cd34898aebc340057d6cf43a1454119732c79ae487a088d1fedc",
+      "match": true
+    },
+    {
+      "file": "forceFields.json",
+      "bytes": 994,
+      "sha256": "0d54ff4e9a866601ae2fa101ea7488803f29fc2959933b44e3a3a8a870b91e91",
+      "match": true
+    },
+    {
+      "file": "fumbles.json",
+      "bytes": 2540,
+      "sha256": "cfc6f03a7ed5ede738142966b008bb8d67f2b516b0114d97e9adb5df152df2b5",
+      "match": true
+    },
+    {
+      "file": "hitLocations.json",
+      "bytes": 436,
+      "sha256": "6caa0e79d7d7b77a92ac0c3fd48fcc4ee37f31a8587745b2bdae4edd1912cb15",
+      "match": true
+    },
+    {
+      "file": "injuries.json",
+      "bytes": 2374,
+      "sha256": "13aefe2314c04c7e7506fa27c756dc6c1ec4d1e318c4db57ace8d7f6bec80a50",
+      "match": true
+    },
+    {
+      "file": "interstellarTravel.json",
+      "bytes": 692,
+      "sha256": "51fe7bb919c85eba1e2be169e40d969ebc498087737a7f1a87a991fe24d1b930",
+      "match": true
+    },
+    {
+      "file": "medicaeEquipement.json",
+      "bytes": 4887,
+      "sha256": "678a52e0a6a7e61de61e6b8838d4c6e96a643a06fcc17cc62be6ccd773050d76",
+      "match": true
+    },
+    {
+      "file": "medicalServices.json",
+      "bytes": 957,
+      "sha256": "a6f47444008d647e2105257ac96a3282ee1dd1778064b22b97ca574e42fd0952",
+      "match": true
+    },
+    {
+      "file": "meleeWeapons.json",
+      "bytes": 19120,
+      "sha256": "f6ce170c83beb1b914034490c9023e83afc1bed9cd22e7a18d1f19fc84b76d26",
+      "match": true
+    },
+    {
+      "file": "names.json",
+      "bytes": 5079,
+      "sha256": "1d78cfe5e0205be73e446e5d311d51f411af9022fe936037107410faeded5f76",
+      "match": true
+    },
+    {
+      "file": "perilsOfTheWarp.json",
+      "bytes": 5165,
+      "sha256": "0423d25f356d80f53948a1b68166dab044e61a3fa5408d124b21df604ec96d49",
+      "match": true
+    },
+    {
+      "file": "planetaryTravel.json",
+      "bytes": 638,
+      "sha256": "9c28aa1d88f0c3d729b2c5bc3c63da3e951df62146424e51e43887355ebe48b9",
+      "match": true
+    },
+    {
+      "file": "provisionsServices.json",
+      "bytes": 619,
+      "sha256": "42522a44c1a4e2fa47e92907d95e5e035cfa3efbde2ea4cf0ffb3f2609dfbacd",
+      "match": true
+    },
+    {
+      "file": "psychicPhenomena.json",
+      "bytes": 5065,
+      "sha256": "9b7063c4c0faa8c1ec758679c3e31ee301660d2246311d4773c8dfd001498bb8",
+      "match": true
+    },
+    {
+      "file": "psyDetailProfiles.json",
+      "bytes": 7948,
+      "sha256": "c1c66e2922f7a6740256b918beff45647c24f408e362042e5b9635730f29946a",
+      "match": true
+    },
+    {
+      "file": "psyPowers.json",
+      "bytes": 63253,
+      "sha256": "4683362f24c4a0377488da68aab26a62610f1556190f2e49999a9dd7d8b45719",
+      "match": true
+    },
+    {
+      "file": "rangedWeapons.json",
+      "bytes": 34033,
+      "sha256": "37aceb2b58ae411d9d89874eb46fe94a7d302127895fcb66ee2a400510a7843a",
+      "match": true
+    },
+    {
+      "file": "skills.json",
+      "bytes": 2984,
+      "sha256": "87c6b69c1d9681ec2c08560ed679f28abc52bc016c39c55d74a2b23c755cb28b",
+      "match": true
+    },
+    {
+      "file": "systemTravel.json",
+      "bytes": 736,
+      "sha256": "3cff9e928a1c9f5509ba5961f5cd1d53d3dc61bf3d5e46803727c415f90099d9",
+      "match": true
+    },
+    {
+      "file": "talents.json",
+      "bytes": 37035,
+      "sha256": "7f9d36a56e5a7b52cc95e0d31c166049bac73e6ab1429455abe74ba5dd461f3f",
+      "match": true
+    },
+    {
+      "file": "toolDetailProfiles.json",
+      "bytes": 772,
+      "sha256": "264be29bc7fd247f48d36c5af2cdf2ddaec026106d4061c70fb81555d86907c0",
+      "match": true
+    },
+    {
+      "file": "tools.json",
+      "bytes": 23725,
+      "sha256": "13301fc5e76ce1f916b77dce3a47e6ec8c1d20e2ba191f6fbad02ce5cea4b595",
+      "match": true
+    },
+    {
+      "file": "traits.json",
+      "bytes": 7696,
+      "sha256": "17a08df8e1411505ffada7855e9ec96a6bd819d482f61be83b4a99562a04c329",
+      "match": true
+    },
+    {
+      "file": "weaponModifications.json",
+      "bytes": 7078,
+      "sha256": "f0112a3a8304b79193a4a0c99434c6a0d712d8bc47fe809661463ad5e8d7c674",
+      "match": true
+    },
+    {
+      "file": "xpCosts.json",
+      "bytes": 1317,
+      "sha256": "acf5f53715f8b9bd14b6024e5a9da13d9db5948c75b7457410d824634f3d2423",
+      "match": true
+    }
+  ],
+  "limitations": [
+    "Checks compare with the pinned fan repository, not with published rulebooks.",
+    "This audit covers data and source hashes. See VERIFICATION.md and browser-checks.json for original, browser, XP and delivery checks.",
+    "Source-label aliases affect filtering only; original values and source order are preserved."
+  ]
+}

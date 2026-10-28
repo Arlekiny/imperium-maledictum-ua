@@ -1,0 +1,34 @@
+{
+  "count": 139,
+  "sourceDifferences": [
+    {
+      "name": "Lawbringer",
+      "book": "Core Rulebook",
+      "page": 113
+    },
+    {
+      "name": "Lickspittle",
+      "book": "Core Rulebook",
+      "page": 113
+    },
+    {
+      "name": "Medicae Maverick",
+      "book": "Core Rulebook",
+      "page": 113
+    }
+  ],
+  "suspectEndings": [
+    {
+      "name": "Burglar",
+      "last": "Breaking and entering comes naturally to you. You have Advantage on Tests related to breaking and entering a location, such as climbing the exterior of a building, quietly breaking windows, or unlocking doors or lockboxes"
+    },
+    {
+      "name": "Dealmaker",
+      "last": "•  You increase the cost of anything you sell to the target by 10%"
+    },
+    {
+      "name": "Void Legs",
+      "last": "•  Void Brawler: You have experience fighting in the void. You have Advantage when making Melee Attacks in zero-gravity environments against characters who do not have the Voidsman Talent"
+    }
+  ]
+}

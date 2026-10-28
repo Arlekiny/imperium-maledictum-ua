@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Imperium Maledictum — Таланти та Навички</title>
+<style>
+  :root {
+    --bg: #0e0c09;
+    --bg-panel: #17130f;
+    --bg-row: #1c1712;
+    --bg-row-alt: #191510;
+    --ink: #e8dfc8;
+    --ink-dim: #a89a7c;
+    --ink-faint: #756a53;
+    --gold: #c8a24a;
+    --gold-bright: #e3bd5e;
+    --crimson: #8c2c2c;
+    --crimson-bright: #b23a3a;
+    --line: #332c22;
+    --line-soft: #241f18;
+    --font-display: 'Trajan Pro', 'Cinzel', Georgia, 'Times New Roman', serif;
+    --font-body: 'Crimson Text', Georgia, 'Times New Roman', serif;
+    --font-ui: 'Cormorant Garamond', Georgia, serif;
+  }
+  :root:not([data-theme="dark-forced"]) {}
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #ece5d3;
+      --bg-panel: #f4efe1;
+      --bg-row: #f8f3e6;
+      --bg-row-alt: #f1ead9;
+      --ink: #2a2115;
+      --ink-dim: #5c4f38;
+      --ink-faint: #8a7a5c;
+      --gold: #8a6415;
+      --gold-bright: #6d4e0f;
+      --crimson: #7a1f1f;
+      --crimson-bright: #6b1a1a;
+      --line: #cdbf9c;
+      --line-soft: #ddd0b0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e0c09; --bg-panel: #17130f; --bg-row:#1c1712; --bg-row-alt:#191510;
+    --ink:#e8dfc8; --ink-dim:#a89a7c; --ink-faint:#756a53;
+    --gold:#c8a24a; --gold-bright:#e3bd5e; --crimson:#8c2c2c; --crimson-bright:#b23a3a;
+    --line:#332c22; --line-soft:#241f18;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    min-height: 100vh;
+    background-image:
+      radial-gradient(ellipse at top, rgba(200,162,74,0.06), transparent 60%),
+      repeating-linear-gradient(0deg, rgba(0,0,0,0.15) 0px, rgba(0,0,0,0.15) 1px, transparent 1px, transparent 3px);
+  }
+
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 40px 20px 80px; }
+
+  header.masthead {
+    text-align: center;
+    padding: 28px 10px 30px;
+    border-bottom: 2px solid var(--gold);
+    position: relative;
+    margin-bottom: 34px;
+  }
+  .eagle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-size: 0.72rem;
+    letter-spacing: 0.35em;
+    color: var(--ink-faint);
+    font-family: var(--font-ui);
+    margin-bottom: 10px;
+  }
+  .eagle::before, .eagle::after {
+    content: "\2720\FE0E";
+    color: var(--gold);
+    font-size: 1.1rem;
+    letter-spacing: 0;
+    line-height: 1;
+    font-family: 'Segoe UI Symbol', 'DejaVu Sans', 'Noto Sans Symbols 2', serif;
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(1.5rem, 7vw, 2.9rem);
+    overflow-wrap: anywhere;
+    letter-spacing: 0.04em;
+    margin: 0 0 8px;
+    color: var(--gold-bright);
+    text-shadow: 0 0 18px rgba(200,162,74,0.18);
+  }
+  .subtitle {
+    font-family: var(--font-ui);
+    font-style: italic;
+    color: var(--ink-dim);
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+  }
+
+  nav.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  nav.tabs button {
+    font-family: var(--font-ui);
+    font-size: 1.05rem;
+    letter-spacing: 0.06em;
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--ink-dim);
+    padding: 9px 26px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border-radius: 2px;
+  }
+  nav.tabs button:hover { border-color: var(--gold); color: var(--ink); }
+  nav.tabs button.active {
+    background: linear-gradient(180deg, rgba(200,162,74,0.16), rgba(200,162,74,0.04));
+    border-color: var(--gold);
+    color: var(--gold-bright);
+  }
+
+  .controls {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .search-box {
+    flex: 1 1 280px;
+    position: relative;
+  }
+  .search-box input {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 1.02rem;
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    color: var(--ink);
+    padding: 10px 14px 10px 36px;
+    border-radius: 2px;
+    outline: none;
+  }
+  .search-box input:focus { border-color: var(--gold); }
+  .search-box::before {
+    content: "🜏";
+    position: absolute;
+    left: 12px; top: 50%; transform: translateY(-50%);
+    color: var(--ink-faint);
+    font-size: 0.95rem;
+    pointer-events: none;
+  }
+  .count {
+    font-family: var(--font-ui);
+    color: var(--ink-faint);
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .table-scroll {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    background: var(--bg-panel);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 760px;
+  }
+  thead th {
+    font-family: var(--font-ui);
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.04em;
+    font-size: 0.98rem;
+    color: var(--gold-bright);
+    background: var(--line-soft);
+    border-bottom: 2px solid var(--gold);
+    padding: 12px 14px;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  thead th:hover { color: var(--gold); }
+  thead th .arrow { display:inline-block; margin-left: 5px; opacity: 0.5; font-size: 0.8em; }
+  thead th.sorted .arrow { opacity: 1; color: var(--crimson-bright); }
+
+  tbody td {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--line-soft);
+    vertical-align: top;
+    font-size: 0.98rem;
+    line-height: 1.5;
+  }
+  tbody tr:nth-child(odd) { background: var(--bg-row); }
+  tbody tr:nth-child(even) { background: var(--bg-row-alt); }
+  tbody tr:hover { background: rgba(200,162,74,0.07); }
+  tbody tr.hidden { display: none; }
+
+  td.name { color: var(--gold-bright); font-weight: 600; min-width: 190px; }
+  td.req { color: var(--ink-dim); font-style: italic; min-width: 160px; }
+  td.desc { color: var(--ink); min-width: 320px; }
+  td.src {
+    color: var(--ink-faint);
+    font-family: var(--font-ui);
+    font-size: 0.86rem;
+    white-space: nowrap;
+    letter-spacing: 0.01em;
+  }
+  td.stat { color: var(--ink-dim); }
+  td.specs { color: var(--ink); }
+
+  .empty-msg {
+    text-align: center;
+    padding: 30px;
+    color: var(--ink-faint);
+    font-family: var(--font-ui);
+    font-style: italic;
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    color: var(--ink-faint);
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-style: italic;
+    letter-spacing: 0.03em;
+  }
+  footer .source-line { margin-top: 8px; font-size: 0.92rem; }
+  footer .source-line a { color: var(--gold); text-decoration: none; border-bottom: 1px dotted var(--gold); overflow-wrap: anywhere; }
+  footer .source-line a:hover, footer .source-line a:focus-visible { color: var(--gold-bright); border-bottom-style: solid; }
+  footer .glyph { color: var(--gold); font-style: normal; margin: 0 8px; }
+
+
+  .cost-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 22px; }
+  .cost-block h2 {
+    font-family: var(--font-display); font-size: 1.15rem; letter-spacing: 0.04em;
+    color: var(--gold-bright); margin: 0 0 4px;
+  }
+  .cost-block .note { font-family: var(--font-ui); font-style: italic; color: var(--ink-dim); font-size: 0.95rem; margin: 0 0 10px; }
+  .cost-block table { min-width: 0; }
+  .cost-block thead th { cursor: default; position: static; }
+  .cost-block td.num { font-variant-numeric: tabular-nums; text-align: right; color: var(--gold-bright); font-weight: 600; }
+  .cost-block th.num { text-align: right; }
+
+  .cost-grid { align-items: start; min-width: 0; }
+  .cost-grid > *, .cost-block .table-scroll { min-width: 0; }
+  .cost-block { min-width: 0; }
+  .cost-block .table-scroll { overflow-x: auto; }
+  .cost-block table { width: 100%; }
+  .cost-block thead th { white-space: normal; }
+  @media (min-width: 1000px) {
+    .cost-grid { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) minmax(0, 1fr); }
+  }
+  @media (max-width: 999px) {
+    .cost-block:first-child { grid-column: 1 / -1; }
+  }
+
+  /* --- Калькулятор --- */
+  .calc { min-width: 0; width: 100%; background: var(--bg-panel); border: 1px solid var(--line); border-left: 3px solid var(--gold); padding: clamp(12px, 3vw, 18px); margin-bottom: 26px; }
+  .calc, .calc * { min-width: 0; }
+  .calc-modes button { flex: 1 1 auto; overflow-wrap: anywhere; }
+  .calc-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .calc-field { max-width: none; }
+  .calc-result { align-items: center; }
+  .calc-total { font-size: clamp(1.5rem, 7vw, 2rem); overflow-wrap: anywhere; }
+  .calc-break { width: 100%; max-width: 100%; table-layout: fixed; }
+  .calc-break th, .calc-break td { overflow-wrap: anywhere; padding-right: 8px; }
+  .calc-break th.num, .calc-break td.num { text-align: right; }
+  .calc h2 { font-family: var(--font-display); font-size: 1.15rem; letter-spacing: 0.04em; color: var(--gold-bright); margin: 0 0 12px; }
+  .calc-modes { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+  .calc-modes button {
+    font-family: var(--font-ui); font-size: 0.95rem; padding: 8px 14px; cursor: pointer;
+    background: transparent; color: var(--ink-dim); border: 1px solid var(--line); border-radius: 2px;
+  }
+  .calc-modes button.active { color: var(--gold-bright); border-color: var(--gold); background: rgba(212,175,55,0.08); }
+  .calc-fields { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 14px; }
+  .calc-field { display: flex; flex-direction: column; gap: 5px; flex: 1 1 140px; max-width: 220px; }
+  .calc-field label { font-family: var(--font-ui); font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); }
+  .calc-field input {
+    font-family: var(--font-ui); font-size: 1.1rem; background: var(--bg); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 2px; padding: 9px 12px; width: 100%;
+  }
+  .calc-field input:focus { outline: none; border-color: var(--gold); }
+  .calc-result { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+  .calc-total { font-family: var(--font-display); font-size: 2rem; color: var(--gold-bright); font-variant-numeric: tabular-nums; }
+  .calc-unit { font-family: var(--font-ui); color: var(--ink-dim); }
+  .calc-error { font-family: var(--font-ui); font-style: italic; color: #d98a7a; margin: 0 0 8px; }
+  .calc-break { width: 100%; max-width: 100%; table-layout: fixed; border-collapse: collapse; font-family: var(--font-ui); font-size: 0.95rem; }
+  .calc-break th { overflow-wrap: anywhere; text-align: left; font-weight: normal; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); padding: 4px 8px 4px 0; border-bottom: 1px solid var(--line); }
+  .calc-break td { overflow-wrap: anywhere; padding: 5px 8px 5px 0; border-bottom: 1px solid var(--line); color: var(--ink); font-variant-numeric: tabular-nums; }
+  .calc-break .num { text-align: right; padding-right: 0; }
+  .calc-break td.num:last-child { color: var(--gold-bright); }
+  .cost-foot { margin-top: 18px; font-family: var(--font-ui); font-style: italic; color: var(--ink-faint); font-size: 0.92rem; }
+
+
+  .mobile-sort { display: none; }
+  .mobile-sort select {
+    font-family: var(--font-ui); font-size: 1rem; background: var(--bg-panel); color: var(--ink);
+    border: 1px solid var(--line); padding: 10px 12px; border-radius: 2px; width: 100%;
+  }
+
+  @media (max-width: 760px) {
+    .wrap { padding: 20px 12px 60px; padding-left: max(12px, env(safe-area-inset-left)); padding-right: max(12px, env(safe-area-inset-right)); }
+    header.masthead { padding: 20px 6px 22px; margin-bottom: 22px; }
+    nav.tabs { gap: 4px; }
+    nav.tabs button { flex: 1 1 auto; padding: 9px 10px; }
+    .controls { flex-direction: column; align-items: stretch; gap: 10px; }
+    .search-box { flex: 0 0 auto; }
+    .count { text-align: right; }
+    .mobile-sort { display: block; }
+
+    /* Таблиці талантів і навичок -> картки */
+    .table-scroll { border: none; background: transparent; overflow: visible; }
+    #talentsTable, #skillsTable { min-width: 0; display: block; }
+    #talentsTable thead, #skillsTable thead { display: none; }
+    #talentsTable tbody, #skillsTable tbody { display: block; }
+    #talentsTable tbody tr, #skillsTable tbody tr {
+      display: block; background: var(--bg-panel); border: 1px solid var(--line);
+      border-left: 3px solid var(--gold); margin-bottom: 10px; padding: 8px 12px;
+    }
+    #talentsTable tbody tr.hidden, #skillsTable tbody tr.hidden { display: none; }
+    #talentsTable tbody td, #skillsTable tbody td {
+      display: block; border: none; padding: 5px 0; min-width: 0 !important; white-space: normal;
+    }
+    #talentsTable tbody td[data-label]::before, #skillsTable tbody td[data-label]::before {
+      content: attr(data-label); display: block; font-family: var(--font-ui); font-style: normal;
+      font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint);
+    }
+    #talentsTable td.name, #skillsTable td.name { font-size: 1.08rem; padding-top: 2px; }
+    #talentsTable td.name::before, #skillsTable td.name::before { display: none; }
+    #talentsTable td.req:empty, #talentsTable td.req[data-empty] { display: none; }
+    td.src { white-space: normal; }
+
+    .cost-block .table-scroll { border: 1px solid var(--line); background: var(--bg-panel); overflow-x: auto; }
+    .cost-block thead th, .cost-block tbody td { padding: 9px 10px; }
+  }
+
+
+  .calc { box-sizing: border-box; }
+  .calc-break { display: table; width: 100%; max-width: 100%; margin: 0; border-spacing: 0; }
+  .calc-break th, .calc-break td { box-sizing: border-box; }
+  .calc-break th:first-child, .calc-break td:first-child { padding-left: 0; }
+  @media (max-width: 600px) {
+    .calc-break { table-layout: fixed; }
+    .calc-break th, .calc-break td { padding-left: 3px; padding-right: 3px; }
+    .calc-break th:first-child, .calc-break td:first-child { padding-left: 0; }
+    .calc-break th:last-child, .calc-break td:last-child { padding-right: 0; }
+  }
+
+  ::selection { background: var(--crimson); color: #fff; }
+
+  @media (max-width: 600px) {
+    .calc-break { width: 100%; max-width: 100%; font-size: 0.88rem; }
+    .calc-break th { font-size: 0.65rem; letter-spacing: 0.03em; padding-right: 5px; }
+    .calc-break td { padding-right: 5px; }
+    .calc-break th:last-child, .calc-break td:last-child { padding-right: 0; }
+    .eagle { letter-spacing: 0.2em; font-size: 0.66rem; gap: 10px; }
+    .wrap { padding: 24px 10px 60px; }
+    nav.tabs button { padding: 8px 10px; font-size: 0.95rem; }
+    thead th, tbody td { padding: 9px 10px; font-size: 0.9rem; }
+    .calc { padding: 12px; }
+    .calc-modes { display: grid; grid-template-columns: 1fr; }
+    .calc-modes button { width: 100%; text-align: left; }
+    .calc-fields { grid-template-columns: minmax(0, 1fr); }
+    .calc-field { width: 100%; }
+    .calc-field input { min-height: 44px; font-size: 16px; }
+    .calc-break { font-size: 0.82rem; }
+    .calc-break th { font-size: 0.68rem; letter-spacing: 0.03em; }
+    .calc-break th, .calc-break td { padding: 6px 4px; }
+  }
+/* Таблиця результатів калькулятора */
+.calc-break {
+  display: table;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  border-left: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+}
+
+.calc-break th,
+.calc-break td {
+  min-width: 0;
+  box-sizing: border-box;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.calc-break th:first-child,
+.calc-break td:first-child {
+  padding-left: 6px;
+}
+
+.calc-break th:last-child,
+.calc-break td:last-child {
+  padding-right: 6px;
+}
+/* Остаточна адаптація калькулятора */
+.calc {
+  box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.calc,
+.calc * {
+  min-width: 0;
+}
+
+.calc-fields {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.calc-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: auto;
+  max-width: none;
+  min-width: 0;
+}
+
+.calc-field input {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.calc-break {
+  display: table;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-left: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  font-family: var(--font-ui);
+}
+
+.calc-break th,
+.calc-break td {
+  min-width: 0;
+  box-sizing: border-box;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.calc-break th {
+  text-align: left;
+  font-weight: normal;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.calc-break td {
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.calc-break .num {
+  text-align: right;
+}
+
+.calc-break td.num:last-child {
+  color: var(--gold-bright);
+}
+
+@media (max-width: 600px) {
+  .calc-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .calc-field {
+    width: 100%;
+  }
+
+  .calc-break {
+    font-size: 0.82rem;
+  }
+
+  .calc-break th {
+    font-size: 0.65rem;
+    letter-spacing: 0.02em;
+  }
+
+  .calc-break th,
+  .calc-break td {
+    padding: 6px 3px;
+  }
+
+  .calc-break th:first-child,
+  .calc-break td:first-child {
+    padding-left: 3px;
+  }
+
+  .calc-break th:last-child,
+  .calc-break td:last-child {
+    padding-right: 3px;
+  }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eagle">A D E P T U S · A R C H I V U M</div>
+    <h1>Imperium Maledictum</h1>
+    <div class="subtitle">Довідник талантів і навичок</div>
+  </header>
+
+  <nav class="tabs">
+    <button class="active" data-tab="talents">Таланти (<span id="talentsTabCount">139</span>)</button>
+    <button data-tab="skills">Навички (20)</button>
+    <button data-tab="costs">Ціни покращень</button>
+  </nav>
+
+  <div class="controls">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Пошук за назвою, вимогою, описом…">
+    </div>
+    <div class="mobile-sort"><select id="mobileSort" aria-label="Сортування"></select></div>
+    <div class="count" id="countLabel"></div>
+  </div>
+
+  <div id="talents-panel">
+    <div class="table-scroll">
+      <table id="talentsTable">
+        <thead>
+          <tr>
+            <th data-key="name" data-type="text">Назва <span class="arrow"></span></th>
+            <th data-key="req" data-type="text">Вимога <span class="arrow"></span></th>
+            <th data-key="desc" data-type="text">Опис <span class="arrow"></span></th>
+            <th data-key="src" data-type="text">Джерело <span class="arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="talentsBody"></tbody>
+      </table>
+    </div>
+    <div class="empty-msg" id="talentsEmpty">Нічого не знайдено в архівах.</div>
+  </div>
+
+  <div id="skills-panel" style="display:none">
+    <div class="table-scroll">
+      <table id="skillsTable">
+        <thead>
+          <tr>
+            <th data-key="name" data-type="text">Навичка <span class="arrow"></span></th>
+            <th data-key="stat" data-type="text">Характеристика <span class="arrow"></span></th>
+            <th data-key="specs" data-type="text">Спеціалізації <span class="arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="skillsBody"></tbody>
+      </table>
+    </div>
+    <div class="empty-msg" id="skillsEmpty">Нічого не знайдено в архівах.</div>
+  </div>
+
+  <div id="costs-panel" style="display:none">
+    <section class="calc" aria-labelledby="calcTitle">
+      <h2 id="calcTitle">Калькулятор покращень</h2>
+      <div class="calc-modes" role="tablist">
+        <button type="button" data-mode="char" class="active">Характеристика</button>
+        <button type="button" data-mode="skill">Навичка / спеціалізація</button>
+        <button type="button" data-mode="talent">Таланти</button>
+      </div>
+      <div class="calc-fields">
+        <div class="calc-field"><label id="calcLabelA" for="calcA">Зараз</label><input id="calcA" type="number" inputmode="numeric" step="1" placeholder="Введіть значення"></div>
+        <div class="calc-field" id="calcFieldB"><label id="calcLabelB" for="calcB">Бажане значення</label><input id="calcB" type="number" inputmode="numeric" step="1" placeholder="Введіть бажане"></div>
+      </div>
+      <p class="calc-error" id="calcError" hidden></p>
+      <div class="calc-result" id="calcResult">
+        <span class="calc-total" id="calcTotal">0</span><span class="calc-unit">ОД</span>
+        <span class="calc-unit" id="calcSteps"></span>
+      </div>
+      <table class="calc-break" id="calcBreak"></table>
+    </section>
+    <div class="cost-grid">
+
+      <div class="cost-block">
+        <h2>Навички та спеціалізації</h2>
+        <p class="note">Кожне підвищення дає +5. Максимум 4 підвищення (+20) у навичці та 4 у кожній спеціалізації. Спеціалізації коштують стільки ж, що й навички.</p>
+        <div class="table-scroll"><table>
+          <thead><tr><th>Підвищення</th><th class="num">Разом</th><th class="num">Ціна (ОД)</th><th class="num">Кумулятивна ціна</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td class="num">+5</td><td class="num">50</td><td class="num">50</td></tr>
+            <tr><td>2</td><td class="num">+10</td><td class="num">100</td><td class="num">150</td></tr>
+            <tr><td>3</td><td class="num">+15</td><td class="num">150</td><td class="num">300</td></tr>
+            <tr><td>4</td><td class="num">+20</td><td class="num">200</td><td class="num">500</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="cost-block">
+        <h2>Характеристики</h2>
+        <p class="note">Кожне підвищення дає +1. Ціна залежить від нового значення характеристики.</p>
+        <div class="table-scroll"><table>
+          <thead><tr><th>Нове значення</th><th class="num">Ціна за 1 (ОД)</th></tr></thead>
+          <tbody>
+            <tr><td>20–25</td><td class="num">20</td></tr>
+            <tr><td>26–30</td><td class="num">25</td></tr>
+            <tr><td>31–35</td><td class="num">30</td></tr>
+            <tr><td>36–40</td><td class="num">40</td></tr>
+            <tr><td>41–45</td><td class="num">60</td></tr>
+            <tr><td>46–50</td><td class="num">80</td></tr>
+            <tr><td>51–55</td><td class="num">110</td></tr>
+            <tr><td>56–60</td><td class="num">140</td></tr>
+            <tr><td>61–65</td><td class="num">180</td></tr>
+            <tr><td>66–70</td><td class="num">220</td></tr>
+            <tr><td>71–75</td><td class="num">270</td></tr>
+            <tr><td>76–80</td><td class="num">320</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="cost-block">
+        <h2>Таланти</h2>
+        <p class="note">Єдина ціна для будь-якого таланту, якщо виконано його вимоги.</p>
+        <div class="table-scroll"><table>
+          <thead><tr><th>Що купуємо</th><th class="num">Ціна (ОД)</th></tr></thead>
+          <tbody>
+            <tr><td>Талант (після створення персонажа)</td><td class="num">100</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+    </div>
+    <div class="cost-foot">ОД — очки досвіду (XP). Під час створення персонажа підвищення навичок можна мати: до 2 у навичці та до 1 у спеціалізації.</div>
+  </div>
+
+  <footer>
+    <div><span class="glyph">✠</span>Переклад на основі Core Rulebook, Adeptus Mechanicus Player's Guide та Inquisitor Player's Guide<span class="glyph">✠</span></div>
+    <div class="source-line">Джерелa: Core Rulebook · Adeptus Mechanicus Player's Guide · Inquisitor Player's Guide · <a href="https://ppiques.github.io/imperium-maledictum-quickref/talents" target="_blank" rel="noopener noreferrer">Imperium Maledictum Quickref</a></div>
+  </footer>
+
+</div>
+
+<script>
+const TALENTS = [
+["Гострі відчуття (Acute Sense)","—","Робіть перевірки Сприйняття, щоб виявити непомітні деталі за допомогою одного органу чуття.","Core Rulebook"],
+["Прискорення на адреналіні (Adrenaline Acceleration)","—","Швидкість збільшується на один крок, поки у вас є Критична рана. Перевага на перевірках Атлетики під час Погоні чи Втечі.","Core Rulebook"],
+["Спритні атаки (Agile Attacks)","Спритність 45, 2 підвищення в Рукопашному бою","Використовуйте бонус Спритності замість бонусу Сили для Прихованої (Subtle) зброї ближнього бою.","Core Rulebook"],
+["Аура авторитету (Air of Authority)","2 підвищення в Харизмі","Складна (+0) перевірка Харизми або Спілкування, щоб отримати +1 Вплив з групою на час місії.","Core Rulebook"],
+["Амалантіанський послушник (Amalanthian Apprentice)","2 підвищення в Спілкуванні","Витратьте очко Долі, щоб зробити перевірку Спілкування з представником Імперської Фракції. У разі успіху ціль стає контактом.","Inquisitor Player's Guide"],
+["Амбідекстрія (Ambidextrous)","—","Немає штрафу за використання недомінантної руки.","Core Rulebook"],
+["Апостол Закону (Apostle of the Lex)","—","Можна брати кілька разів. Щоразу оберіть одне: +2 РУ на перевірки Знань про Закон, +2 РУ на Харизму (Допит) чи (Залякування) проти злочинців, +2 РУ на Спілкування з Виконавцями (Enforcers).","Inquisitor Player's Guide"],
+["Прикладна анатомія (Applied Anatomy)","2 підвищення в Медицині","Збільшує тяжкість Критичного удару/рани на величину підвищень у Медицині.","Core Rulebook"],
+["Архітектурний розум (Architectural Mind)","2 підвищення в Технології (Інженерія)","У насичених машинами середовищах можете використовувати Технологію (Інженерія) замість Навігації (Поверхня чи Вистежування). При пошуку архітектурних схем чи карт таких локацій можете використовувати Технологію (Інженерія) замість Знань чи Логіки.","Adeptus Mechanicus Player's Guide"],
+["Артистичність (Artistic)","—","+2 РУ до перевірок у Літературі, Малярстві, Музиці чи Театрі.","Core Rulebook"],
+["Уважний помічник (Attentive Assistant)","—","Використовуйте дію Допомоги без підвищень. +1 РУ, якщо є підвищення.","Core Rulebook"],
+["Балістична експертиза (Ballistics Forensics)","1 підвищення в Логіці (Розслідування) і Стрільбі","Отримуйте додаткову інформацію про стрільця й балістику при використанні Логіки (Розслідування) на місці події.","Inquisitor Player's Guide"],
+["Бойові протоколи (Battle Protocols)","2 підвищення в Технології (Автомати)","Дією зробіть Складну (+0) перевірку Технології (Автомати) на дружньому Конструкті в найближчому радіусі. У разі успіху оберіть протокол, активний на РУ ходів. Якщо ціль — Фамільяр, можна замість цього змінити його Бойові чи Захисні інстинкти. Протокол Егіди: перевага на Захист/Чатування. Протокол Завойовника: перевага на рукопашні атаки. Протокол Захисника: перевага на дальні атаки.","Adeptus Mechanicus Player's Guide"],
+["Чиста Людина (Blank)","Лише при створенні персонажа","Імунітет до псайкерських сил, невиявний Псайонікою, не піддається Скверні та викликає дискомфорт у псайкерів і демонів.","Core Rulebook"],
+["Грубий авторитет (Blunt Force Authority)","2 підвищення в Харизмі (Залякування)","Можна знизити Скритність на 1, щоб отримати перевагу на Допит/Залякування або +3 РУ на будь-які перевірки Спілкування з використанням Впливу.","Inquisitor Player's Guide"],
+["Ламання кісток (Bone Breaker)","2 підвищення в Медицині (Спеціалізація)","Ламайте кістки Знерухомленим цілям, спричиняючи Перешкоду (Disadvantage).","Core Rulebook"],
+["Хабарник (Briber)","2 підвищення в Інтуїції (Люди)","Перевага на перевірки Інтуїції (Люди) для хабарів. Знижуйте вартість хабара на 10% за кожне підвищення в Спілкуванні.","Core Rulebook"],
+["Оплот (Bulwark)","3 підвищення в Рефлексах","Захищайте союзника та зону, або двох союзників одночасно, маючи щит і використовуючи дію Захисту.","Core Rulebook"],
+["Тягар знання (Burden of Knowledge)","2 підвищення в Технології (Заборонена)","Під час перевірки Технології, після кидка, але до підрахунку результату, ви можете отримати 1 очко Скверни, щоб додати кількість ваших підвищень у Технології (Заборонена) до результату перевірки. Це можна робити кілька разів, щоразу сплачуючи таку саму ціну.","Adeptus Mechanicus Player's Guide"],
+["Зломник (Burglar)","1 підвищення в Атлетиці та Скритності","Перевага на перевірки зламу й проникнення.","Core Rulebook"],
+["Картограметрист (Cartogrammetrist)","2 підвищення в Навігації (Поверхня)","У вільний час (як Endeavour) ви можете завантажити геофізичні дані щодо одного зі світів. Перевага на перевірки Навігації щодо цього світу, Знань про його фізичні особливості та Пілотування в його атмосфері або на поверхні. Завантаження даних нового світу стирає попередні.","Adeptus Mechanicus Player's Guide"],
+["Хірург (Chirurgeon)","2 підвищення в Медицині","Можливість використовувати Хірургічний набір. Проводьте операції та отримуйте перевагу при лікуванні Критичних ран у бою.","Core Rulebook"],
+["Конспіратор (Clandestine)","2 підвищення в Спілкуванні та Харизмі","Поки Скритність групи на рівні Підозрілий, Відкритий або нижче, витратьте 1 очко Долі, щоб зробити її для себе Прихованою на день.","Inquisitor Player's Guide"],
+["Дисципліна ближнього бою (Close Quarters Discipline)","2 підвищення в Дисципліні та Стрільбі","Немає Перешкоди на дальні атаки в межах найближчої дистанції.","Core Rulebook"],
+["Когнітивне причастя (Cognis Communion)","2 підвищення в Технології (Безпека)","Володіючи зброєю з рисою «Таємниці Марса», можете використовувати Технологію замість Бойових навичок (Weapon Skill).","Adeptus Mechanicus Player's Guide"],
+["Майстер бою (Combat Master)","2 підвищення в Рукопашному бою","Рахуєтеся за додаткову людину при чисельній перевазі в бою.","Core Rulebook"],
+["Засудження відьми (Condemn the Witch)","Сила Волі 40, Талант Псайкера","«Заперечення Відьми» завдає Ран, рівних Варп-рейтингу сили.","Core Rulebook"],
+["Благо засудження (Condemnor's Boon)","Сила Волі 40, Талант Псайкера або Засудження відьми","Перевага при використанні «Заперечення Відьми!». Можна взяти ще двічі, щоб збільшити дистанцію на крок кожного разу.","Inquisitor Player's Guide"],
+["Контортіоніст (Contortionist)","—","Перевага на перевірки опору/звільнення від Знерухомлення чи захвату.","Core Rulebook"],
+["Корпускарійські благословення (Corpuscarii Benedictions)","Індоктринація Електро-Жерця, немає талантів з «Fulgurite» у назві","Вільною дією торкніться електроживленого пристрою/машини та витратьте 1 заряд Рушійної Сили. Наступний раунд істоти мають перевагу на будь-які перевірки Технології чи Пілотування з цим пристроєм.","Adeptus Mechanicus Player's Guide"],
+["Корпускарійська майстерність (Corpuscarii Mastery)","Індоктринація Електро-Жерця, немає талантів з «Fulgurite» у назві","Можете активувати електроживлені пристрої й техніку дотиком. Дією зробіть перевірку Витривалості (Стійкість) із Складністю залежно від розміру цілі. У разі успіху машина активується, ви витрачаєте заряди залежно від розміру. Не можна активувати пристрої, що потребують більше зарядів, ніж у вас є.","Adeptus Mechanicus Player's Guide"],
+["Контратака (Counter Attack)","3 підвищення в Рукопашному бою","Завдайте шкоди противнику після перемоги в Опозиційній перевірці рукопашного бою.","Core Rulebook"],
+["Coup de Grâce (Милосердний удар)","3 підвищення в Рефлексах","Робіть 2 ходи поспіль при домінуванні з 2+ Перевагою (Superiority).","Core Rulebook"],
+["Інфільтратор культу (Cult Infiltrator)","2 підвищення в Дисципліні та Спілкуванні","Отримайте 2 очки Скверни й оберіть одну з ролей: Єретех (+2 РУ на Технології), Аристократ (+2 РУ на Спілкування зі знайомими людьми), Толерантний (перевага на опір наркотикам і отрутам) або Заплямований (проникнення в культи Хаосу). Талант можна придбати кілька разів.","Inquisitor Player's Guide"],
+["Шифрувальник (Cypherist)","2 підвищення в Лінгвістиці (Шифр) та Логіці","Перевага на перевірки розпізнавання чи розшифрування символів, знаків і таємних кодів.","Inquisitor Player's Guide"],
+["Копач даних (Data Delver)","2 підвищення в Логіці (Розслідування)","Перевага на перевірки пошуку чи аналізу інформації. Читання тексту вдвічі швидше.","Core Rulebook"],
+["Гострий стрілець (Deadeye)","1 підвищення в Стрільбі","+1 РУ на дальні атаки при Прицілюванні. Можна взяти повторно для переваги на перевірки Локації ураження при Прицілюванні.","Core Rulebook"],
+["Ділок (Dealmaker)","1 підвищення в Інтуїції (Люди) та Спілкуванні (Торг)","Переваги в переговорах: хабарі, знижки чи вища ціна продажу.","Core Rulebook"],
+["Спеціаліст із підриву (Demolition Specialist)","2 підвищення в Стрільбі (Артилерія) або Спритності (Знешкодження)","Знімає рису Нестабільний з вибухівки. Збільшує шкоду на величину бонусу Інтелекту.","Core Rulebook"],
+["Відданий слуга (Devoted Servant)","—","Перевага на перевірки, пов'язані з обраною сферою служби.","Core Rulebook"],
+["Спрямовані удари (Directed Strikes)","3 підвищення в Рукопашному бою","Немає Перешкоди при дії «Локація ураження».","Core Rulebook"],
+["Брудний бій (Dirty Fighting)","2 підвищення в Рукопашному бою (Бійка)","Завдайте Осліплення чи Оглушення (слух). Завдайте Оглушення з +3 РУ.","Core Rulebook"],
+["Роззброєння (Disarm)","2 підвищення в Рукопашному бою","Роззбройте противника замість завдання шкоди. Отримайте предмет із +4 РУ.","Core Rulebook"],
+["Відволікання (Distracting)","—","Накладіть Перешкоду на перевірку раз за сутичку. Додаткові ефекти при покращеннях.","Core Rulebook"],
+["Тривожний голос (Disturbing Voice)","—","+2 РУ на Допит і Залякування. -2 РУ на перевірки Харизми з наляканими цілями.","Core Rulebook"],
+["Муштрований (Drilled)","1 підвищення в Дисципліні","Перевага на опір Переляку. Повторна покупка: можна діяти одразу після союзника з «Муштрований» у порядку ходів, та +1 РУ на хід у тій самій зоні.","Core Rulebook"],
+["Боєць двома руками (Dual Wielder)","Амбідекстрія, 2 підвищення в Рукопашному бою (Одноручна)","Немає Перешкоди при атаці двома зброями ближнього бою.","Core Rulebook"],
+["Дуелянт (Duellist)","2 підвищення в Рукопашному бою (Одноручна)","Уся неприхована одноручна зброя ближнього бою вважається такою, що має рису «Захисна». Можна взяти талант ще двічі, щоб отримати «Фінту Дуелянта» та «Захист Дуелянта».","Core Rulebook"],
+["Ейдетична пам'ять (Eidetic Memory)","—","Ідеально пригадуйте візуальні деталі. Перевірки для згадування не потрібні.","Core Rulebook"],
+["Індоктринація Електро-Жерця (Electro-Priest Indoctrination)","—","Ви навчені захоплювати, зберігати й ділитися священною Рушійною Силою. Коли кількість зарядів Рушійної Сили перевищує половину максимального порогу, ви отримуєте +1 Броню (всі локації). Можна витратити хвилину, підключившись до джерела живлення, щоб поповнити заряди до порогу (потенційно вимкнувши машину) або, навпаки, скинути заряди до 0, віддавши енергію (потенційно увімкнувши машину).","Adeptus Mechanicus Player's Guide"],
+["Байдужа ясність (Emotionless Clarity)","Аугметика «Обряд Чистої Думки»","Намагаючись дізнатися щось у розмові, можете використовувати Логіку замість Інтуїції чи Спілкування.","Adeptus Mechanicus Player's Guide"],
+["Пильність (Ever Vigilant)","2 підвищення в Сприйнятті","+1 РУ на виявлення прихованих ворогів. Немає штрафів від Непритомності чи Осліплення під час сну.","Core Rulebook"],
+["Вразливе місце (Exploit Vulnerability)","2 підвищення в Інтуїції (Люди)","Обирайте Локацію ураження першої атаки після використання «Знай свого ворога».","Core Rulebook"],
+["Розширена пропріоцепція (Extended Proprioception)","3 підвищення в Пілотуванні (Спеціалізація)","Ігноруйте Осліплення на перевірках Пілотування. Виявляйте розмір/позицію судна в оточенні.","Core Rulebook"],
+["Вірний (Культ Марса) (Faithful — Cult of Mars)","Adeptus Mechanicus АБО +2 Впливу Adeptus Mechanicus АБО 2 підвищення в Знаннях (Теологія — Культ Механікус)","Раз за сесію, роблячи перевірку, пов'язану з вашою вірою, можете додати бонус Сили Волі як РУ.","Adeptus Mechanicus Player's Guide"],
+["Вірний (Імперський культ) (Faithful — Imperial Cult)","Adeptus Ministorum АБО 2 підвищення в Знаннях (Теологія) АБО +2 Впливу Мінорітум","Проявіть віру заради бонусів. Отримайте РУ, рівні бонусу Сили Волі, на перевірках.","Core Rulebook"],
+["Хибний відступ (False Retreat)","3 підвищення в Спілкуванні (Обман)","Вдавайте боягузтво, щоб перегрупуватися. Сховайтеся й перемістіться в межах дальньої дистанції.","Core Rulebook"],
+["Зв'язаний з Фамільяром (Familiar Bonded)","—","Створіть зв'язок зі Звичайним Фамільяром. Можна брати кілька разів: далі — кіберфамільяр/псайберфамільяр, потім решта типів.","Inquisitor Player's Guide"],
+["Знавець місцевості (Familiar Terrain)","—","Перевага на Скритність і +1 Броня в обраному типі місцевості.","Core Rulebook"],
+["Приречений (долею) (Fated)","Лише при створенні персонажа","Отримайте 1 очко Долі. Можна взяти лише один раз.","Core Rulebook"],
+["Польовий біолог (Field Biologis)","2 підвищення в Технології (Біологіс)","Можете використовувати Технологію (Біологіс), щоб лікувати Конструктів із біологічними компонентами. Складність не вище Складної (+0). При Критичному успіху конструкт отримує перевагу на перевірки до кінця сцени.","Adeptus Mechanicus Player's Guide"],
+["Польовий медик (Field Medicae)","2 підвищення в Медицині","Лікуйте Критичні рани в бою. Складність не вище Складної (+0).","Core Rulebook"],
+["Флагелант (Flagellant)","—","Перевага на опір болю/допиту. Тимчасово ігноруйте Критичні рани.","Core Rulebook"],
+["Флангований вогонь (Flanking Fire)","2 підвищення в Стрільбі","Обходьте Броню укриття на 2, атакуючи ворогів у тій же зоні, що й ваші союзники.","Core Rulebook"],
+["Плоть слабка (Flesh is Weak)","2 підвищення в Технології (Аугметика)","Можете вживити аугметику в кількості, що вдвічі перевищує ваш бонус Витривалості.","Core Rulebook"],
+["Заборонене знання (Forbidden Knowledge)","При створенні персонажа або з дозволу ГМ","Доступ до однієї Забороненої спеціалізації: Лінгвістика, Знання чи Медицина.","Core Rulebook"],
+["Фальсифікатор (Forger)","2 підвищення в Лінгвістиці та Знаннях","Підробляйте документи заради Впливу. Величина залежить від складності перевірки.","Core Rulebook"],
+["Шаленство (Frenzy)","—","Увійдіть у шаленство. Імунітет до Переляку. +1 до бонусу Сили.","Core Rulebook"],
+["Фульгуритове ураження (Fulgurite Hex)","Індоктринація Електро-Жерця, немає талантів з «Corpuscarii» у назві","Вільною дією торкніться електроживленого пристрою й отримайте 1 заряд Рушійної Сили. Наступний раунд істоти мають Перешкоду на перевірки Технології чи Пілотування з цим пристроєм.","Adeptus Mechanicus Player's Guide"],
+["Фульгуритова майстерність (Fulgurite Mastery)","Індоктринація Електро-Жерця, немає талантів з «Corpuscarii» у назві","Можете вимикати електроживлені пристрої й техніку дотиком. Дією зробіть перевірку Витривалості (Стійкість) із Складністю залежно від розміру цілі. У разі успіху машина вимикається, ви отримуєте заряди залежно від розміру. Не можна перевищувати максимальний поріг зарядів.","Adeptus Mechanicus Player's Guide"],
+["Фанатик повного автоматичного вогню (Full-Auto Fanatic)","3 підвищення в Стрільбі","Витратьте вдвічі більше набоїв на Швидкий вогонь, щоб вразити всіх у ближній дистанції від цілі рисою «Розсіювання».","Core Rulebook"],
+["Шибеничний гумор (Gallows Humour)","2 підвищення в Спілкуванні (Чарівність)","Використовуйте Чарівність для стабілізації союзників. Знімає Втому, Переляк чи стан Помирання.","Core Rulebook"],
+["Готична тарабарщина (Gothic Gibberish)","1 підвищення в Лінгвістиці","Спантеличуйте цілі нісенітницею. Оглушуйте при програші в опозиційній перевірці Спілкування.","Core Rulebook"],
+["Охоронець (Guardian)","3 підвищення в Рефлексах","Захищайте союзників у середній дистанції. Пересувайтеся для захисту без Перешкоди.","Core Rulebook"],
+["Стрілець-віртуоз (Gunslinger)","Амбідекстрія, 2 підвищення в Стрільбі (Пістолети)","Немає Перешкоди при одночасній атаці двома видами дальньої зброї.","Core Rulebook"],
+["Нутряне чуття (Gut Instinct)","2 підвищення в Логіці (Розслідування)","Витратьте 1 очко Долі, щоб отримати підказку ГМ під час розслідування чи дослідження.","Inquisitor Player's Guide"],
+["Загострена підозрілість (Hardened Suspicion)","2 підвищення в Сприйнятті та Інтуїції","+1 РУ на перевірки Сприйняття й Інтуїції проти ксеносів і істот, пов'язаних з Хаосом.","Inquisitor Player's Guide"],
+["Ненависть (Hatred)","—","Ваша лють — зброя. Оберіть об'єкт ненависті. Складна (-10) перевірка Дисципліни (Самовладання), щоб уникнути захоплення ненавистю. Перевага на Дисципліну (Страх) і +1 РУ на атаки проти ненависної групи. Мусите намагатись знищити ненависну групу. Можна робити нову перевірку Дисципліни наприкінці кожного ходу, щоб припинити ефект.","Core Rulebook"],
+["Удар і відступ (Hit and Run)","3 підвищення в Рефлексах (Акробатика)","Вільною дією, коли завдаєте бодай одну Рану, зробіть перевірку Рефлексів (Акробатика), щоб вийти з бою й перейти в сусідню зону.","Core Rulebook"],
+["Знавець тайників (Holdout Expert)","—","Приховайте один малий предмет. Важка (-20) перевірка Сприйняття (дотик), Спритності (Кишенькова крадіжка) чи Логіки (Розслідування), щоб виявити. Складна (+0), якщо застосовується техніка.","Core Rulebook"],
+["Гіпноіндоктринація (Hypno-Indoctrination)","—","Двічі киньте по Таблиці випадкових талантів. Отримуєте ці таланти. Можна взяти лише раз.","Core Rulebook"],
+["Носій штандарта (Icon Bearer)","1 підвищення в Знаннях (Теологія), 1 підвищення в Харизмі","Союзники в середній дистанції отримують перевагу Святого Символу, поки ви його тримаєте.","Core Rulebook"],
+["Незнання — мій щит (Ignorance is my Shield)","Інтелект < 30","+4 РУ на опір Скверні, псайкерським силам і демонічним впливам. -4 РУ на перевірки, пов'язані з дослідженням демонів, псайкерів і ксеносів.","Core Rulebook"],
+["Спадкоємець (Inheritor)","Тільки при створенні персонажа","+1 Вплив з відповідною Фракцією, можлива спадщина (5000 соляріїв). Можливі спеціалізації чи належність до ксено-осквернених родів (на розсуд ГМ).","Core Rulebook"],
+["Натхненна непокора (Inspired Defiance)","3 підвищення в Дисципліні","Перевага на перевірки Витривалості й Дисципліни проти Скверни.","Inquisitor Player's Guide"],
+["Надихаюча присутність (Inspiring Presence)","2 підвищення в Харизмі (Лідерство)","Союзники у вашій зоні отримують перевагу на перевірки Дисципліни.","Core Rulebook"],
+["Носій закону (Lawbringer)","2 підвищення в Знаннях (Імперіум)","+РУ (рівні підвищенням у Знаннях (Імперіум)) до Спілкування чи Харизми, коли посилаєтесь на порушені закони.","Inquisitor Player's Guide"],
+["Підлабузник (Lickspittle)","—","Перевага на перевірки, щоб догодити начальству.","Inquisitor Player's Guide"],
+["Логічний брехун (Logical Liar)","2 підвищення в Логіці","Витратьте 1 очко Долі, щоб використати Інтелект замість Спілкування для перевірок Обману.","Inquisitor Player's Guide"],
+["Багато облич (Many Masks)","2 підвищення в Скритності (Маскування)","Перевага на перевірки з набором для маскування. Додаткові покупки дають «Козла відпущення» (спалити маскування, зменшивши втрату Скритності) або «Викритий» (несподіванка в бою).","Inquisitor Player's Guide"],
+["Марсіанський пістолетник (Martian Pistoleer)","1 підвищення в Стрільбі (Пістолет)","Збільшує дистанцію пістолетів на один крок.","Adeptus Mechanicus Player's Guide"],
+["Мучеництво (Martyrdom)","2 підвищення в Витривалості","+РУ (рівні бонусу Сили Волі) до перевірок прямої конфронтації з ворогами, коли страждаєте від невилікуваної Критичної рани.","Core Rulebook"],
+["Медичний авантюрист (Medicae Maverick)","1 підвищення в будь-якій Забороненій спеціалізації Медицини","Дія: перетворити Значний злам на Незначний або миттєво вилікувати Незначний злам. +1 Критична рана, але ефекти зламу скасовуються.","Inquisitor Player's Guide"],
+["Ментальна фортеця (Mental Fortress)","2 підвищення в Дисципліні (Псайкерська)","Отримайте Броню, рівну бонусу Сили Волі, проти псайкерських сил. Розум не можна прочитати.","Core Rulebook"],
+["Мім (Mimic)","2 підвищення в Сприйнятті (Слух) та Спілкуванні (Обман)","Наслідуйте голос людини, почувши її мовлення. Не можна наслідувати незнайомі мови.","Core Rulebook"],
+["Некромеханік (Necromechanic)","2 підвищення в Технології (Аугметика)","Можете провести некромеханічну автопсію черепних аугметик чи знищених машин. Складна (+0) перевірка Технології (Аугметика), щоб дізнатися одну деталь про загибель об'єкта. При 3+ РУ можна отримати доступ до аудіо-, сенсорного чи візуального запису останніх миттєвостей.","Adeptus Mechanicus Player's Guide"],
+["Opus Machina (Механічний твір)","2 підвищення в Знаннях (Культ Механікус)","На початку кожного ігрового дня киньте d100 і запишіть результат. Раз того дня можете замінити результат кидка d100 будь-якої перевірки Технології (вашої чи істоти в середній дистанції) на цей результат після кидка, але до підрахунку. Перевага/Перешкода усе одно застосовуються.","Adeptus Mechanicus Player's Guide"],
+["Наглядач (Overseer)","2 підвищення в Харизмі (Лідерство)","Складною (+0) перевіркою Лідерства дозвольте союзнику використати вашу навичку для його наступної перевірки.","Core Rulebook"],
+["Патологоанатом (Pathologist)","2 підвищення в Медицині (Людина)","Перевага при проведенні автопсій для визначення причини смерті чи дисбалансів.","Core Rulebook"],
+["Флеботоміст (Phlebotomist)","3 підвищення в Медицині","Наносьте стан Кровотечі замість шкоди успішною атакою ближнього бою.","Core Rulebook"],
+["Носій (Porter)","2 підвищення в Витривалості (Стійкість)","Подвоюйте бонус Сили для вантажопідйомності. Додайте бонус Витривалості до Обтяження.","Core Rulebook"],
+["Псайкерська кара (Psychic Castigation)","Талант Псайкер","Завдайте Ран псайкерам, рівних різниці РУ при опорі псайкерським силам.","Core Rulebook"],
+["Псайкерський потік (Psychic Flood)","Талант Псайкер","Отримайте Варп-заряд, рівний бонусу Сили Волі. +1 РУ за заряд до перевірок.","Core Rulebook"],
+["Псайкер (Psyker)","Не може мати талант «Чиста Людина»","Отримайте Малу псайкерську силу й одну Псайкерську дисципліну. Відкриває псайкерські сили.","Core Rulebook"],
+["Швидкий вихід (Quickdraw)","2 підвищення в Стрільбі (Пістолети) та Рефлексах","Витягніть і вистріліть з пістолета раніше за всіх. Потребує Важкої (-20) перевірки Рефлексів, якщо застали зненацька.","Core Rulebook"],
+["Швидка перезарядка (Rapid Reload)","2 підвищення в Спритності та Стрільбі","Перезаряджайте зброю швидше. Оберіть спеціалізацію дальньої зброї для перезарядки Вільною дією.","Core Rulebook"],
+["Читання по губах (Read Lips)","1 підвищення в Сприйнятті (Зір) та Лінгвістиці","Розумійте мовлення, спостерігаючи за рухом губ, навіть без звуку.","Core Rulebook"],
+["Зареєстрований торговець (Registered Trader)","2 підвищення в Логіці (Оцінка) та 2 підвищення в Спілкуванні (Торг)","Продавайте предмети за 100% базової ціни. Адміністратум може вимагати податок між місіями.","Core Rulebook"],
+["Санкціонований псайкер (Sanctioned Psyker)","Талант Псайкер. Лише при створенні персонажа","Поріг Варпу тепер удвічі більший за бонус Сили Волі. Отримайте символ санкціонованого статусу.","Core Rulebook"],
+["Таємна особистість (Secret Identity)","—","Підтримуйте фальшиву особистість. +1 Вплив з обраною Фракцією, коли одягнені й поводитесь відповідно.","Core Rulebook"],
+["Наглядач за безпекою (Security Augur)","3 підвищення в Технології (Безпека)","Перевага на перевірки виявлення чи взаємодії з системами безпеки. Додаткова покупка дозволяє стирати сліди зламу.","Inquisitor Player's Guide"],
+["Тіньовий оперативник (Shadow Operative)","3 підвищення в Скритності","Ігноруйте Перешкоду на перевірках Скритності через Скритність (Subtlety) партії.","Inquisitor Player's Guide"],
+["Шоковий штурм (Shock Assault)","Спритність 45, 3 підвищення в Скритності","Робіть 2 дії під час Раунду несподіванки.","Core Rulebook"],
+["Скіт-кодова дисципліна (Skit-Code Discipline)","Талант «Трансгуманний ідеал», 1 підвищення в Дисципліні","Перевага на опір Переляку. +1 РУ на Дисципліну за кожного союзника з цим талантом у тій самій зоні. Бойові переговори незрозумілі поза Adeptus Mechanicus. Повторна покупка: можете діяти одразу після союзника з цим талантом у порядку ходів і отримати +1 РУ на всі перевірки.","Adeptus Mechanicus Player's Guide"],
+["Протоколи підкорення скітарія (Skitarii Compliance Protocols)","Талант «Трансгуманний ідеал»","Перевага на перевірки Дисципліни й Витривалості. Перешкода при опорі наказам вищого скітарія, тех-жерця чи вашого патрона.","Adeptus Mechanicus Player's Guide"],
+["Слідопит (Skulker)","1 підвищення в Навігації та Скритності","Уникайте виявлення, стежачи за кимось за допомогою Навігації (Вистежування).","Core Rulebook"],
+["Прудкість (Slippery)","2 підвищення в Рефлексах","Противники, що атакують вас при виході із бою, мають Перешкоду. Двічі взявши талант — виходьте з бою Вільною дією.","Core Rulebook"],
+["Тонкий впливач (Subtle Influencer)","—","Скасовує першу втрату Скритності при зверненні по допомогу до Фракцій.","Inquisitor Player's Guide"],
+["Тонка мутація (Subtle Mutation)","—","Киньте по таблиці тонких мутацій (позитивних і негативних). Можна замінювати мутації Скверни на тонкі мутації.","Inquisitor Player's Guide"],
+["Тонкий псайкер (Subtle Psyker)","Сила Волі 40, Талант Псайкер, 3 підвищення в псайкерських силах","Кидайте на Псайкерський феномен з +10. Складна перевірка Скритності, щоб запобігти втраті Скритності від псайкерських сил.","Inquisitor Player's Guide"],
+["Верховний командир (Superior Commander)","4 підвищення в Харизмі (Лідерство)","Використайте свою Дію, щоб керувати союзниками. Союзники можуть негайно Рухатися чи діяти.","Core Rulebook"],
+["Придушувальний вогонь (Suppressing Fire)","2 підвищення в Стрільбі","Використовуйте Швидкий вогонь, щоб придушувати ворогів.","Core Rulebook"],
+["Твердо на ногах (Sure-Footed)","1 підвищення в Атлетиці, Витривалості й Рефлексах","Станьте швидким, маючи хоча б 1 Перевагу (Superiority). Перевага на опір переміщенню чи звалюванню з ніг. Підніміться після падіння, використавши Вільну дію.","Core Rulebook"],
+["Тактичний рух (Tactical Movement)","1 підвищення в Атлетиці та Дисципліні","Займіть укриття Вільною дією.","Core Rulebook"],
+["Осквернене вмістилище (Tainted Vessel)","—","-1 РУ на перевірки Харизми, імунітет до мутацій Скверни, +1 РУ на Сприйняття для виявлення демонічних сутностей, імунітет до одержимості тим самим демоном.","Inquisitor Player's Guide"],
+["Техзаклинач (Techsorcist)","1+ Вплив з Інквізицією","Доступ до Технології (Заборонена). Можете створювати гексаграмічні обереги (≈1000 соляріїв, 1 година). Поки оберіг надягнуто або прикріплено, перша псайкерська сила, спрямована на носія, зазнає Перешкоди, а оберіг вигорає. Його можна відновити після години молитви. Не ризикуєте отримати Скверну, використовуючи механодендрити на незначних її джерелах.","Adeptus Mechanicus Player's Guide"],
+["Наполегливий (Tenacious)","2 підвищення в Витривалості (Стійкість)","Складна (+0) перевірка Витривалості, щоб негайно вийти з Оглушення.","Core Rulebook"],
+["Сила й впевненість сталі (The Strength and Certainty of Steel)","Щонайменше 6 встановлених аугментів","Маєте Перешкоду на перевірки Інтуїції (Люди), Харизми й Спілкування проти персонажів не з Adeptus Mechanicus. Перевага на Групу (Adeptus Mechanicus), Інтуїцію (Люди), Харизму й Спілкування проти персонажів Adeptus Mechanicus чи подібно аугментованих.","Adeptus Mechanicus Player's Guide"],
+["Трансгуманний ідеал (Transhuman Ideal)","Талант «Плоть слабка» або при створенні персонажа","Максимальна кількість аугметик, які можна встановити, дорівнює потрійному бонусу Витривалості.","Adeptus Mechanicus Player's Guide"],
+["Трансгуманне спілкування (Transhuman Rapport)","Інтелект 45, 2 підвищення в Логіці","Роблячи перевірку Спілкування проти персонажа Adeptus Mechanicus, можете використати Логіку (чи відповідну спеціалізацію) замість неї.","Adeptus Mechanicus Player's Guide"],
+["Дворучний розкол (Two-Handed Cleave)","2 підвищення в Рукопашному бою (Дворучна)","Отримайте рису «Розсіювання» для дворучної зброї ближнього бою. Додаткові ефекти при подальших покупках.","Core Rulebook"],
+["Незламна присутність (Unflinching Presence)","3 підвищення в Харизмі (Лідерство)","Важка (-20) перевірка Харизми, щоб уникнути втрати Переваги (Superiority).","Core Rulebook"],
+["Непомітний (Unremarkable)","Немає підвищень у Харизмі чи її спеціалізаціях, окрім випадково отриманих","Зливайтеся з натовпом без перевірок. Перешкода на перевірки, спрямовані на високостатусних осіб.","Core Rulebook"],
+["Непохитна воля (Unwavering Will)","Сила Волі 40, 2 підвищення в Дисципліні","Витратьте 1 очко Долі, щоб подвоїти бонус Сили Волі на всю сутичку.","Inquisitor Player's Guide"],
+["Пустотні ноги (Void Legs)","—","Імунітет до пустотної хвороби. Додаткові переваги при повторних покупках.","Core Rulebook"],
+["Підстерігач пустки (Wasteland Stalker)","1 підвищення в Скритності","+2 Броня, перебуваючи в укритті.","Adeptus Mechanicus Player's Guide"],
+["Добре підготовлений (Well-Prepared)","—","Раз за місію знайдіть предмет у своєму інвентарі. Відніміть його вартість від соляріїв.","Core Rulebook"],
+["Ксенотехнічна поблажливість (Xenotechnician's Benevolence)","2 підвищення в Технології (Ксенос)","Оберіть вид ксеносів. Протягом наступної місії Скверна від взаємодії з технікою цього виду зменшується вдвічі (округлення вниз). Якщо розумієте функцію ксено-машини, можете витратити Дію й очко Долі, щоб активувати, порушити чи вимкнути її без перевірки.","Adeptus Mechanicus Player's Guide"],
+["Ти нічого не бачив (You Didn't See Anything)","2 підвищення в Логіці (Розслідування), Скритності чи Технології (Безпека)","Скасуйте втрату Скритності після сутичок. Логіка (Розслідування) — для фізичних доказів, Скритність — для пересування, Технологія (Безпека) — для саботажу пристроїв.","Inquisitor Player's Guide"]
+];
+
+const SKILLS = [
+["Атлетика (Athletics)","Сила (STR)","Лазіння, Силові вправи, Верхова їзда, Біг, Плавання"],
+["Сприйняття (Awareness)","Сприйняття (PER)","Зір, Нюх, Слух, Смак, Дотик, Псайоніка (обмежена)"],
+["Спритність (Dexterity)","Спритність (AG)","Замки, Кишенькова крадіжка, Спритність рук, Знешкодження (обмежена), Маскування"],
+["Дисципліна (Discipline)","Сила Волі (WIL)","Самовладання, Страх, Псайкерська"],
+["Витривалість (Fortitude)","Стійкість (TGH)","Стійкість, Біль, Отрута"],
+["Інтуїція (Intuition)","Сприйняття (PER)","Люди, Група (різні), Оточення"],
+["Лінгвістика (Linguistics)","Інтелект (INT)","Шифр, Високий Готик, Заборонена (різні, обмежена), Кант Механікус (обмежена)"],
+["Логіка (Logic)","Інтелект (INT)","Оцінка, Розслідування"],
+["Знання (Lore)","Інтелект (INT)","Академічні, Адептус Терра, Планета, Сектор, Теологія (обмежена), Заборонена (різні, обмежена), Великі Ордоси (різні, обмежена), Культ Механікус (обмежена)"],
+["Медицина (Medicae)","Інтелект (INT)","Тварини, Людина, Заборонена (різні, обмежена), Застосування хімікатів"],
+["Рукопашний бій (Melee)","Бойові навички (WS)","Бійка, Одноручна, Дворучна"],
+["Навігація (Navigation)","Інтелект (INT)","Поверхня, Вистежування, Пустка, Варп (обмежена)"],
+["Пілотування (Piloting)","Спритність (AG)","Аеронавтика, Цивільна, Військова (обмежена), Мале судно Пустки (обмежена), Велике судно Пустки (обмежена)"],
+["Харизма (Presence)","Сила Волі (WIL)","Допит, Залякування, Лідерство"],
+["Псайкерська майстерність (Psychic Mastery)","Сила Волі (WIL)","Біомантія, Дивінація, Піромантія, Телекінез, Телепатія, Різна (обмежена)"],
+["Стрільба (Ranged)","Влучність (BS)","Довгоствольна зброя, Артилерія, Пістолети, Метальна зброя"],
+["Спілкування (Rapport)","Обаяння (FEL)","Тварини, Чарівність, Обман, Торг, Розпитування, Ксено-мова"],
+["Рефлекси (Reflexes)","Спритність (AG)","Акробатика, Рівновага, Ухилення"],
+["Скритність (Stealth)","Спритність (AG)","Приховування предметів, Сховок, Безшумний рух, Маскування"],
+["Технологія (Tech)","Інтелект (INT)","Аугметика (обмежена), Інженерія, Безпека, Автомати, Біологіс (обмежена), Заборонена (різні, обмежена), Ксенос (обмежена)"]
+];
+
+function buildRows(bodyId, data, cols, labels) {
+  const tbody = document.getElementById(bodyId);
+  tbody.innerHTML = data.map(row => {
+    const tds = row.map((val, i) => `<td class="${cols[i]}" data-label="${labels[i]}"${val === '—' ? ' data-empty' : ''}>${val}</td>`).join('');
+    return `<tr>${tds}</tr>`;
+  }).join('');
+}
+
+buildRows('talentsBody', TALENTS, ['name','req','desc','src'], ['Назва','Вимога','Опис','Джерело']);
+buildRows('skillsBody', SKILLS, ['name','stat','specs'], ['Навичка','Характеристика','Спеціалізації']);
+
+// --- Sorting ---
+const sorters = {};
+function setupSort(tableId) {
+  const table = document.getElementById(tableId);
+  const headers = table.querySelectorAll('thead th');
+  let currentSort = { idx: -1, dir: 1 };
+
+  function sortBy(idx, dir) {
+    const tbody = table.querySelector('tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    currentSort = { idx, dir };
+    headers.forEach(h => { h.classList.remove('sorted'); h.querySelector('.arrow').textContent=''; });
+    headers[idx].classList.add('sorted');
+    headers[idx].querySelector('.arrow').textContent = dir === 1 ? '▲' : '▼';
+    rows.sort((a, b) => {
+      const av = a.children[idx].textContent.trim().toLowerCase();
+      const bv = b.children[idx].textContent.trim().toLowerCase();
+      if (av < bv) return -1 * dir;
+      if (av > bv) return 1 * dir;
+      return 0;
+    });
+    rows.forEach(r => tbody.appendChild(r));
+  }
+  sorters[tableId] = { sortBy, headers };
+
+  headers.forEach((th, idx) => {
+    th.addEventListener('click', () => {
+      sortBy(idx, currentSort.idx === idx ? -currentSort.dir : 1);
+    });
+  });
+}
+setupSort('talentsTable');
+setupSort('skillsTable');
+
+// --- Tabs ---
+const tabButtons = document.querySelectorAll('nav.tabs button');
+const panels = { talents: document.getElementById('talents-panel'), skills: document.getElementById('skills-panel'), costs: document.getElementById('costs-panel') };
+tabButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    tabButtons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    Object.keys(panels).forEach(k => panels[k].style.display = (k === btn.dataset.tab) ? '' : 'none');
+    document.getElementById('searchInput').value = '';
+    filterRows();
+  });
+});
+
+// --- Search filter ---
+function activeTab() {
+  return document.querySelector('nav.tabs button.active').dataset.tab;
+}
+function filterRows() {
+  const tab0 = activeTab();
+  const controls = document.querySelector('.controls');
+  controls.style.display = tab0 === 'costs' ? 'none' : '';
+  if (tab0 === 'costs') return;
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  const tab = activeTab();
+  const tbody = document.getElementById(tab === 'talents' ? 'talentsBody' : 'skillsBody');
+  const emptyMsg = document.getElementById(tab === 'talents' ? 'talentsEmpty' : 'skillsEmpty');
+  const rows = tbody.querySelectorAll('tr');
+  let visibleCount = 0;
+  rows.forEach(row => {
+    const text = row.textContent.toLowerCase();
+    const match = text.includes(q);
+    row.classList.toggle('hidden', !match);
+    if (match) visibleCount++;
+  });
+  emptyMsg.style.display = visibleCount === 0 ? 'block' : 'none';
+  document.getElementById('countLabel').textContent = visibleCount + ' / ' + rows.length + (tab === 'talents' ? ' талантів' : ' навичок');
+}
+
+document.getElementById('talentsTabCount').textContent = TALENTS.length;
+document.getElementById('searchInput').addEventListener('input', filterRows);
+filterRows();
+
+// --- Mobile sort select ---
+const mobileSort = document.getElementById('mobileSort');
+function fillMobileSort() {
+  const tab = activeTab();
+  const tableId = tab === 'talents' ? 'talentsTable' : 'skillsTable';
+  if (tab === 'costs') return;
+  const heads = sorters[tableId].headers;
+  mobileSort.innerHTML = '<option value="">Сортувати за…</option>' + Array.from(heads).flatMap((h, i) => {
+    const name = h.childNodes[0].textContent.trim();
+    return [`<option value="${i}:1">${name} ▲</option>`, `<option value="${i}:-1">${name} ▼</option>`];
+  }).join('');
+}
+mobileSort.addEventListener('change', () => {
+  if (!mobileSort.value) return;
+  const [i, d] = mobileSort.value.split(':').map(Number);
+  const tableId = activeTab() === 'talents' ? 'talentsTable' : 'skillsTable';
+  sorters[tableId].sortBy(i, d);
+});
+tabButtons.forEach(b => b.addEventListener('click', fillMobileSort));
+fillMobileSort();
+
+// --- Калькулятор цін покращень ---
+(function () {
+  const CHAR_TIERS = [[20,25,20],[26,30,25],[31,35,30],[36,40,40],[41,45,60],[46,50,80],
+                      [51,55,110],[56,60,140],[61,65,180],[66,70,220],[71,75,270],[76,80,320]];
+  const SKILL_COST = [50, 100, 150, 200];
+  const TALENT_COST = 100;
+  const el = id => document.getElementById(id);
+  const inA = el('calcA'), inB = el('calcB');
+  let mode = 'char';
+
+  const cfg = {
+    char:   { a: 'Зараз', b: 'Бажане значення', aMin: 20, aMax: 79, bMax: 80, aVal: '', bVal: '', twoFields: true },
+    skill:  { a: 'Поточні підвищення (0–3)', b: 'Бажані підвищення (до 4)', aMin: 0, aMax: 3, bMax: 4, aVal: '', bVal: '', twoFields: true },
+    talent: { a: 'Кількість талантів', twoFields: false, aVal: '' }
+  };
+
+  const isInt = v => Number.isInteger(v);
+  const range = (lo, hi) => lo === hi ? String(lo) : lo + '–' + hi;
+
+function calc() {
+  const c = cfg[mode];
+  const a = inA.value.trim() === '' ? NaN : Number(inA.value);
+  const b = inB.value.trim() === '' ? NaN : Number(inB.value);
+
+  let rows = [];
+  let total = 0;
+  let steps = 0;
+  let error = '';
+  let head = [];
+
+  if (inA.value.trim() === '') {
+    error = mode === 'talent'
+      ? 'Введіть кількість талантів.'
+      : 'Введіть поточне значення.';
+  } else if (c.twoFields && inB.value.trim() === '') {
+    error = 'Введіть бажане значення.';
+  } else if (mode === 'char') {
+    head = ['Нове значення', 'Підвищень', 'Ціна за 1 (ОД)', 'Разом (ОД)'];
+
+    if (!isInt(a) || !isInt(b)) {
+      error = 'Введіть цілі числа.';
+    } else if (a < c.aMin || a > c.aMax) {
+      error = 'Поточне значення має бути від 20 до 79.';
+    } else if (b > c.bMax) {
+      error = 'Таблиця цін доходить лише до 80.';
+    } else if (b <= a) {
+      error = 'Бажане значення має бути більшим за поточне.';
+    } else {
+      for (const [t0, t1, price] of CHAR_TIERS) {
+        const lo = Math.max(a + 1, t0);
+        const hi = Math.min(b, t1);
+
+        if (hi >= lo) {
+          const n = hi - lo + 1;
+          const subtotal = n * price;
+
+          rows.push([range(lo, hi), n, price, subtotal]);
+          total += subtotal;
+          steps += n;
+        }
+      }
+    }
+  } else if (mode === 'skill') {
+    head = ['Підвищення', 'Загальне підвищення', 'Ціна (ОД)'];
+
+    if (!isInt(a) || !isInt(b)) {
+      error = 'Введіть цілі числа.';
+    } else if (a < 0 || a > 3) {
+      error = 'Поточних підвищень може бути від 0 до 3.';
+    } else if (b > 4) {
+      error = 'Максимум 4 підвищення (+20).';
+    } else if (b <= a) {
+      error = 'Бажана кількість має бути більшою за поточну.';
+    } else {
+      for (let k = a + 1; k <= b; k++) {
+        const price = SKILL_COST[k - 1];
+
+        rows.push([k, '+' + k * 5, price]);
+        total += price;
+        steps++;
+      }
+    }
+  } else {
+    head = ['Кількість талантів', 'Ціна за 1 (ОД)', 'Разом (ОД)'];
+
+    if (!isInt(a) || a < 1) {
+      error = 'Введіть кількість талантів — ціле число від 1.';
+    } else {
+      rows.push([a, TALENT_COST, a * TALENT_COST]);
+      total = a * TALENT_COST;
+      steps = a;
+    }
+  }
+
+  const errorEl = el('calcError');
+  const resultEl = el('calcResult');
+  const tableEl = el('calcBreak');
+
+  errorEl.hidden = !error;
+  errorEl.textContent = error;
+  resultEl.style.display = error ? 'none' : '';
+  tableEl.style.display = error ? 'none' : '';
+
+  if (error) {
+    tableEl.innerHTML = '';
+    return;
+  }
+
+  el('calcTotal').textContent = total.toLocaleString('uk-UA');
+  el('calcSteps').textContent =
+    '(' + steps + ' ' + (mode === 'talent' ? 'шт.' : 'підвищ.') + ')';
+
+  const th = head.map((h, i) =>
+    `<th class="${i > 0 ? 'num' : ''}">${h}</th>`
+  ).join('');
+
+  const body = rows.map(row =>
+    '<tr>' + row.map((v, i) =>
+      `<td class="${i > 0 ? 'num' : ''}">${v}</td>`
+    ).join('') + '</tr>'
+  ).join('');
+
+  tableEl.innerHTML =
+    `<thead><tr>${th}</tr></thead><tbody>${body}</tbody>`;
+}
+
+  function setMode(m) {
+    mode = m;
+    const c = cfg[m];
+    document.querySelectorAll('.calc-modes button').forEach(b => b.classList.toggle('active', b.dataset.mode === m));
+    el('calcLabelA').textContent = c.a;
+    inA.value = c.aVal;
+    el('calcFieldB').style.display = c.twoFields ? '' : 'none';
+    if (c.twoFields) { el('calcLabelB').textContent = c.b; inB.value = c.bVal; }
+    calc();
+  }
+
+  document.querySelectorAll('.calc-modes button').forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+  inA.addEventListener('input', calc);
+  inB.addEventListener('input', calc);
+  setMode('char');
+})();
+</script>
+</body>
+</html>

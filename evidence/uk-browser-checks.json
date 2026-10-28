@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-28",
+  "pages": [
+    {
+      "id": "home",
+      "ok": true
+    },
+    {
+      "id": "character",
+      "ok": true
+    },
+    {
+      "id": "augmetics",
+      "ok": true
+    },
+    {
+      "id": "combat",
+      "ok": true
+    },
+    {
+      "id": "equipment",
+      "ok": true
+    },
+    {
+      "id": "protection",
+      "ok": true
+    },
+    {
+      "id": "psy",
+      "ok": true
+    },
+    {
+      "id": "services",
+      "ok": true
+    },
+    {
+      "id": "weapons",
+      "ok": true
+    },
+    {
+      "id": "criticalwounds",
+      "ok": true
+    }
+  ],
+  "profiles": 14,
+  "renderedRows": 766,
+  "renderedTables": 34,
+  "errors": [],
+  "bilingualSearch": true
+}
