@@ -1,0 +1,75 @@
+{
+  "pages": [
+    {
+      "section": "home",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    },
+    {
+      "section": "character",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    },
+    {
+      "section": "augmetics",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    },
+    {
+      "section": "combat",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    },
+    {
+      "section": "equipment",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    },
+    {
+      "section": "protection",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    },
+    {
+      "section": "psy",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    },
+    {
+      "section": "services",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    },
+    {
+      "section": "weapons",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    },
+    {
+      "section": "criticalwounds",
+      "desktop": true,
+      "mobile": true,
+      "lightTheme": true,
+      "keyboard": true
+    }
+  ],
+  "errors": []
+}

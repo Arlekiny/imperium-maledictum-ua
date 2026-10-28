@@ -335,16 +335,5 @@
 
   });
 
-  $('about').addEventListener('click',event=>{
-    const content=node('div');
-    content.append(node('p','Неофіційний некомерційний фанатський довідник. Imperium Maledictum — © Cubicle 7 Entertainment Ltd та Games Workshop Ltd. Проєкт не пов’язаний із правовласниками й не має їхнього офіційного схвалення.'));
-    const source=node('p','Дані: ppiques та співавтори, Imperium Maledictum Quick Reference, знімок '+L.PIN+'. ');
-    source.append(node('a','Вихідний репозиторій',{href:'https://github.com/ppiques/imperium-maledictum-quickref/tree/'+L.PIN,target:'_blank',rel:'noopener noreferrer'}));content.append(source);
-    const license=node('p','Вихідний репозиторій поширюється за ліцензією ');
-    license.append(node('a','CC BY-NC 4.0',{href:'https://creativecommons.org/licenses/by-nc/4.0/',target:'_blank',rel:'noopener noreferrer'}),document.createTextNode('. Зберігайте зазначення авторства, позначайте зміни та використовуйте матеріали некомерційно. Ліцензія не надає прав на тексти гри, що належать третім особам.'));content.append(license);
-    content.append(node('p','Українська локалізація використовує термінологію сторінки «Персонаж». Англійські назви збережено для звірення. Назви, описи та профілі перекладено й відредаговано з урахуванням контексту Warhammer 40,000. Це фанатська локалізація, а не офіційний український переклад.'));
-    content.append(node('p','Перевірено відповідність даних фанатському джерелу. Це не повна перевірка правил за опублікованими книжками. Остаточне тлумачення правил узгоджуйте з майстром гри.'));
-    openDetail('Джерела, авторство й обмеження',content,event.currentTarget);
-  });
   render(false);
 })();
