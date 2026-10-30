@@ -142,7 +142,7 @@
     }
   ],
   "tableCount": 38,
-  "rowCount": 836,
+  "rowCount": 837,
   "profileCount": 14,
   "profileReferences": {
     "Soulsight Table": [
@@ -276,7 +276,7 @@
       ],
       "ordered": false,
       "defaultSort": "Name",
-      "rows": 29
+      "rows": 30
     },
     {
       "id": "combatActions",

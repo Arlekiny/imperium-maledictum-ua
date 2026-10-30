@@ -54,6 +54,8 @@
 
   }
 
+  const visibleHeaders=table=>table.headers.filter(key=>table.section!=='mutations' || key!=='Page');
+
   const allSorts={};
 
   function renderTabs(section) {
@@ -109,7 +111,7 @@
 
         const wrap=node('div',null,{class:'table-scroll'+(container.classList.contains('mobile-table')?' mobile-table':''),tabindex:'0',role:'region','aria-label':table.title});
 
-        const view=renderer.dataTable(table.headers,rows,{caption:table.title,tableId:'dataTable-'+id,...order,onSort:table.ordered?null:key=>{
+        const view=renderer.dataTable(visibleHeaders(table),rows,{caption:table.title,tableId:'dataTable-'+id,...order,onSort:table.ordered?null:key=>{
 
           allSorts[id]={sort:key,direction:order.sort===key && order.direction==='asc'?'desc':'asc'};render(false);
 
@@ -161,11 +163,11 @@
 
     $('sortLabel').hidden=table.ordered;
 
-    $('sort').replaceChildren(...table.headers.flatMap(key=>['asc','desc'].map(direction=>node('option',T.header(key)+(direction==='asc'?' ↑':' ↓'),{value:JSON.stringify([key,direction])}))));
+    $('sort').replaceChildren(...visibleHeaders(table).flatMap(key=>['asc','desc'].map(direction=>node('option',T.header(key)+(direction==='asc'?' ↑':' ↓'),{value:JSON.stringify([key,direction])}))));
 
     if(state.sort)$('sort').value=JSON.stringify([state.sort,state.direction]);
 
-    const view=renderer.dataTable(table.headers,rows,{caption:table.title,tableId:'dataTable',sort:state.sort,direction:state.direction,onSort:table.ordered?null:setSort});
+    const view=renderer.dataTable(visibleHeaders(table),rows,{caption:table.title,tableId:'dataTable',sort:state.sort,direction:state.direction,onSort:table.ordered?null:setSort});
 
     // Combat dictionary names are also explicit keyboard/touch detail controls.
 

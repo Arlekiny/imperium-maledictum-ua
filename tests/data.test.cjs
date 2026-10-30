@@ -19,6 +19,7 @@ for (const [id,count] of Object.entries(L.EXPECTED)) test(id+': exact count, all
   if(id==='names')expected=raw.names.names.data;
   else if(['Head','Arm','Body','Leg'].includes(id))expected=raw.criticalWounds.CriticalWounds[id];
   else if(['traits','conditions'].includes(id))expected=Object.entries(raw[id]).map(([Name,Description])=>({Name,Description}));
+  else if(id==='augmetics')expected=[...raw[id],...raw.augmeticsSupplement];
   else expected=raw[id];
   assert.deepEqual(table.rows,expected);
   assert.deepEqual(new Set(table.headers),new Set(expected.flatMap(row=>Object.keys(row))));

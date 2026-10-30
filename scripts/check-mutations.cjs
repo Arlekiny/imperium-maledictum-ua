@@ -3,8 +3,8 @@ const {launchBrowser,root}=require('./browser-runtime.cjs');
 (async()=>{const browser=await launchBrowser();try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(pathToFileURL(path.join(root,'mutations.html')).href);
- const wrap=page.locator('#tableWrap');assert.equal(await wrap.locator('tbody tr').count(),70);assert.equal(await wrap.locator('table').count(),4);
- await page.locator('[data-mutation-language="en"]').click();assert.ok((await wrap.innerText()).includes('Your pallor becomes corpse-like'));assert.ok(!(await wrap.innerText()).includes('Ваша шкіра набуває'));
+ const wrap=page.locator('#tableWrap');assert.equal(await wrap.locator('.col-Page').count(),0);assert.ok(!(await wrap.locator('th').allTextContents()).includes('Сторінка'));assert.equal(await wrap.locator('tbody tr').count(),70);assert.equal(await wrap.locator('table').count(),4);
+ await page.locator('[data-mutation-language="en"]').click();assert.ok(!(await wrap.locator('th').allTextContents()).includes('Page'));assert.ok((await wrap.innerText()).includes('Your pallor becomes corpse-like'));assert.ok(!(await wrap.innerText()).includes('Ваша шкіра набуває'));
  await page.locator('#search').fill('залізна шкіра');assert.ok(await wrap.locator('tbody tr').count()>0);await page.locator('#search').fill('');
  await page.reload();assert.equal(await page.locator('[data-mutation-language="en"]').getAttribute('aria-pressed'),'true');
  await page.locator('[data-mutation-language="uk"]').click();assert.ok((await wrap.innerText()).includes('Ваша шкіра набуває трупної блідості'));

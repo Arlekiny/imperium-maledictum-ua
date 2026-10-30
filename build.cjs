@@ -44,6 +44,7 @@ for(const section of CATALOG){
   }else{
     const keys=new Set(['traits','conditions','psyDetailProfiles','toolDetailProfiles']);
     for(const [id] of section.tables)keys.add(['Head','Arm','Body','Leg'].includes(id)?'criticalWounds':id);
+    if(section.id==='augmetics')keys.add('augmeticsSupplement');
     const data=Object.fromEntries([...keys].map(key=>[key,raw[key]]));
     dataFiles=[...keys].map(key=>key+'.json');
     const values={FOOTER:read('src/footer.html'),TABLEHELP:section.id==='psy'?read('src/psy-note.html'):section.id==='mutations'?read('src/mutations-note.html'):'',SECTION:section.id,TITLE:esc(section.title),DESCRIPTION:esc(section.description),VERSION:'Класична версія · '+esc(section.title),SUBTITLE:'Довідкові таблиці · Персонаж · Спорядження · Варп',NAVIGATION:nav(section.id),CSS:read('src/app.css')+'\n'+read('src/footer.css'),DATA:json(data),CATALOG:read('src/catalog.js'),NAVJS:read('src/navigation.js'),THEME:read('src/theme.js'),LOGIC:read('src/logic.js')+'\n'+read('src/render.js'),TRANSLATIONS:json(scopedTranslations(data)),TRAITNAMES:json(Object.fromEntries(Object.keys(raw.traits).map(id=>[id,JSON.parse(read('src/locale/glossary.json'))[id]]))),LOCALE:read('src/locale.js'),APP:read('src/app.js')};
