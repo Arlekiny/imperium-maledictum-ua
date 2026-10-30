@@ -1,0 +1,142 @@
+[
+  {
+    "Roll": "01–05",
+    "Name": "Dark-hearted",
+    "Description": "You grow increasingly cruel, callous, and vindictive. Whenever you gain Corruption, you gain 1 additional Corruption.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "06–10",
+    "Name": "Awful Cravings",
+    "Description": "You develop an overwhelming desire to consume an inedible or socially unacceptable substance. If you go longer than one week without sating your craving, you become Fatigued until you do so.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "11–15",
+    "Name": "Overwhelming Obsession",
+    "Description": "You become obsessed with whatever caused this mutation, and struggle to focus on anything else when left alone. During downtime, you must make a Difficult (−10) Willpower (Discipline) Test to take an Endeavour.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "16–20",
+    "Name": "Ill-fortuned",
+    "Description": "Chance seems to mock you at the most crucial of opportunities. Whenever you Spend Fate, roll 1d10. On a result of 7–10, the Fate point has no effect but is spent anyway.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "21–25",
+    "Name": "Irrational Nausea",
+    "Description": "You feel sick at the sight, sound, or smell of something otherwise innocuous, such as prayer books and holy items, cherubs, Human laughter, or fresh food. When you encounter an object of your revulsion, you are Stunned until the end of your next turn.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "26–30",
+    "Name": "Unshakable Paranoia",
+    "Description": "You grow increasingly distrustful, expecting betrayal at any moment from even your closest allies. You can no longer use or gain the benefits of the Help action (see page 208).",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "31–35",
+    "Name": "Dark Whispers",
+    "Description": "Unintelligible alien and unnatural voices constantly mutter in your ears. You suffer Disadvantage on Awareness (Sound) Tests.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "36–40",
+    "Name": "Phantom Memories",
+    "Description": "You have memories of events that — according to everyone else — never happened. It is impossible for you to tell which of your memories are true and which are false.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "41–45",
+    "Name": "Irrational Fear",
+    "Description": "Your character feels horror and revulsion at some innocuous, even good, thing. Work with your GM to choose the object of your fear. When you encounter it, you must succeed at a Challenging (+0) Discipline (Fear) Test or become Frightened.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "46–50",
+    "Name": "Blackouts",
+    "Description": "You suffer from inexplicable blackouts. Whenever roll a Fumble on a Test, you must make a Challenging (+0) Fortitude (Endurance) Test or become Incapacitated for 1d10 rounds.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "51–55",
+    "Name": "Morbid Fascination",
+    "Description": "You become obsessed with the sight of blood and bodily harm. If a character within your Zone, including yourself, suffers a Critical Wound, you must make a Challenging (+0) Discipline Test or be Stunned until the end of your next turn.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "56–60",
+    "Name": "Wheels Within Wheels",
+    "Description": "You become hyper aware of all the subtle tics and tells that give away mortal desires. You have Advantage on all Intuition (People) Tests,",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "61–65",
+    "Name": "Inescapable Itch",
+    "Description": "You constantly feel like something revolting is crawling beneath your skin.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "66–70",
+    "Name": "Warp Sense",
+    "Description": "If you close your eyes, you can see the faint skein of the immaterium simmering beneath reality. You gain 1 Advance in Awareness (Psyniscience), even if you do not have the Psyker Talent.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "71–75",
+    "Name": "The Eyes",
+    "Description": "Every shadow you see appears to crawl with shimmering eyes that watch you. You must make a Difficult (−10) Discipline (Fear) Test to enter shadows or complete darkness, or become Frightened.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "76–80",
+    "Name": "Void Gaze",
+    "Description": "The unspeakable horrors of the void shimmer across your eyes. Creatures who meet your unobstructed gaze must make a Challenging (+0) Willpower (Fear) Test or become Frightened of you.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "81–85",
+    "Name": "Ashen Taste",
+    "Description": "Everything you eat tastes like ash, blood, or bones.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "86–90",
+    "Name": "Dark Prophecies",
+    "Description": "You are granted brief flashes of agonies yet to come. Once per day, when you would suffer a Critical Wound as the result of an attack, you may claim that you foresaw this moment. You automatically avoid the attack and take no damage, but gain 1 Corruption as you steer closer towards a twisted fate.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "91–95",
+    "Name": "Warp Patron",
+    "Description": "You have gained the attention of a daemonic entity that seeks to manipulate your fate to their own unknowable end. You gain an additional Fate point, but whenever you Spend or Burn Fate (see page 220), you count as experiencing Minor Exposure to Corruption.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  },
+  {
+    "Roll": "96–00",
+    "Name": "Psychic Awakening",
+    "Description": "Your connection to the Warp is violently wrenched open. You gain the Psyker Talent (page 114) and one random Minor Psychic Power (page 160). Whenever you roll on the Perils of the Warp table (page 165) you gain 1 additional Corruption.",
+    "Source": "Core Rulebook",
+    "Page": 223
+  }
+]

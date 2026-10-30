@@ -580,6 +580,7 @@ html{color-scheme:dark;scrollbar-color:var(--line) var(--bg-panel)}
 <a href="equipment.html" data-section="equipment">Спорядження</a>
 <a href="protection.html" data-section="protection">Захист</a>
 <a href="psy.html" data-section="psy">Псайкери</a>
+<a href="mutations.html" data-section="mutations">Мутації</a>
 <a href="services.html" data-section="services">Послуги</a>
 <a href="weapons.html" data-section="weapons">Зброя</a>
 <a href="criticalwounds.html" data-section="criticalwounds">Рани й травми</a></nav><!-- classic-v2:navigation:end -->
@@ -714,7 +715,7 @@ html{color-scheme:dark;scrollbar-color:var(--line) var(--bg-panel)}
         <li>Inquisition Player’s Guide</li>
         <li>Macharian Requisition Guide</li>
       </ul>
-      <p>У повних описах талантів зазначено видання та сторінку. Переклад українською є фанатським.</p>
+      <p>У повних описах талантів і таблицях мутацій зазначено видання та сторінку. Переклад українською є фанатським.</p>
     </section>
     <section aria-label="Авторство та права">
       <h3>Авторство та права</h3>
@@ -1114,6 +1115,7 @@ const CATALOG = [
   {id:'equipment',title:'Спорядження',description:'Особисте спорядження, інструменти та медичне обладнання.',tables:[['clothingAndPersonalGear','Одяг та особисте спорядження'],['tools','Інструменти'],['medicaeEquipement','Медичне обладнання']]},
   {id:'protection',title:'Захист',description:'Броня, силові поля та модифікації броні.',tables:[['armour','Броня'],['forceFields','Силові поля'],['armourModifications','Модифікації броні']]},
   {id:'psy',title:'Псайкери',description:'Псайкерські дисципліни, феномени та небезпеки Варпу.',tables:[['psyPowers','Псайкерські сили','Discipline'],['psychicPhenomena','Псайкерські феномени','roll'],['perilsOfTheWarp','Небезпеки Варпу','roll']]},
+  {id:'mutations',title:'Мутації',description:'Мутації, згубні зміни та технологічна Скверна.',tables:[['mutations','Мутації · Core Rulebook','roll'],['malignancies','Згубні зміни · Core Rulebook','roll'],['subtleMutations','Малопомітні мутації · Inquisition','roll'],['technologyPerils','Небезпеки технологій · Mechanicus','roll']]},
   {id:'services',title:'Послуги',description:'Подорожі, проживання, харчування та медичні послуги.',tables:[['cityHiveTravel','Подорожі містом і вуликом','ordered'],['planetaryTravel','Планетарні подорожі','ordered'],['systemTravel','Подорожі системою','ordered'],['interstellarTravel','Міжзоряні подорожі','ordered'],['accomodationsServices','Проживання й помешкання','ordered'],['provisionsServices','Провізія та харчування','ordered'],['medicalServices','Медична допомога','ordered']]},
   {id:'weapons',title:'Зброя',description:'Стрілецька й рукопашна зброя, вибухівка, боєприпаси та модифікації.',tables:[['rangedWeapons','Стрілецька зброя'],['meleeWeapons','Рукопашна зброя'],['explosiveWeapons','Гранати й вибухівка'],['customAmmunitions','Спеціальні боєприпаси'],['weaponModifications','Модифікації зброї']]},
   {id:'criticalwounds',title:'Рани й травми',description:'Критичні рани за ділянками влучання, а також незначні й значні травми.',tables:[['Head','Рани голови','roll'],['Arm','Рани рук','roll'],['Body','Рани тулуба','roll'],['Leg','Рани ніг','roll'],['injuries','Травми']]}
@@ -1128,7 +1130,7 @@ if (typeof module !== 'undefined' && module.exports) module.exports = { CATALOG,
 
 /* Filename map and native relative links. No fetch, module loading or SPA redirects. */
 (function(root,factory){const api=factory();if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.ArchiveNavigation=api;})(typeof globalThis!=='undefined'?globalThis:this,function(){
-  const FILES=Object.freeze({home:'index.html',character:'character.html',augmetics:'augmetics.html',combat:'combat.html',equipment:'equipment.html',protection:'protection.html',psy:'psy.html',services:'services.html',weapons:'weapons.html',criticalwounds:'criticalwounds.html'});
+  const FILES=Object.freeze({home:'index.html',character:'character.html',augmetics:'augmetics.html',combat:'combat.html',equipment:'equipment.html',protection:'protection.html',psy:'psy.html',services:'services.html',weapons:'weapons.html',criticalwounds:'criticalwounds.html',mutations:'mutations.html'});
   const BOOK_IDS=['core','mechanicus','inquisitor','macharian'];
   function booksFromHash(hash){const params=new URLSearchParams(String(hash||'').split('?')[1]||'');return params.has('books')?[...new Set(params.get('books').split(',').filter(id=>BOOK_IDS.includes(id)))]:BOOK_IDS.slice();}
   function pageHref(section,books=BOOK_IDS){

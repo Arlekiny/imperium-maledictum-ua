@@ -1,0 +1,142 @@
+[
+  {
+    "Roll": "01–05",
+    "Name": "Witch-mark",
+    "Description": "A small brand or mark of a specific chaos god or the eight pointed star forms upon your flesh. Roll on the Hit Location table (see page 211) to determine where it appears.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "06–10",
+    "Name": "Wasted Frame",
+    "Description": "Your pallor becomes corpse-like and your muscles waste away. Your Toughness is permanently reduced by 10 and Advances in Athletics or Fortitude now cost you double the XP.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "11–15",
+    "Name": "Lashing Tentacle",
+    "Description": "A tentacle sprouts from your body. Roll on the Hit Location table (page 211) to determine where it appears. If it appears on a limb, it replaces it. Unarmed attacks made with the Tentacle gain the Reach and Inflict (Restrained) Traits.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "16–20",
+    "Name": "Inhuman Beauty",
+    "Description": "Your skin becomes uncannily flawless and people cannot help but stare. You gain +10 Fellowship whenever people can see your face, and your skin never blemishes or scars.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "21–25",
+    "Name": "Iron Skin",
+    "Description": "Metal scales or ore deposits spread across your body. You gain +2 Armour on all locations, but your Agility is permanently reduced by 10.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "26–30",
+    "Name": "Extra Mouth",
+    "Description": "You grow an extra mouth. Roll on the Hit Location table (page 211) to determine where it appears. The mouth seems to act of its own accord, whispering and infrequently screaming in a language you don’t know.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "31–35",
+    "Name": "Searing Blood",
+    "Description": "Your veins carry searing acids or boiling tar in place of blood, though somehow the corrosive effects do not burn your own flesh. Whenever you take Wounds or suffer the Bleeding Condition, all creatures within Immediate Range suffer Damage equal to the Wounds lost.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "36–40",
+    "Name": "Living Shadow",
+    "Description": "Your shadow does not match your own movements, and it looms large and visible regardless of the light. Whenever you are in darkness and cannot see it, you have the unshakeable feeling it is doing something terrible.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "41–45",
+    "Name": "Swollen Brute",
+    "Description": "You become bloated, your muscles expanding and your form becoming excessively corpulent or disturbingly muscular (or perhaps both). You have Advantage on Opposed Athletics Tests.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "46–50",
+    "Name": "Extra Eye",
+    "Description": "An eye appears somewhere on your body. Roll on the Hit Location table (page 211) to determine where it appears. The eye sees things you cannot. When you look through it, you count as using a Photo-Visors (see page 144).",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "51–55",
+    "Name": "Twisted Horns",
+    "Description": "Bony growths sprout from your head. Unnamed attacks made with your horns do not have the Ineffective Trait.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "56–60",
+    "Name": "Daemonic Visage",
+    "Description": "Your appearance twists into something bestial or abhorrent. You suffer −2 SL on Fellowship Tests whenever people can see your face, with the exception of Rapport (Intimidation) Tests, which instead gain +2 SL.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "61–65",
+    "Name": "Digitigrade Legs",
+    "Description": "Your legs twist into a muscular form that greatly enhances your agility. You have Advantage on Athletics Tests to run, leap, or otherwise use your legs.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "66–70",
+    "Name": "Feathers",
+    "Description": "Feathers grow from your body in a spotty fashion. Roll on the Hit Location table (page 211) twice to determine where they appear. They may be of any colour, or multiple colours.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "71–75",
+    "Name": "Warp Claws",
+    "Description": "Your fingers sprout and sharpen into horrific dark talons. Your Unarmed attacks lose the Ineffective Trait and gain Rend (1).",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "76–80",
+    "Name": "Photonic Irregularity",
+    "Description": "You do not appear in mirrors or other reflective surfaces, or in video recordings that use the visual light spectrum.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "81–85",
+    "Name": "Festering Wound",
+    "Description": "One of your old wounds returns and refuses to heal, no matter what you do. A Critical Wound you received some time in the past returns and cannot be healed. You are considered to always have one untreated Critical Wound.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "86–90",
+    "Name": "Lolling Tongue",
+    "Description": "Your tongue becomes unwieldy and spasms erratically. You suffer −10 to all Tests that require speech.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "91–95",
+    "Name": "Fleshmetal",
+    "Description": "Your armour and cybernetic implants fuse with your flesh and can even regenerate. You can repair items merged with you using your Fortitude Skill. Tests to repair these items using Tech or other conventional methods have Disadvantage. You cannot change your armour or don additional armour.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  },
+  {
+    "Roll": "96–00",
+    "Name": "Warp Regeneration",
+    "Description": "Corruption seethes through your flesh, sewing your body back together time and time again whether you will it or not. Your Fate is reduced to 0 and you cannot regain Fate. However, you always regenerate 1 Wound at the beginning of your turn. In addition, any lost limbs regrow after 1 day.",
+    "Source": "Core Rulebook",
+    "Page": 222
+  }
+]

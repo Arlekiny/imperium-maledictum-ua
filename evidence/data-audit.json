@@ -39,6 +39,66 @@
       "book": "inquisitor"
     },
     {
+      "table": "subtleMutations",
+      "row": 0,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "subtleMutations",
+      "row": 1,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "subtleMutations",
+      "row": 2,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "subtleMutations",
+      "row": 3,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "subtleMutations",
+      "row": 4,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "subtleMutations",
+      "row": 5,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "subtleMutations",
+      "row": 6,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "subtleMutations",
+      "row": 7,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "subtleMutations",
+      "row": 8,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "subtleMutations",
+      "row": 9,
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
       "table": "customAmmunitions",
       "row": 6,
       "name": "Blessed Rounds",
@@ -81,8 +141,8 @@
       "book": "inquisitor"
     }
   ],
-  "tableCount": 34,
-  "rowCount": 766,
+  "tableCount": 38,
+  "rowCount": 836,
   "profileCount": 14,
   "profileReferences": {
     "Soulsight Table": [
@@ -448,6 +508,70 @@
       "ordered": true,
       "defaultSort": null,
       "rows": 19
+    },
+    {
+      "id": "mutations",
+      "title": "Мутації · Core Rulebook",
+      "file": "mutations.json",
+      "pointer": "/",
+      "headers": [
+        "Roll",
+        "Name",
+        "Description",
+        "Source",
+        "Page"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 20
+    },
+    {
+      "id": "malignancies",
+      "title": "Згубні зміни · Core Rulebook",
+      "file": "malignancies.json",
+      "pointer": "/",
+      "headers": [
+        "Roll",
+        "Name",
+        "Description",
+        "Source",
+        "Page"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 20
+    },
+    {
+      "id": "subtleMutations",
+      "title": "Малопомітні мутації · Inquisition",
+      "file": "subtleMutations.json",
+      "pointer": "/",
+      "headers": [
+        "Roll",
+        "Positive Mutation",
+        "Negative Mutation",
+        "Source",
+        "Page"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 10
+    },
+    {
+      "id": "technologyPerils",
+      "title": "Небезпеки технологій · Mechanicus",
+      "file": "technologyPerils.json",
+      "pointer": "/",
+      "headers": [
+        "Roll",
+        "Name",
+        "Description",
+        "Source",
+        "Page"
+      ],
+      "ordered": true,
+      "defaultSort": null,
+      "rows": 20
     },
     {
       "id": "cityHiveTravel",

@@ -107,6 +107,13 @@
       headers.forEach(key=>{
         const td=node('td',null,{'data-label':T.header(key),class:'col-'+key.replace(/[^a-zA-Z0-9_-]/g,'-')});
         const value=row[key] ?? '';
+        if(['Positive Mutation','Negative Mutation'].includes(key)) {
+          const id=String(value).split(' (')[0].replace('Unshakeable Paranoia','Unshakable Paranoia');
+          if(options.mutations?.some(entry=>entry.Name===id)) {
+            const button=node('button',T.text(value),{type:'button',class:'detail-link','data-reference-kind':'mutation','data-reference-id':id,'aria-haspopup':'dialog'});
+            button.addEventListener('click',()=>onReference({kind:'mutation',id,trigger:button}));td.append(button);tr.append(td);return;
+          }
+        }
         td.append(key==='Traits'?traitText(value):key==='Name'?rich(T.name(value),{linkConditions}):key==='Source'?node('span',value):rich(value,{linkConditions}));
         tr.append(td);
       });

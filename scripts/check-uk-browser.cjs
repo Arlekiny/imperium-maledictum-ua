@@ -11,7 +11,7 @@ const tables=L.normalise(raw,CATALOG).tables;
  try{
  browser=await launchBrowser();
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
- const base='http://127.0.0.1:'+server.address().port+'/';const report={date:'2026-10-28',pages:[],profiles:0,renderedRows:0,renderedTables:0};
+ const base='http://127.0.0.1:'+server.address().port+'/';const report={date:new Date().toISOString().slice(0,10),pages:[],profiles:0,renderedRows:0,renderedTables:0};
  for(const section of CATALOG){
   await page.goto(base+N.FILES[section.id]);
   assert.equal(await page.locator('html').getAttribute('lang'),'uk');
@@ -50,7 +50,7 @@ const tables=L.normalise(raw,CATALOG).tables;
  await page.screenshot({path:'evidence/uk-weapons-desktop.png',fullPage:false});
  await page.goto(base+'criticalwounds.html#/criticalwounds/all');await page.setViewportSize({width:390,height:844});
  await page.screenshot({path:'evidence/uk-wounds-mobile.png',fullPage:false});
- assert.equal(report.renderedRows,766);assert.equal(report.renderedTables,34);assert.deepEqual(errors,[]);report.errors=errors;report.bilingualSearch=true;
+ assert.equal(report.renderedRows,836);assert.equal(report.renderedTables,38);assert.deepEqual(errors,[]);report.errors=errors;report.bilingualSearch=true;
  fs.writeFileSync('evidence/uk-browser-checks.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
  }finally{if(browser)await browser.close();server.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

@@ -14,7 +14,7 @@
 
   let state=parsePageRoute(location.hash), lastSection='', lastTable='', dialogTrigger=null;
 
-  const renderer=createArchiveRenderer(document,L,{profiles,traits:raw.traits,conditions:raw.conditions,onReference:showReference});
+  const renderer=createArchiveRenderer(document,L,{profiles,traits:raw.traits,conditions:raw.conditions,mutations:[...(raw.mutations || []),...(raw.malignancies || [])],onReference:showReference});
 
   const {node,rich}=renderer;
 
@@ -267,6 +267,19 @@
 
     let content;
 
+    if(kind==='mutation') {
+      const entry=[...(raw.mutations || []),...(raw.malignancies || [])].find(row=>row.Name===id);
+      if(!entry)return;
+      const content=node('div'), controls=node('div',null,{class:'mutation-language',role:'group','aria-label':'Мова опису'}), body=node('p');
+      let language='uk';try{language=localStorage.getItem('im-mutation-language')==='en'?'en':'uk';}catch{}
+      const buttons=['uk','en'].map(lang=>{
+        const button=node('button',lang==='uk'?'Українська':'English (оригінал)',{type:'button',class:'small','data-mutation-detail-language':lang});
+        button.addEventListener('click',()=>{language=lang;draw();});controls.append(button);return button;
+      });
+      function draw(){body.textContent=language==='en'?entry.Description:ARCHIVE_TRANSLATIONS[entry.Description];body.lang=language;buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mutationDetailLanguage===language)));}
+      draw();content.append(controls,body,node('p',entry.Source+' · '+entry.Page,{class:'note'}));
+      openDetail((ARCHIVE_TRANSLATIONS[entry.Name] || entry.Name)+' ('+entry.Name+')',content,trigger);return;
+    }
     if(kind==='profile')content=renderer.profile(id);
 
     else {
@@ -335,5 +348,16 @@
 
   });
 
-  render(false);
+  if(state.section==='mutations') {
+    let language='uk';try{language=localStorage.getItem('im-mutation-language')==='en'?'en':'uk';}catch{}
+    function setMutationLanguage(value){
+      language=value;T.setLanguage(language);
+      document.querySelectorAll('[data-mutation-language]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mutationLanguage===language)));
+      $('tableWrap').lang=language;
+      try{localStorage.setItem('im-mutation-language',language);}catch{}
+      render(false);
+    }
+    document.querySelectorAll('[data-mutation-language]').forEach(button=>button.addEventListener('click',()=>setMutationLanguage(button.dataset.mutationLanguage)));
+    setMutationLanguage(language);
+  }else render(false);
 })();

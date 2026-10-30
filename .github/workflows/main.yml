@@ -30,7 +30,7 @@ jobs:
       - name: Package nginx files
         run: |
           mkdir -p site
-          cp index.html character.html augmetics.html combat.html equipment.html protection.html psy.html services.html weapons.html criticalwounds.html README.md MAINTAINING.md NOTICE.md LICENSE site/
+          cp mutations.html index.html character.html augmetics.html combat.html equipment.html protection.html psy.html services.html weapons.html criticalwounds.html README.md MAINTAINING.md NOTICE.md LICENSE site/
           cp -r licenses site/
       - name: Save static site artifact
         uses: actions/upload-artifact@v4

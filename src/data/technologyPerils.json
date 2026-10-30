@@ -1,0 +1,142 @@
+[
+  {
+    "Roll": "01–05",
+    "Name": "Contaminated Binaries",
+    "Description": "Every so often, your visual readouts of ones and zeroes are broken by an unholy aberration: a two. If you fail a Tech Test by rolling a double — a Fumble — you suffer the Stunned Condition for 1d5 rounds.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "06–10",
+    "Name": "Circular Reasoning",
+    "Description": "The infinite digits of pi twist infest your streams of prayer and incantation. When you take an Extended Tech Test, the duration of the Test is extended by a further period after the point at which it should be completed (at least one round).",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "11–15",
+    "Name": "Voices of the Dead",
+    "Description": "Ancient recordings occasionally overwhelm your auditory sensors, spewing blasphemies or trivialities into your mind and occasionally out of your vox unit. Whenever you fail a Tech Test you gain the Deafened Condition until the end of your next turn.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "16–20",
+    "Name": "Data-Rot",
+    "Description": "Some ancient data has infested your augmetic’s systems, filling your mind with baffling half-truths and lies mixed with brilliant insights. The GM makes all Lore Tests for your character in secret. Whatever the result, your character is convinced that any facts that come to mind are the absolute and unquestionable truth.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "21–25",
+    "Name": "Tantalising Data",
+    "Description": "A string of partially deciphered code weighs heavily on your mind, an opportunity that you struggle to ignore. During downtime, the base Difficulty of any Test you make is Difficult (−10) or you may choose to undertake one fewer Endeavour that you otherwise could to negate this effect.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "26–30",
+    "Name": "Dominant Programming",
+    "Description": "A degraded machine spirit randomly overcomes your will, forcing you into its repetitive programming. When you take damage to the head, you must pass a Difficult (−10) Discipline (Composure) Test or spend your next turn repeating whatever action you attempted during your last turn.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "31–35",
+    "Name": "Lockdown Sequence",
+    "Description": "An archeotech mechanism to secure a device from damage has seeped into your systems. Whenever you take a Critical Wound, make a Challenging (+0) Discipline (Composure) Test. On a failure, you are Restrained until the end of your next turn.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "36–40",
+    "Name": "Augmetic Ghost",
+    "Description": "The fractured binharic remains of a long-dead Tech-Priest have infested your augmetics. Their form occasionally appears beside you when you gaze into the noosphere, capable of faint communication.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "41–45",
+    "Name": "Data Addiction",
+    "Description": "Your augmented mind craves a constant flow of new information. You must pass a Difficult (−10) Discipline (Composure) Test to resist seizing every opportunity to acquire new knowledge, regardless of the associated risk or delay. If you fail, you must spend one of your next Endeavours researching that topic (the GM may award you an Advance for your efforts).",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "46–50",
+    "Name": "Killing Charge",
+    "Description": "You crackle with electricity, glutted with the Motive Force. Any character that touches you immediately suffers 1 Wound.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "51–55",
+    "Name": "Random Shutoff",
+    "Description": "Corrupted ancient code interferes with the function of your augmetics. Once per session, a random augmetic will shut off at an inopportune time, taking one minute to reactivate.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "56–60",
+    "Name": "Xenotech Traces",
+    "Description": "Some archeotech you interfaced with bore alien Corruption, and the taint of it lingers on you still. The ordinary machine spirits found in imperial technologies are rightfully fearful of you, and the Difficulty of Tests to interact with such devices is always at least Challenging (+0).",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "61–65",
+    "Name": "Words of the Dead",
+    "Description": "You have been instilled with data from a dead language. When speaking, you may randomly switch to this incomprehensible tongue, suffering Disadvantage on all Rapport Tests.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "66–70",
+    "Name": "Rad-Saturation",
+    "Description": "Your body is saturated with uncontained radiation. You and characters in the same Zone are Poisoned (Minor) while in your presence.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "71–75",
+    "Name": "The Flesh is Weak",
+    "Description": "An unaugmented part of your body begins to rot or atrophy. Over time, you lose the ability to see through unaugmented eyes, speak without the aid of a vox implant, or eventually even move without an appropriate augmetic to replace your withered flesh.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "76–80",
+    "Name": "Blind to Corruption",
+    "Description": "The lines between what is permitted and what is not become increasingly blurred to you. The GM tracks your Corruption in secret and makes all associated Tests in secret on your behalf.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "81–85",
+    "Name": "Haywire Oration",
+    "Description": "Some malignant spirit or irresistible urge infests your mind, your cogitator, or your vox implant. Once per session, the GM may speak on your behalf, saying in that moment whatever words will inconvenience you most.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "86–90",
+    "Name": "Augmetic Rejection",
+    "Description": "Even the strength of steel begins to fail you, as your body degrades and devours augmetics at an incredible rate. You must frequently replace and repair your augmetics, which fail at a rate of at least one per mission, often at an inopportune moment.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "91–95",
+    "Name": "Expendable Flesh",
+    "Description": "Viral coding drives your augmetics to protect themselves by sacrificing your flesh. When you suffer a critical wound, roll twice, suffering the higher result.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  },
+  {
+    "Roll": "96–00",
+    "Name": "Mind of Iron",
+    "Description": "You have suffered the ultimate hubris of the ancients. An abominable intelligence, or something masquerading as one, has transferred its heretical consciousness to your augmetics, offering its wisdom, but at a terrible cost. You may follow its advice to turn any failed Tech or Lore Test into a success with +1 SL. However, each time you do, you gain 1 Corruption.",
+    "Source": "Adeptus Mechanicus Player's Guide",
+    "Page": 128
+  }
+]

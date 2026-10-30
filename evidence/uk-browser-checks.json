@@ -30,6 +30,10 @@
       "ok": true
     },
     {
+      "id": "mutations",
+      "ok": true
+    },
+    {
       "id": "services",
       "ok": true
     },
@@ -43,8 +47,8 @@
     }
   ],
   "profiles": 14,
-  "renderedRows": 766,
-  "renderedTables": 34,
+  "renderedRows": 836,
+  "renderedTables": 38,
   "errors": [],
   "bilingualSearch": true
 }

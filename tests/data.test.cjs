@@ -9,9 +9,9 @@ const root=path.resolve(__dirname,'..');
 const raw=Object.fromEntries(fs.readdirSync(path.join(root,'src/data')).filter(f=>f.endsWith('.json')).map(f=>[f.slice(0,-5),JSON.parse(fs.readFileSync(path.join(root,'src/data',f),'utf8'))]));
 const {tables,profiles}=L.normalise(raw,CATALOG);
 const report=L.validate(raw,CATALOG);
-test('all 34 required tables and 14 auxiliary profiles validate',()=>{
-  assert.deepEqual(report.errors,[]);assert.equal(report.tableCount,34);assert.equal(report.profileCount,14);
-  assert.equal(CATALOG.length,10);assert.equal(BOOKS.length,4);
+test('all 38 required tables and 14 auxiliary profiles validate',()=>{
+  assert.deepEqual(report.errors,[]);assert.equal(report.tableCount,38);assert.equal(report.profileCount,14);
+  assert.equal(CATALOG.length,11);assert.equal(BOOKS.length,4);
 });
 for (const [id,count] of Object.entries(L.EXPECTED)) test(id+': exact count, all keys and all values retained',()=>{
   const table=tables[id];assert.equal(table.rows.length,count);
@@ -48,7 +48,7 @@ test('source filters retain source-less rows; books never classified by substrin
   }
 });
 test('documented Inquisitor spelling variants are included without rewriting raw sources',()=>{
-  assert.equal(report.sourceAliasesApplied.length,11);
+  assert.equal(report.sourceAliasesApplied.length,21);
   assert.equal(new Set(report.sourceAliasesApplied.map(entry=>entry.source)).size,2);
   for(const entry of report.sourceAliasesApplied){
     const row=tables[entry.table].rows[entry.row];
@@ -80,7 +80,7 @@ test('range bands, availability and difficulty use semantic order',()=>{
   assert.deepEqual(sortValues('Difficulty',['Very Hard (-30)','Difficult (-10)','Easy (+40)','Challenging (+0)','Routine (+20)']),['Easy (+40)','Routine (+20)','Challenging (+0)','Difficult (-10)','Very Hard (-30)']);
 });
 test('all roll tables and services retain semantic source order even with requested sorting',()=>{
-  const ordered=Object.values(tables).filter(table=>table.ordered);assert.equal(ordered.length,16);
+  const ordered=Object.values(tables).filter(table=>table.ordered);assert.equal(ordered.length,20);
   for(const table of ordered){
     assert.deepEqual(L.sortedRows(table,table.rows,table.headers.at(-1),'desc'),table.rows);
     assert.equal(table.defaultSort,null);

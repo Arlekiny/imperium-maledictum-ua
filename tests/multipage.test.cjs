@@ -5,8 +5,8 @@ const raw=Object.fromEntries(fs.readdirSync(path.join(root,'src/data')).map(f=>[
 const original=read('src/character.html');
 const all=L.normalise(raw,CATALOG);
 const manifest=JSON.parse(read('evidence/build-manifest.json'));
-test('exactly ten distinct real section files, not hash aliases or redirects',()=>{
-  assert.equal(new Set(Object.values(N.FILES)).size,10);assert.equal(manifest.pages.length,10);
+test('exactly eleven distinct real section files, not hash aliases or redirects',()=>{
+  assert.equal(new Set(Object.values(N.FILES)).size,11);assert.equal(manifest.pages.length,11);
   assert.deepEqual(fs.readdirSync(root).filter(f=>f.endsWith('.html')).sort(),Object.values(N.FILES).sort());
   for(const page of manifest.pages){assert.equal(page.file,N.FILES[page.section]);assert.equal(crypto.createHash('sha256').update(read(page.file)).digest('hex'),page.sha256);}
 });
@@ -15,7 +15,7 @@ for(const section of CATALOG){
   test(file+': correct identity, complete native relative navigation and no redirects',()=>{
     assert.ok(html.includes('name="archive-section" content="'+section.id+'"'));
     const nav=html.match(/<nav (?:id="navigation" class="navigation"|class="page-navigation") aria-label="(?:Sections|Розділи)">([^]*?)<\/nav>/)[1];
-    const links=[...nav.matchAll(/href="([^"]+)" data-section="([^"]+)"([^>]*)/g)];assert.equal(links.length,10);
+    const links=[...nav.matchAll(/href="([^"]+)" data-section="([^"]+)"([^>]*)/g)];assert.equal(links.length,11);
     for(const [,href,id,attrs] of links){assert.equal(href,N.FILES[id]);assert.ok(fs.existsSync(path.join(root,href)));assert.equal(attrs.includes('aria-current="page"'),id===section.id);}
     assert.ok(!/http-equiv=["']refresh|location\.(?:replace|assign)\s*\(|location\.href\s*=/.test(html));
   });
@@ -49,7 +49,7 @@ test('Character matches its editable source after removing integration blocks',(
   assert.deepEqual(scripts(html).slice(0,-1),scripts(original));
   assert.ok(!html.includes('id="books"'));assert.ok(html.includes('id="mobileSort"'));
 });
-test('all 100 cross-page links resolve under file URLs with spaces without source filters',()=>{
+test('all 121 cross-page links resolve under file URLs with spaces without source filters',()=>{
   for(const from of CATALOG)for(const to of CATALOG)for(const books of [N.BOOK_IDS,['core'],['mechanicus','inquisitor'],[]]){
     const href=N.pageHref(to,books),url=new URL(href,'file:///example/with%20spaces/'+N.FILES[from.id]);
     assert.equal(url.pathname,'/example/with%20spaces/'+N.FILES[to.id]);assert.deepEqual(N.booksFromHash(url.hash),N.BOOK_IDS);

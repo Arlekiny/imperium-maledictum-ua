@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "date": "2026-10-28",
+  "date": "2026-10-30",
   "sourceCommit": "3eb35603a7e7372c83ea3d366f233d763c4ab52c",
   "pages": [
     {
       "section": "home",
       "file": "index.html",
-      "bytes": 234802,
-      "sha256": "a6ab08bc5f36834a413f7ece558afc992c6c4fb23b1923bcca555ca039cb6633",
+      "bytes": 244265,
+      "sha256": "f79fce76f7b0d74eda3be6906394ae77d0adbe2fb4615192cedd831b3d95039f",
       "tables": [
         "names"
       ],
@@ -22,16 +22,16 @@
     {
       "section": "character",
       "file": "character.html",
-      "bytes": 387597,
-      "sha256": "9b710d36d849fa29114a0e4ef861e1b984fd207af507eec8e266981248fb8dfc",
+      "bytes": 388168,
+      "sha256": "24c3e4371ec56c07c251f15000cf637e789204091a82da3a5a2ea4546d078803",
       "tables": [],
       "dataFiles": []
     },
     {
       "section": "augmetics",
       "file": "augmetics.html",
-      "bytes": 256258,
-      "sha256": "6f484c55befba5f1c5caa7161a23ca4afe5087c472f0e1205ef790f9dc8e3e47",
+      "bytes": 265721,
+      "sha256": "e85a7c6c6e088d7373139edfae3d50db1b7fda24c6134fde703fa0a6403b45d0",
       "tables": [
         "augmetics"
       ],
@@ -46,8 +46,8 @@
     {
       "section": "combat",
       "file": "combat.html",
-      "bytes": 254484,
-      "sha256": "e068be95aa47943b61dab96bc2436965df06c73862c3fcb6aed1d3f5ef9c6553",
+      "bytes": 263947,
+      "sha256": "505746255595441812ff619df7d14237299c6c010e833a006b7eb77080924149",
       "tables": [
         "combatActions",
         "traits",
@@ -70,8 +70,8 @@
     {
       "section": "equipment",
       "file": "equipment.html",
-      "bytes": 321528,
-      "sha256": "00a55d46c4cef89192986748e88859f3ce43cdb8f2bba52936f5cfc33a563e7d",
+      "bytes": 330991,
+      "sha256": "b4840e2d5b661931ca914c82f5aff9dcc3640afc4cc08cd869fc5882999613cb",
       "tables": [
         "clothingAndPersonalGear",
         "tools",
@@ -90,8 +90,8 @@
     {
       "section": "protection",
       "file": "protection.html",
-      "bytes": 246054,
-      "sha256": "1a0b7ef9626b92184dd186b6e0009fade5dff63c303a970eb01f14ca40426b4b",
+      "bytes": 255517,
+      "sha256": "611b854557cffd744c5217874a718180170004436943d62494fb46f0484ae1c3",
       "tables": [
         "armour",
         "forceFields",
@@ -110,8 +110,8 @@
     {
       "section": "psy",
       "file": "psy.html",
-      "bytes": 419397,
-      "sha256": "a8294c70fbe289e191c995601408fda359b2be424db9fac6963f0ff3a1c2b7e6",
+      "bytes": 428860,
+      "sha256": "4fa98ab1b604630ad5a2df838d70cc53ff0883d09f89dae8b88eb86f80e5f180",
       "tables": [
         "psyPowers",
         "psychicPhenomena",
@@ -128,10 +128,32 @@
       ]
     },
     {
+      "section": "mutations",
+      "file": "mutations.html",
+      "bytes": 298519,
+      "sha256": "67b086cb1c60107901a35835595a08db4ece6869a2107ffa552267cd64174e2c",
+      "tables": [
+        "mutations",
+        "malignancies",
+        "subtleMutations",
+        "technologyPerils"
+      ],
+      "dataFiles": [
+        "traits.json",
+        "conditions.json",
+        "psyDetailProfiles.json",
+        "toolDetailProfiles.json",
+        "mutations.json",
+        "malignancies.json",
+        "subtleMutations.json",
+        "technologyPerils.json"
+      ]
+    },
+    {
       "section": "services",
       "file": "services.html",
-      "bytes": 235607,
-      "sha256": "7c24ec6cd3344b6905e5650a6b96bd53941853956f555d8631162484d05397d0",
+      "bytes": 245070,
+      "sha256": "562a01fa66d5e6d06947d42d1e552890ddc5ab38bcc9228e48e471ea56bc5bf1",
       "tables": [
         "cityHiveTravel",
         "planetaryTravel",
@@ -158,8 +180,8 @@
     {
       "section": "weapons",
       "file": "weapons.html",
-      "bytes": 295464,
-      "sha256": "2247adc07934c1791bf6070511589fd36d797b8e1681198d28bf190cb82705cb",
+      "bytes": 304927,
+      "sha256": "5a2adba7730bb37296b4a15ba4fd6ab9746867625330ff5df9ed34e24b248410",
       "tables": [
         "rangedWeapons",
         "meleeWeapons",
@@ -182,8 +204,8 @@
     {
       "section": "criticalwounds",
       "file": "criticalwounds.html",
-      "bytes": 284000,
-      "sha256": "a832e696d1717eeac2fd38c7be6e38dbe81d3e074287d6901fb1df93ab74bb50",
+      "bytes": 293463,
+      "sha256": "e2e03da469185b165f3eda4b7af47b18f7513ef671da87ea822fdf700a0b00fa",
       "tables": [
         "Head",
         "Arm",

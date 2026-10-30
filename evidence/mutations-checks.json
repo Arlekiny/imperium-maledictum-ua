@@ -1,0 +1,14 @@
+{
+  "pages": 1,
+  "tables": 4,
+  "rows": 70,
+  "linkedEffects": 20,
+  "languages": [
+    "uk",
+    "en"
+  ],
+  "persistentLanguage": true,
+  "bilingualSearch": true,
+  "mobileOverflow": false,
+  "errors": []
+}
