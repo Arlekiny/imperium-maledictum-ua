@@ -20,7 +20,7 @@ for (const [id,count] of Object.entries(L.EXPECTED)) test(id+': exact count, all
   else if(['Head','Arm','Body','Leg'].includes(id))expected=raw.criticalWounds.CriticalWounds[id];
   else if(['traits','conditions'].includes(id))expected=Object.entries(raw[id]).map(([Name,Description])=>({Name,Description}));
   else if(id==='augmetics')expected=[...raw[id],...raw.augmeticsSupplement];
-  else expected=raw[id];
+  else expected=[...raw[id],...(raw.bookSupplement?.[id] || [])];
   assert.deepEqual(table.rows,expected);
   assert.deepEqual(new Set(table.headers),new Set(expected.flatMap(row=>Object.keys(row))));
   assert.equal(L.filterRows(table.rows,{query:'',books:L.BOOK_IDS}).length,count);
@@ -49,7 +49,7 @@ test('source filters retain source-less rows; books never classified by substrin
   }
 });
 test('documented Inquisitor spelling variants are included without rewriting raw sources',()=>{
-  assert.equal(report.sourceAliasesApplied.length,21);
+  assert.equal(report.sourceAliasesApplied.length,24);
   assert.equal(new Set(report.sourceAliasesApplied.map(entry=>entry.source)).size,2);
   for(const entry of report.sourceAliasesApplied){
     const row=tables[entry.table].rows[entry.row];

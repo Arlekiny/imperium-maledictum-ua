@@ -6,7 +6,7 @@
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
   const PIN = '3eb35603a7e7372c83ea3d366f233d763c4ab52c';
-  const EXPECTED = Object.freeze({mutations:20,malignancies:20,subtleMutations:10,technologyPerils:20,names:25,augmetics:30,combatActions:22,traits:27,conditions:13,environmentalTraits:9,hitLocations:6,fumbles:10,clothingAndPersonalGear:31,tools:66,medicaeEquipement:13,armour:46,forceFields:3,armourModifications:7,psyPowers:91,psychicPhenomena:15,perilsOfTheWarp:19,cityHiveTravel:4,planetaryTravel:4,systemTravel:4,interstellarTravel:4,accomodationsServices:4,provisionsServices:4,medicalServices:4,rangedWeapons:104,meleeWeapons:73,explosiveWeapons:26,customAmmunitions:18,weaponModifications:19,Head:15,Arm:15,Body:15,Leg:15,injuries:6});
+  const EXPECTED = Object.freeze({mutations:20,malignancies:20,subtleMutations:10,technologyPerils:20,names:25,augmetics:56,combatActions:22,traits:27,conditions:13,environmentalTraits:9,hitLocations:6,fumbles:10,clothingAndPersonalGear:31,tools:67,medicaeEquipement:17,armour:46,forceFields:3,armourModifications:7,psyPowers:91,psychicPhenomena:15,perilsOfTheWarp:19,cityHiveTravel:4,planetaryTravel:4,systemTravel:4,interstellarTravel:4,accomodationsServices:4,provisionsServices:4,medicalServices:4,rangedWeapons:104,meleeWeapons:73,explosiveWeapons:26,customAmmunitions:21,weaponModifications:19,Head:15,Arm:15,Body:15,Leg:15,injuries:6});
   const BOOK_NAMES = Object.freeze({core:'Core Rulebook',mechanicus:"Adeptus Mechanicus Player's Guide",inquisitor:"Inquisitor Player's Guide",macharian:'Macharian Requisition Guide'});
   const BOOK_IDS = Object.keys(BOOK_NAMES);
   // Exact spelling variants present in the pinned source; raw values are preserved.
@@ -66,7 +66,7 @@
       } else if (['traits','conditions'].includes(id)) {
         rows = Object.entries(raw[id]).map(([Name,Description]) => ({Name,Description}));
       } else if(id==='augmetics')rows=[...raw[id],...(raw.augmeticsSupplement || [])];
-      else rows = raw[id];
+      else rows = [...raw[id],...(raw.bookSupplement?.[id] || [])];
       if (!Array.isArray(rows)) throw new Error('Expected rows for ' + id);
       tables[id] = {id,title,section:section.id,rows,headers:allHeaders(rows,headers),file,pointer,ordered:['roll','ordered'].includes(order),defaultSort:['roll','ordered'].includes(order)?null:(order || Object.keys(rows[0] || {})[0])};
     }

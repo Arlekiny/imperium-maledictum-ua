@@ -50,7 +50,7 @@ const tables=L.normalise(raw,CATALOG).tables;
  await page.screenshot({path:'evidence/uk-weapons-desktop.png',fullPage:false});
  await page.goto(base+'criticalwounds.html#/criticalwounds/all');await page.setViewportSize({width:390,height:844});
  await page.screenshot({path:'evidence/uk-wounds-mobile.png',fullPage:false});
- assert.equal(report.renderedRows,837);assert.equal(report.renderedTables,38);assert.deepEqual(errors,[]);report.errors=errors;report.bilingualSearch=true;
+ assert.equal(report.renderedRows,871);assert.equal(report.renderedTables,38);assert.deepEqual(errors,[]);report.errors=errors;report.bilingualSearch=true;
  fs.writeFileSync('evidence/uk-browser-checks.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
  }finally{if(browser)await browser.close();server.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

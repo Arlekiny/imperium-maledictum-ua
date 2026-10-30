@@ -8,13 +8,14 @@
 
   const {tables,profiles}=L.normalise(raw,PAGE_CATALOG);
 
+  const entryKeys=new WeakMap();for(const table of Object.values(tables))table.rows.forEach((row,index)=>entryKeys.set(row,table.id+':'+index));
   const $=id=>document.getElementById(id);
 
   const parsePageRoute=hash=>({...L.parseRoute(hash,PAGE_CATALOG,tables),books:L.BOOK_IDS.slice()});
 
   let state=parsePageRoute(location.hash), lastSection='', lastTable='', dialogTrigger=null;
 
-  const renderer=createArchiveRenderer(document,L,{profiles,traits:raw.traits,conditions:raw.conditions,mutations:[...(raw.mutations || []),...(raw.malignancies || [])],onReference:showReference});
+  const renderer=createArchiveRenderer(document,L,{profiles,entryKeys,traits:raw.traits,conditions:raw.conditions,mutations:[...(raw.mutations || []),...(raw.malignancies || [])],onReference:showReference});
 
   const {node,rich}=renderer;
 
@@ -274,6 +275,7 @@
       if(!entry)return;
       const content=node('div'), controls=node('div',null,{class:'mutation-language',role:'group','aria-label':'Мова опису'}), body=node('p');
       let language='uk';try{language=localStorage.getItem('im-mutation-language')==='en'?'en':'uk';}catch{}
+      controls.append(node('span','Мова опису:',{class:'reader-language-label'}));
       const buttons=['uk','en'].map(lang=>{
         const button=node('button',lang==='uk'?'Українська':'English (оригінал)',{type:'button',class:'small','data-mutation-detail-language':lang});
         button.addEventListener('click',()=>{language=lang;draw();});controls.append(button);return button;
@@ -282,6 +284,11 @@
       draw();content.append(controls,body,node('p',entry.Source+' · '+entry.Page,{class:'note'}));
       openDetail((ARCHIVE_TRANSLATIONS[entry.Name] || entry.Name)+' ('+entry.Name+')',content,trigger);return;
     }
+    let language='uk';try{language=localStorage.getItem('im-reader-language')==='en'?'en':'uk';}catch{}
+    const wrap=node('div'),controls=node('div',null,{class:'reader-language',role:'group','aria-label':'Мова опису'}),panel=node('div');controls.append(node('span','Мова опису:',{class:'reader-language-label'}));
+    function drawReference(){
+      const previous=T.getLanguage();T.setLanguage(language);
+      try{
     if(kind==='profile')content=renderer.profile(id);
 
     else {
@@ -302,7 +309,13 @@
 
     }
 
-    openDetail(kind==='trait'?T.traitName(label,id):T.name(id),content,trigger);
+        panel.replaceChildren(content);panel.lang=language;
+      }finally{T.setLanguage(previous);}
+      controls.querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.referenceLanguage===language)));
+    }
+    for(const [lang,text] of [['uk','Українська'],['en','English (оригінал)']]){const button=node('button',text,{type:'button','data-reference-language':lang});button.addEventListener('click',()=>{language=lang;try{localStorage.setItem('im-reader-language',lang);}catch{}drawReference();});controls.append(button);}
+    drawReference();wrap.append(controls,panel);
+    openDetail(kind==='trait'?T.traitName(label,id):T.name(id),wrap,trigger);
 
   }
 

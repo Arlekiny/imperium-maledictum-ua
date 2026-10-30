@@ -1,0 +1,9 @@
+{
+  "icons": true,
+  "namesWithoutActions": true,
+  "calculator": true,
+  "calculatorValidation": true,
+  "sidebar": true,
+  "languageControls": true,
+  "errors": []
+}

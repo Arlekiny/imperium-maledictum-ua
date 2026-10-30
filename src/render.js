@@ -104,6 +104,7 @@
     const body=node('tbody');
     rows.forEach(row=>{
       const tr=node('tr');
+      if(options.entryKeys?.has(row))tr.dataset.archiveEntry=options.entryKeys.get(row);
       headers.forEach(key=>{
         const td=node('td',null,{'data-label':T.header(key),class:'col-'+key.replace(/[^a-zA-Z0-9_-]/g,'-')});
         const value=row[key] ?? '';

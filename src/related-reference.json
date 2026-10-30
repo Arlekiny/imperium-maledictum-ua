@@ -1,0 +1,250 @@
+{
+  "Hallucinogen Grenade": [
+    [
+      "Застосування",
+      "The target Zone contains gas for three rounds. Entering or starting a turn there requires a Difficult (−10) Fortitude (Poison) Test; failure causes effects for 1d10 rounds. Appropriate sealed armour or filtration equipment applies.",
+      "Газ наповнює Зону на три раунди. Вхід або початок ходу в ній потребує ускладненої (−10) перевірки Витривалості (Отрута); провал спричиняє ефект на 1d10 раундів. Застосовуються переваги відповідної герметичної броні та фільтрів."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 01–10",
+      "False Death: The character believes they have died and is Prone and Incapacitated for the duration.",
+      "Хибна смерть: персонаж вважає себе мертвим; протягом дії ефекту має Повалення та Недієздатність."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 11–20",
+      "Greatest Fear: The character becomes Frightened by something only they can perceive within the Zone for the duration.",
+      "Найбільший страх: протягом дії ефекту персонаж має Переляк через щось у Зоні, що бачить лише він."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 21–30",
+      "Mortal Enemy: Overcome by paranoia and murderous frenzy, the character randomly attacks the nearest enemy for the duration.",
+      "Смертельний ворог: параноя й убивча лють змушують персонажа протягом дії ефекту випадковим чином атакувати найближчого ворога."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 31–40",
+      "Falling Endlessly: The world shifts suddenly and spins on a terrifying new axis, forcing the character to move in a random direction at full speed for the duration, changing direction each turn.",
+      "Нескінченне падіння: світ обертається навколо жахливої нової осі. Персонаж рухається з повною швидкістю у випадковому напрямку, змінюючи напрямок щохід, протягом дії ефекту."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 41–50",
+      "If I Don’t Move, It Won’t See Me!: In avoiding or hiding from some perceived danger, the character immediately goes Prone for the duration and refuses to get up or take other Actions. However, they can take Reactions as normal.",
+      "Якщо не рухатися, воно мене не побачить!: персонаж негайно лягає ниць і протягом дії ефекту відмовляється вставати та виконувати інші Дії. Реакції доступні як зазвичай."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 51–60",
+      "It's All Over Me!: The character is overcome by their hallucination, believing bugs or rats are swarming them or that their body is melting or ablaze, and counts as being Stunned for the duration.",
+      "Воно по всьому тілу!: персонажу здається, що його вкривають комахи чи щури або що тіло тане чи горить. Протягом дії ефекту має Оглушення."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 61–70",
+      "Lost in the Void / The Emperor’s Light!: The character believes they are consumed by darkness or lost in a blinding flash of unnatural light for the duration. The character acts as if Blinded.",
+      "Загублений у порожнечі / Світло Імператора!: персонажу здається, що його поглинула темрява або засліпив неприродний спалах. Протягом дії ефекту діє як за Сліпоти."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 71–80",
+      "I’m Sinking!: The character believes the floor is obstructed by rubble or melting, and they are desperately trying to escape. The character’s Speed becomes Slow for the duration.",
+      "Я тону!: персонажу здається, що підлогу завалило уламками чи вона тане, і він відчайдушно намагається вибратися. Протягом дії ефекту Швидкість стає Низькою."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 81–90",
+      "Something In The Walls: The character perceives horrifying creatures coming out of the walls or bursting out of the ground and attacks them in random directions for the duration. Randomly determine the direction of their attack, and if there are any creatures in that line of fire, randomly determine one to be the target.",
+      "Щось у стінах: персонаж бачить жахливих істот, які виходять зі стін чи землі, та атакує їх протягом дії ефекту. Напрямок атаки визначається випадково; якщо на лінії вогню є істоти, одна з них випадково стає ціллю."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 91–00",
+      "Trapped In A Maze: The character thinks that the battlefield has shifted, such that new barriers have fallen into place, or perhaps they have wandered into an elaborate trap. The character cannot leave their current Zone for the duration, believing there are impassable barriers surrounding them.",
+      "Пастка лабіринту: персонаж вважає, що поле бою змінилося й довкола виникли непрохідні перешкоди, або що він потрапив у складну пастку. Протягом дії ефекту не може залишити поточну Зону."
+    ]
+  ],
+  "Psychotroke Grenade": [
+    [
+      "Застосування",
+      "The target Zone contains gas for three rounds. Entering or starting a turn there requires a Difficult (−10) Fortitude (Endurance) Test; failure causes effects for 1d10 rounds. Appropriate sealed armour or filtration equipment applies.",
+      "Газ наповнює Зону на три раунди. Вхід або початок ходу в ній потребує ускладненої (−10) перевірки Витривалості (Стійкість); провал спричиняє ефект на 1d10 раундів. Застосовуються переваги відповідної герметичної броні та фільтрів."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 01–10",
+      "False Death: The character believes they have died and is Prone and Incapacitated for the duration.",
+      "Хибна смерть: персонаж вважає себе мертвим; протягом дії ефекту має Повалення та Недієздатність."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 11–20",
+      "Greatest Fear: The character becomes Frightened by something only they can perceive within the Zone for the duration.",
+      "Найбільший страх: протягом дії ефекту персонаж має Переляк через щось у Зоні, що бачить лише він."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 21–30",
+      "Mortal Enemy: Overcome by paranoia and murderous frenzy, the character randomly attacks the nearest enemy for the duration.",
+      "Смертельний ворог: параноя й убивча лють змушують персонажа протягом дії ефекту випадковим чином атакувати найближчого ворога."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 31–40",
+      "Falling Endlessly: The world shifts suddenly and spins on a terrifying new axis, forcing the character to move in a random direction at full speed for the duration, changing direction each turn.",
+      "Нескінченне падіння: світ обертається навколо жахливої нової осі. Персонаж рухається з повною швидкістю у випадковому напрямку, змінюючи напрямок щохід, протягом дії ефекту."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 41–50",
+      "If I Don’t Move, It Won’t See Me!: In avoiding or hiding from some perceived danger, the character immediately goes Prone for the duration and refuses to get up or take other Actions. However, they can take Reactions as normal.",
+      "Якщо не рухатися, воно мене не побачить!: персонаж негайно лягає ниць і протягом дії ефекту відмовляється вставати та виконувати інші Дії. Реакції доступні як зазвичай."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 51–60",
+      "It's All Over Me!: The character is overcome by their hallucination, believing bugs or rats are swarming them or that their body is melting or ablaze, and counts as being Stunned for the duration.",
+      "Воно по всьому тілу!: персонажу здається, що його вкривають комахи чи щури або що тіло тане чи горить. Протягом дії ефекту має Оглушення."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 61–70",
+      "Lost in the Void / The Emperor’s Light!: The character believes they are consumed by darkness or lost in a blinding flash of unnatural light for the duration. The character acts as if Blinded.",
+      "Загублений у порожнечі / Світло Імператора!: персонажу здається, що його поглинула темрява або засліпив неприродний спалах. Протягом дії ефекту діє як за Сліпоти."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 71–80",
+      "I’m Sinking!: The character believes the floor is obstructed by rubble or melting, and they are desperately trying to escape. The character’s Speed becomes Slow for the duration.",
+      "Я тону!: персонажу здається, що підлогу завалило уламками чи вона тане, і він відчайдушно намагається вибратися. Протягом дії ефекту Швидкість стає Низькою."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 81–90",
+      "Something In The Walls: The character perceives horrifying creatures coming out of the walls or bursting out of the ground and attacks them in random directions for the duration. Randomly determine the direction of their attack, and if there are any creatures in that line of fire, randomly determine one to be the target.",
+      "Щось у стінах: персонаж бачить жахливих істот, які виходять зі стін чи землі, та атакує їх протягом дії ефекту. Напрямок атаки визначається випадково; якщо на лінії вогню є істоти, одна з них випадково стає ціллю."
+    ],
+    [
+      "Inquisition Player’s Guide · 90 · 91–00",
+      "Trapped In A Maze: The character thinks that the battlefield has shifted, such that new barriers have fallen into place, or perhaps they have wandered into an elaborate trap. The character cannot leave their current Zone for the duration, believing there are impassable barriers surrounding them.",
+      "Пастка лабіринту: персонаж вважає, що поле бою змінилося й довкола виникли непрохідні перешкоди, або що він потрапив у складну пастку. Протягом дії ефекту не може залишити поточну Зону."
+    ]
+  ],
+  "Daemonblade": [
+    [
+      "Властивості та дивацтва · с. 80",
+      "When first encountered, roll or choose from both columns. Once per encounter, drawing the blade requires a Challenging (+0) Willpower Test; failure gives 2 Corruption.",
+      "При першій появі оберіть або визначте кидками і властивість, і дивацтво. Раз за сутичку при оголенні клинка виконайте складну (+0) перевірку Сили волі; провал дає 2 Скверни."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 01–10",
+      "Warpflame: The weapon gains the Inflict (Ablaze) Trait. A miasmic aura of choking smoke surrounds the blade, each strike trailing dark, foetid energy through the air.",
+      "Варп-полум’я: зброя отримує Спричинення (Горіння). Клинок огортає задушливий дим; кожен удар лишає в повітрі слід темної смердючої енергії."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 11–20",
+      "Foetid Touch: The weapon gains the Inflict (Fatigue) Trait. The blade’s metal appears jagged and brittle, growing and reforming crystalline edges and jutting spikes before retracting and growing anew.",
+      "Смердючий дотик: зброя отримує Спричинення (Втома). Метал клинка здається зазубреним і крихким; кристалічні леза та шипи безупинно виростають і знову втягуються."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 21–30",
+      "Soporific Toxin: The first time this blade strikes a creature, they are affected by a hallucinogenic poison for 1d10 rounds. Each round therein, they must roll on the Hallucinogenic Effects Table (page 90). The blade is charred and blackened as if someone had attempted to destroy it with flames. The cracked and unnaturally blistered surface bleeds flames from some impossible depth.",
+      "Снодійний токсин: перше влучання по істоті отруює її галюциногеном на 1d10 раундів. Щораунду кидайте за таблицею Галюциногенних ефектів (с. 90). Клинок обвуглений і почорнілий, ніби його намагалися спалити; з потрісканої поверхні сочиться полум’я з неможливої глибини."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 31–40",
+      "Mirrored: Opposed Tests when defending against this weapon, or attempts to Dodge this weapon, have Disadvantage. The weapon rings with a strange and eerie resonance when drawn as if struck with a tuning fork. Each strike and cut with the blade causes it to howl through the air.",
+      "Дзеркальний: зустрічні перевірки захисту та спроби Ухилення від цієї зброї мають Перешкоду. Вийнятий клинок видає моторошний резонанс, ніби камертон, а кожен удар супроводжується виттям."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 41–50",
+      "Howling Horror: The weapon gains the Inflict (Fear) Trait. The blade is wreathed in cold, multi-hued flames. Though they give off no light, they paint the world in eerie and unnatural colours.",
+      "Виючий жах: зброя отримує Спричинення (Страх). Клинок огортає холодне різнокольорове полум’я, яке не світить, але забарвлює світ у неприродні кольори."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 51–60",
+      "Syphon: The weapon gains the Inflict (Bleeding) Trait. Further, the wielder recovers 1 non-critical wound when it inflicts the Bleeding Condition. When drawn, the blade appears to pull at the light, dimming rooms and chambers, surrounding itself with a tainted miasma of light.",
+      "Сифон: зброя отримує Спричинення (Кровотеча). Завдавши Кровотечі, власник додатково відновлює 1 некритичну Рану. Вийнятий клинок ніби поглинає світло, затемнюючи приміщення й огортаючи його оскверненою імлою."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 61–70",
+      "Unholy Venom: The weapon gains the Inflict (Poisoned) Trait. A baleful eye sits within the crossguard, and many teeth grow from the hilt, encircling the wielder’s hand in a none-too-subtle threat.",
+      "Нечестива отрута: зброя отримує Спричинення (Отруєння). На перехресті клинка сидить лиховісне око, а зуби, що ростуть із руків’я, загрозливо оточують руку власника."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 71–80",
+      "Mind Leech: The weapon gains the Inflict (Stunned) Trait. The blade is surrounded by silent, flickering arcs of warp lightning, charging the air with invisible but potent potential energy.",
+      "П’явка розуму: зброя отримує Спричинення (Оглушення). Довкола клинка беззвучно мерехтять дуги варп-блискавок, наповнюючи повітря невидимою енергією."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 81–90",
+      "Aetheric Hunger: The damage bonus from Tainted is doubled. Covered in a sickly sheen, the blade leaks venom and sickness from pores and cracks, these droplets sizzle on contact with reality.",
+      "Ефірний голод: бонус Шкоди від Оскверненої зброї подвоюється. Клинок вкриває хворобливий блиск; крізь його тріщини сочаться отрута та хвороби, краплі яких шиплять при дотику до реальності."
+    ],
+    [
+      "Inquisition Player’s Guide · 80 · 91–00",
+      "Familiar: The weapon grants their wielder +4 to their Warp Threshold. The blade possesses an unnaturally beatific sheen and warps light about itself, so it is impossible to tell which is the blade and which is an illusory shaft of light.",
+      "Фамільяр: зброя дає власнику +4 до Варп-порога. Клинок неприродно прекрасний і спотворює світло так, що неможливо відрізнити лезо від ілюзорного світлового променя."
+    ]
+  ],
+  "Servo Harness": [
+    [
+      "Auto-Quill · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,150.",
+      "Автоперо: місць для кінцівок — 1; доплата — +1,150."
+    ],
+    [
+      "Combi-Tool · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,300.",
+      "Комбіінструмент: місць для кінцівок — 1; доплата — +1,300."
+    ],
+    [
+      "Grapnel Launcher · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,550.",
+      "Гакостріл: місць для кінцівок — 1; доплата — +1,550."
+    ],
+    [
+      "Lascutter · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,170.",
+      "Лазерний різак: місць для кінцівок — 1; доплата — +1,170."
+    ],
+    [
+      "Laud Hailer · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,100.",
+      "Гучномовець: місць для кінцівок — 1; доплата — +1,100."
+    ],
+    [
+      "Multikey · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,200.",
+      "Універсальний ключ: місць для кінцівок — 1; доплата — +1,200."
+    ],
+    [
+      "Pict Recorder · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,200.",
+      "Піктописець: місць для кінцівок — 1; доплата — +1,200."
+    ],
+    [
+      "Signal Jammer · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,250.",
+      "Глушник сигналів: місць для кінцівок — 1; доплата — +1,250."
+    ],
+    [
+      "Mechadendrite · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,000.",
+      "Мехадендрит: місць для кінцівок — 1; доплата — +1,000."
+    ],
+    [
+      "Additional Weapon · Mechanicus 89",
+      "Limb slots: 1; additional cost: weapon cost + 200.",
+      "Додаткова зброя: місць для кінцівок — 1; доплата — ціна зброї + 200."
+    ],
+    [
+      "Quadruped · Mechanicus 89",
+      "Limb slots: 2; additional cost: +1,000.",
+      "Чотиринога опора: місць для кінцівок — 2; доплата — +1,000."
+    ],
+    [
+      "Manoeuvring Thrusters · Mechanicus 89",
+      "Limb slots: 1; additional cost: +1,000.",
+      "Маневрові рушії: місць для кінцівок — 1; доплата — +1,000."
+    ],
+    [
+      "Servo-Arm · Mechanicus 89",
+      "Limb slots: 2; additional cost: +1,000.",
+      "Серворука: місць для кінцівок — 2; доплата — +1,000."
+    ],
+    [
+      "Маневрові рушії",
+      "+2 SL on Reflexes (Balance) and Athletics (Climbing) Tests.",
+      "+2 РУ на перевірках Рефлексів (Рівновага) та Атлетики (Лазіння)."
+    ],
+    [
+      "Чотиринога опора",
+      "Advantage on Athletics (Climbing) and Reflexes (Balance). As an Action adhere to ferromagnetic surfaces: ignore zero or low gravity, Speed Slow. In normal gravity a Challenging (+0) Athletics (Climbing) or Reflexes (Acrobatics) Test permits movement on metallic walls and ceilings at Slow Speed.",
+      "Перевага на Атлетиці (Лазіння) та Рефлексах (Рівновага). Дією закріплюється на феромагнітній поверхні: ігнорує невагомість чи низьку гравітацію, Швидкість Низька. У нормальній гравітації складна (+0) перевірка Атлетики (Лазіння) або Рефлексів (Акробатика) дозволяє ходити металевими стінами й стелею з Низькою швидкістю."
+    ]
+  ]
+}

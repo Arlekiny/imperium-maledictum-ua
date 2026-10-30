@@ -46,7 +46,7 @@ test('Character matches its editable source after removing integration blocks',(
   const restored=html.replace(/<!-- classic-v2:([a-z]+):start -->[^]*?<!-- classic-v2:\1:end -->/g,'');
   assert.equal(restored,original);
   const scripts=text=>[...text.matchAll(/<script>([^]*?)<\/script>/g)].map(m=>m[1]);
-  assert.deepEqual(scripts(html).slice(0,-1),scripts(original));
+  assert.deepEqual(scripts(html).slice(0,-2),scripts(original));
   assert.ok(!html.includes('id="books"'));assert.ok(html.includes('id="mobileSort"'));
 });
 test('all 121 cross-page links resolve under file URLs with spaces without source filters',()=>{

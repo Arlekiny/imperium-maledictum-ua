@@ -139,10 +139,31 @@
       "name": "Tainted Rounds",
       "source": "Inquisition Player's Guide",
       "book": "inquisitor"
+    },
+    {
+      "table": "customAmmunitions",
+      "row": 18,
+      "name": "Exitus Hellfire",
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "customAmmunitions",
+      "row": 19,
+      "name": "Exitus Shield-breaker",
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
+    },
+    {
+      "table": "customAmmunitions",
+      "row": 20,
+      "name": "Exitus Turbo-penetrator",
+      "source": "Inquisition Player's Guide",
+      "book": "inquisitor"
     }
   ],
   "tableCount": 38,
-  "rowCount": 837,
+  "rowCount": 871,
   "profileCount": 14,
   "profileReferences": {
     "Soulsight Table": [
@@ -276,7 +297,7 @@
       ],
       "ordered": false,
       "defaultSort": "Name",
-      "rows": 30
+      "rows": 56
     },
     {
       "id": "combatActions",
@@ -388,7 +409,7 @@
       ],
       "ordered": false,
       "defaultSort": "Name",
-      "rows": 66
+      "rows": 67
     },
     {
       "id": "medicaeEquipement",
@@ -405,7 +426,7 @@
       ],
       "ordered": false,
       "defaultSort": "Name",
-      "rows": 13
+      "rows": 17
     },
     {
       "id": "armour",
@@ -755,7 +776,7 @@
       ],
       "ordered": false,
       "defaultSort": "Name",
-      "rows": 18
+      "rows": 21
     },
     {
       "id": "weaponModifications",

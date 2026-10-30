@@ -322,28 +322,6 @@
     .count { text-align: right; }
     .mobile-sort { display: block; }
 
-    /* Таблиці талантів і навичок -> картки */
-    .table-scroll { border: none; background: transparent; overflow: visible; }
-    #talentsTable, #skillsTable { min-width: 0; display: block; }
-    #talentsTable thead, #skillsTable thead { display: none; }
-    #talentsTable tbody, #skillsTable tbody { display: block; }
-    #talentsTable tbody tr, #skillsTable tbody tr {
-      display: block; background: var(--bg-panel); border: 1px solid var(--line);
-      border-left: 3px solid var(--gold); margin-bottom: 10px; padding: 8px 12px;
-    }
-    #talentsTable tbody tr.hidden, #skillsTable tbody tr.hidden { display: none; }
-    #talentsTable tbody td, #skillsTable tbody td {
-      display: block; border: none; padding: 5px 0; min-width: 0 !important; white-space: normal;
-    }
-    #talentsTable tbody td[data-label]::before, #skillsTable tbody td[data-label]::before {
-      content: attr(data-label); display: block; font-family: var(--font-ui); font-style: normal;
-      font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint);
-    }
-    #talentsTable td.name, #skillsTable td.name { font-size: 1.08rem; padding-top: 2px; }
-    #talentsTable td.name::before, #skillsTable td.name::before { display: none; }
-    #talentsTable td.req:empty, #talentsTable td.req[data-empty] { display: none; }
-    td.src { white-space: normal; }
-
     .cost-block .table-scroll { border: 1px solid var(--line); background: var(--bg-panel); overflow-x: auto; }
     .cost-block thead th, .cost-block tbody td { padding: 9px 10px; }
   }
@@ -532,39 +510,36 @@
 }
 </style>
 </head>
-<body>
+<body class="classic character-page">
 <div class="wrap">
 
   <header class="masthead">
     <div class="eagle">A D E P T U S · A R C H I V U M</div>
     <h1>Imperium Maledictum</h1>
-    <div class="subtitle">Довідник талантів і навичок</div>
+    <div class="subtitle">Довідкові таблиці · Персонаж · Спорядження · Варп</div>
   </header>
 
-  <nav class="tabs">
-    <button class="active" data-tab="all">Усі</button>
-    <button data-tab="talents">Таланти (<span id="talentsTabCount">139</span>)</button>
-    <button data-tab="skills">Навички (20)</button>
-    <button data-tab="costs">Ціни покращень</button>
-  </nav>
+  <main id="main" tabindex="-1" class="character-main">
+    <div class="section-heading"><div><p class="eyebrow">ДОВІДКОВИЙ АРХІВ / 02</p><h2>Персонаж</h2><p class="description">Таланти · навички · ціни покращень</p></div></div>
+    <div class="controls"><label class="search-box"><span class="sr">Пошук у розділі Персонаж</span><input type="search" id="searchInput" placeholder="Пошук: Персонаж…" autocomplete="off"></label><button type="button" id="characterReset" class="small">Очистити пошук</button></div>
+    <nav class="tabs table-tabs" aria-label="Таблиці персонажа">
+      <button class="active" data-tab="all">Усі</button>
+      <button data-tab="talents">Таланти <span id="talentsTabCount" class="tab-count">139</span></button>
+      <button data-tab="skills">Навички <span class="tab-count">20</span></button>
+      <button data-tab="costs">Ціни покращень</button>
+    </nav>
+    <div class="table-heading"><h3 id="characterTableTitle">Усі</h3><span class="count" id="countLabel" role="status"></span></div>
+    <div class="table-options"><span class="note" id="characterOrderNote">Усі таблиці цього розділу.</span><label class="character-sort-label" hidden>Сортування <select id="mobileSort" aria-label="Сортування"></select></label><button type="button" id="characterView" class="small" aria-pressed="false">Таблиця на мобільному</button></div>
 
-  <div class="controls">
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Пошук за назвою, вимогою, описом…">
-    </div>
-    <div class="mobile-sort"><select id="mobileSort" aria-label="Сортування"></select></div>
-    <div class="count" id="countLabel"></div>
-  </div>
-
-  <div id="talents-panel">
+  <div id="talents-panel" class="character-table-section"><h3 class="character-panel-title">Таланти</h3>
     <div class="table-scroll">
-      <table id="talentsTable">
+      <table id="talentsTable" class="data-table">
         <thead>
           <tr>
-            <th data-key="name" data-type="text">Назва <span class="arrow"></span></th>
-            <th data-key="req" data-type="text">Вимога <span class="arrow"></span></th>
-            <th data-key="desc" data-type="text">Опис <span class="arrow"></span></th>
-            <th data-key="src" data-type="text">Джерело <span class="arrow"></span></th>
+            <th data-key="name" data-type="text"><button type="button" data-sort-key="name">Назва <span class="arrow"></span></button></th>
+            <th data-key="req" data-type="text"><button type="button" data-sort-key="req">Вимога <span class="arrow"></span></button></th>
+            <th data-key="desc" data-type="text"><button type="button" data-sort-key="desc">Опис <span class="arrow"></span></button></th>
+            <th data-key="src" data-type="text"><button type="button" data-sort-key="src">Джерело <span class="arrow"></span></button></th>
           </tr>
         </thead>
         <tbody id="talentsBody"></tbody>
@@ -573,14 +548,14 @@
     <div class="empty-msg" id="talentsEmpty">Нічого не знайдено в архівах.</div>
   </div>
 
-  <div id="skills-panel">
+  <div id="skills-panel" class="character-table-section"><h3 class="character-panel-title">Навички</h3>
     <div class="table-scroll">
-      <table id="skillsTable">
+      <table id="skillsTable" class="data-table">
         <thead>
           <tr>
-            <th data-key="name" data-type="text">Навичка <span class="arrow"></span></th>
-            <th data-key="stat" data-type="text">Характеристика <span class="arrow"></span></th>
-            <th data-key="specs" data-type="text">Спеціалізації <span class="arrow"></span></th>
+            <th data-key="name" data-type="text"><button type="button" data-sort-key="name">Навичка <span class="arrow"></span></button></th>
+            <th data-key="stat" data-type="text"><button type="button" data-sort-key="stat">Характеристика <span class="arrow"></span></button></th>
+            <th data-key="specs" data-type="text"><button type="button" data-sort-key="specs">Спеціалізації <span class="arrow"></span></button></th>
           </tr>
         </thead>
         <tbody id="skillsBody"></tbody>
@@ -655,6 +630,8 @@
     </div>
     <div class="cost-foot">ОД — очки досвіду (XP). Під час створення персонажа можна мати до 2 підвищень у навичці та до 1 підвищення у спеціалізації.</div>
   </div>
+
+  </main>
 
   <footer class="site-footer">
   </footer>
@@ -921,6 +898,8 @@ function filterRows() {
 
 document.getElementById('talentsTabCount').textContent = TALENTS.length;
 document.getElementById('searchInput').addEventListener('input', filterRows);
+document.getElementById('characterReset').addEventListener('click',()=>{document.getElementById('searchInput').value='';filterRows();});
+document.getElementById('characterView').addEventListener('click',event=>{const active=event.currentTarget.getAttribute('aria-pressed')!=='true';document.querySelectorAll('.character-table-section>.table-scroll').forEach(wrap=>wrap.classList.toggle('mobile-table',active));event.currentTarget.setAttribute('aria-pressed',String(active));event.currentTarget.textContent=active?'Картки на мобільному':'Таблиця на мобільному';});
 filterRows();
 
 // --- Mobile sort select ---
@@ -929,10 +908,15 @@ function fillMobileSort() {
   const tab = activeTab();
   const tableId = tab === 'talents' ? 'talentsTable' : 'skillsTable';
   mobileSort.hidden=tab==='all' || tab==='costs';
+  mobileSort.closest('label').hidden=mobileSort.hidden;
+  document.getElementById('characterTableTitle').textContent=({all:'Усі',talents:'Таланти',skills:'Навички',costs:'Ціни покращень'})[tab];
+  document.getElementById('characterOrderNote').textContent=tab==='all'?'Усі таблиці цього розділу.':tab==='costs'?'Вартість покращень за очки досвіду.':'Натисніть заголовок стовпця для сортування.';
+  document.getElementById('countLabel').hidden=tab==='costs';
+  document.querySelectorAll('.character-panel-title').forEach(title=>title.hidden=tab!=='all');
   if (tab === 'costs' || tab==='all') return;
   const heads = sorters[tableId].headers;
   mobileSort.innerHTML = '<option value="">Сортувати за…</option>' + Array.from(heads).flatMap((h, i) => {
-    const name = h.childNodes[0].textContent.trim();
+    const name = (h.querySelector('button') || h).childNodes[0].textContent.trim();
     return [`<option value="${i}:1">${name} ▲</option>`, `<option value="${i}:-1">${name} ▼</option>`];
   }).join('');
 }

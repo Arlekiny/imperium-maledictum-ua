@@ -1,0 +1,75 @@
+{
+  "customAmmunitions": [
+    {
+      "Name": "Exitus Hellfire",
+      "Damage": "+2",
+      "Cost": "x2",
+      "Availability": "Exotic",
+      "Used With": "Exitus Weapons",
+      "Traits": "Inflict (Poison)",
+      "Source": "Inquisition Player's Guide"
+    },
+    {
+      "Name": "Exitus Shield-breaker",
+      "Damage": "+0",
+      "Cost": "x3",
+      "Availability": "Exotic",
+      "Used With": "Exitus Weapons",
+      "Traits": "Rend (6)",
+      "Source": "Inquisition Player's Guide"
+    },
+    {
+      "Name": "Exitus Turbo-penetrator",
+      "Damage": "+2",
+      "Cost": "x3",
+      "Availability": "Exotic",
+      "Used With": "Exitus Weapons",
+      "Traits": "Penetration (8)",
+      "Source": "Inquisition Player's Guide"
+    }
+  ],
+  "tools": [
+    {
+      "Name": "Remote Detonator",
+      "Cost": "—",
+      "Availability": "—",
+      "Encumbrance": "—",
+      "Effect": "Can be linked to an explosive to trigger a Delayed Explosion remotely. No separate price, Availability or Encumbrance is specified in the Core Rulebook entry.",
+      "Source": "Core Rulebook"
+    }
+  ],
+  "medicaeEquipement": [
+    {
+      "Name": "FZ-392",
+      "Cost": "150",
+      "Availability": "Scarce",
+      "Encumbrance": "—",
+      "Effect": "+1 Strength Bonus and immunity to Frightened for 1d10 rounds. Injector Rig refill per dose. Mixing chems causes Poisoned (Minor) until both wear off.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    },
+    {
+      "Name": "SL-203",
+      "Cost": "150",
+      "Availability": "Scarce",
+      "Encumbrance": "—",
+      "Effect": "+1 Agility Bonus and Perception Bonus; Speed becomes Fast for 1d10 rounds. Injector Rig refill per dose. Mixing chems causes Poisoned (Minor) until both wear off.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    },
+    {
+      "Name": "SM-163",
+      "Cost": "150",
+      "Availability": "Scarce",
+      "Encumbrance": "—",
+      "Effect": "Ignore Critical Wounds and Injuries for 1d10 rounds + your Toughness Bonus. Injector Rig refill per dose. Mixing chems causes Poisoned (Minor) until both wear off.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    },
+    {
+      "Name": "DT-474",
+      "Cost": "150",
+      "Availability": "Scarce",
+      "Encumbrance": "—",
+      "Effect": "Remove Poisoned and other recent drug effects. Make a Challenging (+0) Toughness Test or become Stunned for 1d10 minutes. Injector Rig refill per dose. Mixing chems causes Poisoned (Minor) until both wear off.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    }
+  ]
+}

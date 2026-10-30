@@ -1,0 +1,14 @@
+{
+  "globalSearch": true,
+  "favouritesAcrossPages": true,
+  "export": true,
+  "import": true,
+  "invalidImportPreservesData": true,
+  "directLinks": true,
+  "talentDialogs": true,
+  "relatedTables": true,
+  "combatSheet": true,
+  "mobileCollapse": true,
+  "pages": 11,
+  "errors": []
+}

@@ -3,7 +3,189 @@
     "Name": "Noospheric Data-Tether",
     "Cost": "5000",
     "Availability": "Exotic",
-    "Effect": "Required to perceive and utilise the noosphere. Connects to the Tech-Adept’s Cyber Mantle and Cranial Circuitry. Connecting to a noosphere takes an action and a successful Challenging (+0) Discipline (Composure) Test; on failure, you can try again on a subsequent turn. Adeptus Mechanicus Player’s Guide, pp. 94, 97–98, 130–131.",
+    "Effect": "Required to perceive and utilise the noosphere. Connects to the Tech-Adept’s Cyber Mantle and Cranial Circuitry. Connecting to a noosphere takes an action and a successful Challenging (+0) Discipline (Composure) Test; on failure, you can try again on a subsequent turn.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Achillan Eye",
+    "Cost": "10000",
+    "Availability": "Exotic",
+    "Effect": "Targets you shoot do not benefit from Cover unless entirely obscured. You may reroll Severity Rolls when you score a Critical Hit.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Antigrav Core",
+    "Cost": "20000",
+    "Availability": "Exotic",
+    "Effect": "Hover 1–2 metres above the ground, ignore Difficult Terrain, and gain +2 SL on Athletics (Climbing) Tests, even when not levitating.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Autosanguine Implant",
+    "Cost": "10000",
+    "Availability": "Exotic",
+    "Effect": "Recover from Bleeding one round after receiving it. Advantage on Fortitude Tests against contamination of your blood. Recover 1 Wound per day while active.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Binary Cortex",
+    "Cost": "15000",
+    "Availability": "Exotic",
+    "Effect": "A second brain always Helps on Intelligence-based Skill Tests in which it had an Advance. A Fumble on such a Test Stuns the bearer for one round. Typical Intelligence 40, six Specialisation Advances. A head Critical Wound has a 25% chance of hitting this brain; Rattling Blow, Laceration, Concussive Blow and Shattered Skull destroy it.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Cranial Circuitry",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Effect": "Processors and cortical implants provide the framework and connectivity for further cerebral augmetics. An initiation augmetic; does not count towards the augmetic limit.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Cyber Mantle",
+    "Cost": "2000",
+    "Availability": "Scarce",
+    "Effect": "Spinal extension of cranial circuitry anchors body augmetics and connects manipulators and sensor units to the brain. An initiation augmetic; does not count towards the augmetic limit.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Electoos",
+    "Cost": "200",
+    "Availability": "Scarce",
+    "Effect": "Subdermal synthetic inks reveal identification or patterns in response to electrical current, ultraviolet light or impact. An initiation augmetic; does not count towards the augmetic limit.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Electro-Grafts",
+    "Cost": "250",
+    "Availability": "Scarce",
+    "Effect": "Subdermal sensors, ports and cabling sense electrical currents and facilitate communion with devices. An initiation augmetic; does not count towards the augmetic limit.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Potentia Coils",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Effect": "Energy-storing coils power other augmetics and can connect to weapon systems. Keep them charged. An initiation augmetic; does not count towards the augmetic limit.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Battle-sphere Uplink",
+    "Cost": "6000",
+    "Availability": "Exotic",
+    "Effect": "With access to the battle-sphere, perceive troop movements, status, known enemy positions and maps. Advantage on Awareness, Intuition (Surroundings), Logic (Investigation) and Navigation (Surface, Tracking, Void) Tests involving that information.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Data-Tether",
+    "Cost": "3000",
+    "Availability": "Scarce",
+    "Effect": "A basic data connection that always requires physical interaction with a control unit or cogitator.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Dataspike",
+    "Cost": "5000",
+    "Availability": "Exotic",
+    "Effect": "Advantage on Tech Tests to overwrite or access a machine’s functions and memories, or bypass security measures.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Electoo Matrix",
+    "Cost": "3000",
+    "Availability": "Scarce",
+    "Effect": "Sense electrical devices and living creatures’ bioelectric signals within Short Range. While Blinded, no Disadvantage on Melee and Dodge (Reflexes) Tests.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Eye of Serberys",
+    "Cost": "10000",
+    "Availability": "Exotic",
+    "Effect": "Reduce Armour from other characters providing a target Cover by 3. After an Aim or Search Action against a target, gain Advantage on tracking them unless you lose sight of them for more than a few minutes.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Incense Exhaust",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Effect": "As an Action, fill your Zone with holy smog, making it Lightly Obscured. Continuing or stopping emission needs no action. Smog clears 1d5 rounds after deactivation.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Injector Rig",
+    "Cost": "1500",
+    "Availability": "Exotic",
+    "Effect": "Contains five doses each of FZ-392, SL-203, SM-163 and DT-474; inject yourself or a subject within Immediate Range as a Free Action. Refill: 150 solars per dose, Scarce. Mixing chems causes Poisoned (Minor) until both wear off. A Critical Wound has a 20% chance of damaging the rig, causing Poisoned (Major) for 1d5 rounds.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Mechadendrite Hive",
+    "Cost": "3000",
+    "Availability": "Rare",
+    "Effect": "Holds up to four mechadendrites, purchased separately, counting as one augmetic. With at least two functional limbs free to attack, use the Eviscerator melee profile.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Mechadendrite Stabilisers",
+    "Cost": "4000",
+    "Availability": "Rare",
+    "Effect": "Ignore Disadvantage from void environmental effects, such as rocking or zero gravity. As an Action, adhere to ferromagnetic surfaces, ignoring zero or low gravity. In normal gravity, Challenging (+0) Athletics (Climbing) or Reflexes (Acrobatics) allows moving on metallic walls and ceilings or anchoring there.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Rite of Pure Thought",
+    "Cost": "12000",
+    "Availability": "Exotic",
+    "Effect": "Immune to Frightened. Advantage on Logic and Discipline (Composure) Tests; Disadvantage on Rapport (Charm). Removes emotional responses and creative thought; roleplaying consequences apply.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Sanctus Canister",
+    "Cost": "12000",
+    "Availability": "Exotic",
+    "Effect": "Advantage on Presence Tests to affect, inspire or command Adeptus Mechanicus members. Extends natural lifespan by d5 + 2 decades while installed and active.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Secutor-Class Blade Implant",
+    "Cost": "5000",
+    "Availability": "Exotic",
+    "Effect": "Always armed with a retractable Knife with Subtle and Penetrating (2), without Thrown (Short).",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Sicarian Pattern Legs",
+    "Cost": "4000",
+    "Availability": "Exotic",
+    "Effect": "Installed only as a pair; listed price is for both and they occupy two augmetic slots. +1 Armour on each leg, +1 SL on Strength-based Tests using the pair, ignore Difficult Terrain.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Vanguard Radium Core",
+    "Cost": "6000",
+    "Availability": "Exotic",
+    "Effect": "Non-Adeptus Mechanicus characters sharing your Zone become Poisoned (Minor). Does not stack with other Vanguard Radium Cores or NPC Rad-saturation.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Voltagheist Blast Unit",
+    "Cost": "7000",
+    "Availability": "Exotic",
+    "Effect": "As an Action, spend Motive Force Charges: each deals 1 Damage ignoring Armour to every other character within Short Range. They may spend a Reaction to dodge as against a grenade blast.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Voltagheist Field",
+    "Cost": "5000",
+    "Availability": "Exotic",
+    "Effect": "Spend a Reaction and Motive Force Charges to gain +1 Armour per charge against that attack. After a successful attack with Electrostatic Gauntlets or an Electroleech Stave, gain +2 Armour per charge instead until the beginning of your next turn.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Weapon Arm",
+    "Cost": "2000",
+    "Availability": "Rare",
+    "Effect": "Replace an arm with a weapon, bought separately. Its Encumbrance and Heavy rating still apply. Advantage on attacks and tasks with that weapon. Cannot wield other two-handed weapons; two-handed tasks may have Disadvantage. A weapon using your Potentia Coil that drains power or reloads requires a Routine (+20) Fortitude (Endurance) Test to avoid Fatigued (Minor).",
     "Source": "Adeptus Mechanicus Player's Guide"
   }
 ]

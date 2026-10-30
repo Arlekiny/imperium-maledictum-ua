@@ -12,5 +12,5 @@
   function name(value){const source=String(value ?? ''),translated=label(source);return translated===source?source:translated+' ('+source+')';}
   function traitName(value,id){if(language==='en')return String(value);const source=String(value),translated=(traits[id] || label(id))+label(source.slice(id.length));return translated;}
   const header=key=>language==='en'?key:({Minor:'Незначна травма',Major:'Значна травма'}[key] || label(key));
-  return {text,label,name,traitName,header,searchText:value=>dictionary[String(value)] || String(value ?? ''),setLanguage(value){language=value==='en'?'en':'uk';}};
+  return {text,label,name,traitName,header,searchText:value=>dictionary[String(value)] || String(value ?? ''),getLanguage:()=>language,setLanguage(value){language=value==='en'?'en':'uk';}};
 });

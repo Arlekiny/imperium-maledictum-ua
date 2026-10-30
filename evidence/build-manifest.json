@@ -6,8 +6,8 @@
     {
       "section": "home",
       "file": "index.html",
-      "bytes": 244553,
-      "sha256": "fcbd8f9c891d049d1888dc7eb60a8646e683624a7524e39bec893a045e94e094",
+      "bytes": 1322907,
+      "sha256": "721c969124b32cb9d4e9bbf33d12c9372bcc7733201a915a6d13376ee524f3f1",
       "tables": [
         "names"
       ],
@@ -22,16 +22,16 @@
     {
       "section": "character",
       "file": "character.html",
-      "bytes": 388168,
-      "sha256": "24c3e4371ec56c07c251f15000cf637e789204091a82da3a5a2ea4546d078803",
+      "bytes": 1481392,
+      "sha256": "b478a92ed232feb61da9c766d318d29433cab390776e489f0c094c45503e32b0",
       "tables": [],
       "dataFiles": []
     },
     {
       "section": "augmetics",
       "file": "augmetics.html",
-      "bytes": 267408,
-      "sha256": "1d3e2d2cf4b428ed77764f0463b5f323085ea2f91c0859d1352e4dd5cfc2f4ec",
+      "bytes": 1368481,
+      "sha256": "59b56c3002db4f24b24bf72fc80d6c8c58ca55f361d026643d6aec65a421dd66",
       "tables": [
         "augmetics"
       ],
@@ -47,8 +47,8 @@
     {
       "section": "combat",
       "file": "combat.html",
-      "bytes": 264235,
-      "sha256": "a39faf8d5b65b46f02bfebe608d5d65b807d34d8a0764ed28a433be1a4669744",
+      "bytes": 1342589,
+      "sha256": "24036e107613fd8ff73f0d1f806ee452e144c27449785ca21cfc544947b47d45",
       "tables": [
         "combatActions",
         "traits",
@@ -71,8 +71,8 @@
     {
       "section": "equipment",
       "file": "equipment.html",
-      "bytes": 331279,
-      "sha256": "1f2097188efcb797823ae2ae1aeeb1c87d41871838a232c3d181ddc61b15c5b5",
+      "bytes": 1414459,
+      "sha256": "ab556b4f9cf3c28f7b219d61412bd4f1773d2538da7aead985290f66fd68cbeb",
       "tables": [
         "clothingAndPersonalGear",
         "tools",
@@ -85,14 +85,15 @@
         "toolDetailProfiles.json",
         "clothingAndPersonalGear.json",
         "tools.json",
-        "medicaeEquipement.json"
+        "medicaeEquipement.json",
+        "bookSupplement.json"
       ]
     },
     {
       "section": "protection",
       "file": "protection.html",
-      "bytes": 255805,
-      "sha256": "f676faf093f1fe98153cc8d37c000eca43a15fdf0310c88abcb04bc671b8aefd",
+      "bytes": 1334159,
+      "sha256": "1fabbe158c4f7af3931681dc642209f08acdd86c2ed646a5fa474762a438def8",
       "tables": [
         "armour",
         "forceFields",
@@ -111,8 +112,8 @@
     {
       "section": "psy",
       "file": "psy.html",
-      "bytes": 429148,
-      "sha256": "7a408d03421115a4482145d2e57d51b2ffd166f5df32f4c52ceccf37ef4fae0b",
+      "bytes": 1507502,
+      "sha256": "eebee41cbb1c68c465a56fc6a6a4d988720a8c962ca5c5038a7a64a2a3ae57fa",
       "tables": [
         "psyPowers",
         "psychicPhenomena",
@@ -131,8 +132,8 @@
     {
       "section": "mutations",
       "file": "mutations.html",
-      "bytes": 298807,
-      "sha256": "8c34a6e21fdea43de07b36c753f203957529754483081c12771fa94f07e9c5df",
+      "bytes": 1377161,
+      "sha256": "eb70a17650d3a908a6e0b674b3c2e3e51469f7d101215194c0660f08342d272f",
       "tables": [
         "mutations",
         "malignancies",
@@ -153,8 +154,8 @@
     {
       "section": "services",
       "file": "services.html",
-      "bytes": 245358,
-      "sha256": "3ea861fc0b1f87e83cf4191d5d3486bb9562bd4b0fa2a6969e54b3bb3b395867",
+      "bytes": 1323712,
+      "sha256": "feac196ca54233d42c8562e0998600b42093a0595b104f5e99d8179ac4f77a5c",
       "tables": [
         "cityHiveTravel",
         "planetaryTravel",
@@ -181,8 +182,8 @@
     {
       "section": "weapons",
       "file": "weapons.html",
-      "bytes": 305215,
-      "sha256": "c7f071376a0c86f5f4f1fdb8dc8cef6b4c7171c994b0a866010ebf56b00c5a63",
+      "bytes": 1388395,
+      "sha256": "20ada47423e2861fc8d6b7d32f2b696349fc9089b617c9284d0a95f77c9674da",
       "tables": [
         "rangedWeapons",
         "meleeWeapons",
@@ -199,14 +200,15 @@
         "meleeWeapons.json",
         "explosiveWeapons.json",
         "customAmmunitions.json",
-        "weaponModifications.json"
+        "weaponModifications.json",
+        "bookSupplement.json"
       ]
     },
     {
       "section": "criticalwounds",
       "file": "criticalwounds.html",
-      "bytes": 293751,
-      "sha256": "ce2b96062f990d95de328b7ceb2d251f2c95453de1808f07f23d49d3e5d0a3f5",
+      "bytes": 1372105,
+      "sha256": "23b95604c6aff3d3a6c5370897321f91cb1250051a8a16f2bbf6af58d3d3c607",
       "tables": [
         "Head",
         "Arm",

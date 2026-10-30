@@ -19,6 +19,21 @@ const nav=active=>CATALOG.map(s=>'<a href="'+N.FILES[s.id]+'" data-section="'+s.
 const marker=(name,value)=>'<!-- classic-v2:'+name+':start -->'+value+'<!-- classic-v2:'+name+':end -->';
 const csp="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; frame-src 'none'; connect-src 'none'; font-src 'none'; base-uri 'none'; form-action 'none'";
 const favicon='<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,'+fs.readFileSync(path.join(__dirname,'src/favicon.png')).toString('base64')+'">';
+const relatedReference=JSON.parse(read('src/related-reference.json'));
+const bookLocations=JSON.parse(read('src/book-locations.json'));
+const readerRows=[];
+for(const table of Object.values(L.normalise(raw,CATALOG).tables))table.rows.forEach((row,index)=>{
+ const en=String(row.Name || row.Roll || row['1d100'] || row.Skill || Object.values(row)[0] || index+1);
+ readerRows.push({id:table.id+':'+index,section:table.section,table:table.id,title:table.title,citation:bookLocations[row.Name] || '',en,uk:translations[en] || en,fields:[...Object.entries(row).map(([key,value])=>[key,String(value ?? ''),translations[String(value)] || String(value ?? '')]),...(relatedReference[row.Name] || [])]});
+});
+const talentUk=JSON.parse(read('src/talent-details-uk.json')).talents;
+for(const entry of JSON.parse(read('src/talent-details.json')).talents){
+ const row=raw.talents.find(row=>row.Name===entry.name) || {};
+ readerRows.push({id:'talents:'+entry.index,section:'character',table:'all',title:'Таланти',en:entry.name,uk:translations[entry.name] || entry.name,book:entry.book,fields:[['Description',entry.paragraphs.join('\n\n'),talentUk[entry.index].paragraphs.join('\n\n')],['Source',entry.book+' · '+entry.page,entry.book+' · '+entry.page]]});
+}
+const characterSkills=JSON.parse(read('src/character.html').match(/const SKILLS = (\[[^]*?\n\]);/)[1]);
+raw.skills.forEach((row,index)=>readerRows.push({id:'skills:'+index,section:'character',table:'all',title:'Навички',en:row.Skill,uk:characterSkills[index][0],fields:Object.entries(row).map(([key,value],i)=>[key,String(value),characterSkills[index][i]])}));
+const readerMarkup='<script id="reader-config" type="application/json">'+json(raw.xpCosts.characteristicImprovement.data)+'</script><script id="reader-data" type="application/json">'+json(readerRows)+'</script><style>'+read('src/reader.css')+'</style><script>'+read('src/search.js')+'\n'+read('src/reader.js')+'</script>';
 const manifest={version:2,date:new Date().toISOString().slice(0,10),sourceCommit:L.PIN,pages:[]};
 for(const section of CATALOG){
   let html,dataFiles=[];
@@ -34,7 +49,7 @@ for(const section of CATALOG){
       entry.uk=uk;
     });
     const detailsMarkup='<script id="talent-details-data" type="application/json">'+json(talentDetails)+'</script><dialog id="talentDetail" aria-labelledby="talentDetailTitle"><div class="talent-dialog-head"><h2 id="talentDetailTitle"></h2><button id="closeTalentDetail" type="button" aria-label="Закрити подробиці таланту">Закрити ×</button></div><div class="talent-language" role="group" aria-label="Мова опису"><span class="talent-language-label">Мова опису:</span><button type="button" data-talent-language="uk" aria-pressed="true">Українська</button><button type="button" data-talent-language="en" aria-pressed="false">English (оригінал)</button></div><div id="talentDetailBody" lang="uk"></div></dialog>';
-    const head='<meta name="archive-section" content="character"><meta http-equiv="Content-Security-Policy" content="'+csp+'"><style>'+read('src/character-page.css')+'\n'+read('src/footer.css')+'</style>';
+    const head='<meta name="archive-section" content="character"><meta http-equiv="Content-Security-Policy" content="'+csp+'"><style>'+read('src/app.css')+'\n'+read('src/character-page.css')+'\n'+read('src/footer.css')+'</style>';
     const notice=read('src/footer.html');
     html=read('src/character.html').replace('</head>',marker('head',head)+'</head>')
       .replace('</header>',marker('theme','<button id="theme" class="page-theme" aria-label="Увімкнути світлу тему">&#9680;</button>')+'</header>'+marker('navigation','<nav class="page-navigation" aria-label="Розділи">'+nav(section.id)+'</nav>'))
@@ -45,12 +60,13 @@ for(const section of CATALOG){
     const keys=new Set(['traits','conditions','psyDetailProfiles','toolDetailProfiles']);
     for(const [id] of section.tables)keys.add(['Head','Arm','Body','Leg'].includes(id)?'criticalWounds':id);
     if(section.id==='augmetics')keys.add('augmeticsSupplement');
+    if(['weapons','equipment'].includes(section.id))keys.add('bookSupplement');
     const data=Object.fromEntries([...keys].map(key=>[key,raw[key]]));
     dataFiles=[...keys].map(key=>key+'.json');
     const values={FOOTER:read('src/footer.html'),TABLEHELP:section.id==='psy'?read('src/psy-note.html'):section.id==='mutations'?read('src/mutations-note.html'):'',SECTION:section.id,TITLE:esc(section.title),DESCRIPTION:esc(section.description),VERSION:'Класична версія · '+esc(section.title),SUBTITLE:'Довідкові таблиці · Персонаж · Спорядження · Варп',NAVIGATION:nav(section.id),CSS:read('src/app.css')+'\n'+read('src/footer.css'),DATA:json(data),CATALOG:read('src/catalog.js'),NAVJS:read('src/navigation.js'),THEME:read('src/theme.js'),LOGIC:read('src/logic.js')+'\n'+read('src/render.js'),TRANSLATIONS:json(scopedTranslations(data)),TRAITNAMES:json(Object.fromEntries(Object.keys(raw.traits).map(id=>[id,JSON.parse(read('src/locale/glossary.json'))[id]]))),LOCALE:read('src/locale.js'),APP:read('src/app.js')};
     html=read('src/template.html').replace(/\{\{([A-Z]+)\}\}/g,(_,key)=>{if(!(key in values))throw Error('Unknown template key: '+key);return values[key];});
   }
-  html=html.replace('</head>',marker('favicon',favicon)+'</head>');
+  html=html.replace('</head>',marker('favicon',favicon)+'</head>').replace('</body>',marker('reader',readerMarkup)+'</body>');
   if(/\{\{[A-Z]+\}\}/.test(html))throw Error('Unresolved template slot');
   fs.writeFileSync(path.join(__dirname,N.FILES[section.id]),html,'utf8');
   manifest.pages.push({section:section.id,file:N.FILES[section.id],bytes:Buffer.byteLength(html),sha256:hash(html),tables:section.tables.map(t=>t[0]),dataFiles});
